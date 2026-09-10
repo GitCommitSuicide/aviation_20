@@ -1,0 +1,23 @@
+# --- UI / agent orchestration ------------------------------------------------
+streamlit
+langgraph
+langchain-core
+langchain-groq
+
+# --- MCP (both servers + the client that wires them into the agent) ---------
+mcp
+langchain-mcp-adapters
+
+# --- Database -----------------------------------------------------------------
+psycopg[binary]
+
+# --- HTTP / external APIs ------------------------------------------------------
+requests
+python-dotenv
+tavily-python
+
+# --- Airport/timezone reference data -------------------------------------------
+airportsdata
+
+# --- Embeddings ----------------------------------------------------------------
+sentence-transformers

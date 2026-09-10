@@ -1,0 +1,32 @@
+{
+  "mcpServers": {
+    "aviation": {
+      "command": "python",
+      "args": ["-m", "servers.aviation_server.server"],
+      "cwd": "/absolute/path/to/aviation-chatbot",
+      "env": {
+        "RAPID_API_KEY": "",
+        "AVIATIONSTACK_API_KEY": "",
+        "SEARCH_API": "",
+        "TAVILY_API_KEY": "",
+        "DB_HOST": "localhost",
+        "DB_PORT": "5444",
+        "DB_NAME": "aviation_chatbot",
+        "DB_USER": "postgres",
+        "DB_PASSWORD": "Anil123"
+      }
+    },
+    "database": {
+      "command": "python",
+      "args": ["-m", "servers.database_server.server"],
+      "cwd": "/absolute/path/to/aviation-chatbot",
+      "env": {
+        "DB_HOST": "localhost",
+        "DB_PORT": "5444",
+        "DB_NAME": "aviation_chatbot",
+        "DB_USER": "postgres",
+        "DB_PASSWORD": "Anil123"
+      }
+    }
+  }
+}
