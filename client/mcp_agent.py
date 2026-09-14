@@ -104,8 +104,12 @@ class AviationState(TypedDict):
     arrival_airport: Optional[str]
     travel_date: Optional[str]
 
+from langchain_core.tools import InjectedToolCallId
+from langchain_core.messages import ToolMessage
+
 @tool
 def update_memory(
+    tool_call_id: Annotated[str, InjectedToolCallId],
     flight_number: str = None, 
     departure_airport: str = None, 
     arrival_airport: str = None, 
@@ -117,6 +121,8 @@ def update_memory(
     if departure_airport: updates["departure_airport"] = departure_airport
     if arrival_airport: updates["arrival_airport"] = arrival_airport
     if travel_date: updates["travel_date"] = travel_date
+    
+    updates["messages"] = [ToolMessage(content="Memory updated", tool_call_id=tool_call_id)]
     return Command(update=updates)
 
 
@@ -147,7 +153,18 @@ def build_agent(tools):
         ctx = " | ".join(context_str) if context_str else "None"
         system_prompt = system_prompt_base + f"\n\nCURRENT CONTEXT: {ctx}"
         
-        messages = [SystemMessage(content=system_prompt)] + state["messages"]
+        # Limit memory to the last 5 user interactions to avoid context bloat
+        messages_to_keep = []
+        user_msg_count = 0
+        for msg in reversed(state["messages"]):
+            messages_to_keep.append(msg)
+            if getattr(msg, "type", "") == "human":
+                user_msg_count += 1
+                if user_msg_count == 5:
+                    break
+        messages_to_keep.reverse()
+        
+        messages = [SystemMessage(content=system_prompt)] + messages_to_keep
         response = llm_with_tools.invoke(messages)
         return {"messages": [response]}
 

@@ -12,10 +12,15 @@ alternative (OpenSky Network).
 """
 
 import datetime
+import json
+import os
 
 from servers.aviation_server.config import get_logger
 from servers.aviation_server.providers import aerodatabox
-from servers.aviation_server.providers.normalize import normalize_aerodatabox_flight
+from servers.aviation_server.providers.normalize import (
+    normalize_aerodatabox_flight,
+    validate_flight_record,
+)
 from servers.aviation_server.formatting import format_flight_record
 from servers.aviation_server.persistence import save_flights
 
@@ -36,6 +41,14 @@ def track_flight_live(flight_number: str) -> str:
 
     ok, payload = aerodatabox.get_flight_live(flight_number)
 
+    # DEBUG: Save raw payload
+    try:
+        os.makedirs("debug_data", exist_ok=True)
+        with open(f"debug_data/{flight_number}_tracking.json", "w") as f:
+            json.dump(payload, f, indent=2)
+    except Exception as e:
+        logger.error(f"Failed to save debug data: {e}")
+
     if not ok:
         if payload == "NO_KEY":
             return "Live tracking is unavailable (missing RAPID_API_KEY)."
@@ -50,7 +63,7 @@ def track_flight_live(flight_number: str) -> str:
     if not isinstance(payload, list) or not payload:
         return f"No flight details found for {flight_number}."
 
-    records = [normalize_aerodatabox_flight(item, flight_number) for item in payload]
+    records = [validate_flight_record(normalize_aerodatabox_flight(item, flight_number)) for item in payload]
     records = [
         r for r in records
         if r.get("departure", {}).get("iata") and r.get("arrival", {}).get("iata")

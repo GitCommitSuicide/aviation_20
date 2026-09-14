@@ -16,12 +16,15 @@ to be called on a cache miss/stale result — it always hits the live APIs.
 """
 
 import datetime
+import json
+import os
 
 from servers.aviation_server.config import HAS_AVIATIONSTACK, get_logger
 from servers.aviation_server.providers import aerodatabox, aviationstack
 from servers.aviation_server.providers.normalize import (
     normalize_aerodatabox_flight,
     normalize_aviationstack_flight,
+    validate_flight_record,
 )
 from servers.aviation_server.formatting import format_flight_records
 from servers.aviation_server.persistence import save_flights
@@ -57,8 +60,17 @@ def get_flight_details(flight_number: str, date: str | None = None) -> str:
 
     # ── 1. Try AeroDataBox ───────────────────────────────────────────────
     ok, payload = aerodatabox.get_flight_by_number(flight_number, date)
+    
+    # DEBUG: Save raw payload
+    try:
+        os.makedirs("debug_data", exist_ok=True)
+        with open(f"debug_data/{flight_number}_status.json", "w") as f:
+            json.dump(payload, f, indent=2)
+    except Exception as e:
+        logger.error(f"Failed to save debug data: {e}")
+
     if ok and isinstance(payload, list):
-        records = [normalize_aerodatabox_flight(item, flight_number) for item in payload]
+        records = [validate_flight_record(normalize_aerodatabox_flight(item, flight_number)) for item in payload]
         records = [r for r in records if _valid_route(r)]
         if records:
             save_flights(records, flight_number, date)
@@ -71,7 +83,7 @@ def get_flight_details(flight_number: str, date: str | None = None) -> str:
         logger.info("AeroDataBox unavailable (%s) — falling back to Aviationstack for %s", aerodatabox_error, flight_number)
         ok2, payload2 = aviationstack.get_flight_by_number(flight_number, date)
         if ok2 and isinstance(payload2, list):
-            records = [normalize_aviationstack_flight(item) for item in payload2]
+            records = [validate_flight_record(normalize_aviationstack_flight(item)) for item in payload2]
             records = [r for r in records if _valid_route(r)]
             if records:
                 save_flights(records, flight_number, date)
