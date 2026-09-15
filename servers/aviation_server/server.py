@@ -2,10 +2,10 @@
 servers/aviation_server/server.py
 ===================================
 MCP server exposing AVIATION tools — everything that talks to an external
-API (AeroDataBox, Aviationstack, SearchApi, Open-Meteo, Tavily). This server
-has NO direct read access for the chat agent into the local cache; it only
-writes to it (see persistence.py) as a caching side-effect after a live
-fetch. Cache *reads* live entirely on the database MCP server.
+API (AeroDataBox, AirLabs, Aviationstack, SearchApi, Open-Meteo, Tavily).
+This server has NO direct read access for the chat agent into the local
+cache; it only writes to it (see persistence.py) as a caching side-effect
+after a live fetch. Cache *reads* live entirely on the database MCP server.
 
 Run standalone (stdio transport, for use with Claude Desktop / any MCP
 client config):
@@ -26,6 +26,9 @@ from servers.aviation_server.tools.weather import get_airport_weather
 from servers.aviation_server.tools.news import search_aviation_news
 from servers.aviation_server.tools.reliability import get_flight_reliability, get_flight_route_info
 from servers.aviation_server.tools.trip_planner import plan_trip_itinerary
+from servers.aviation_server.tools.airport_schedules import get_airport_schedules
+from servers.aviation_server.tools.airport_info import get_airport_info, find_nearby_airports
+from servers.aviation_server.tools.airline_info import get_airline_info, suggest_flight_search
 
 mcp = FastMCP("aviation-server")
 
@@ -38,6 +41,12 @@ for fn in (
     get_flight_reliability,
     get_flight_route_info,
     plan_trip_itinerary,
+    # ── AirLabs-powered tools ──────────────────────────
+    get_airport_schedules,
+    get_airport_info,
+    find_nearby_airports,
+    get_airline_info,
+    suggest_flight_search,
 ):
     mcp.tool()(fn)
 

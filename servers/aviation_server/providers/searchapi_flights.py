@@ -26,26 +26,26 @@ def search_flights(
         return False, "NO_KEY"
 
     # Map seat class to Google Flights travel_class parameter
-    # 1=Economy, 2=Premium Economy, 3=Business, 4=First
+    # Supported values are `economy`, `premium_economy`, `business`, and `first_class`
     class_map = {
-        "economy": "1",
-        "premium_economy": "2",
-        "business": "3",
-        "first": "4"
+        "economy": "economy",
+        "premium_economy": "premium_economy",
+        "business": "business",
+        "first": "first_class"
     }
-    travel_class = class_map.get(seat_class.lower(), "1")
+    travel_class = class_map.get(seat_class.lower(), "economy")
 
-    # Map flight type to Google Flights type parameter
-    # 1=Round trip, 2=One way
+    # Map flight type to Google Flights flight_type parameter
+    # Supported values are `round_trip`, `one_way`, and `multi_city`
     is_return = flight_type.lower() in ["return", "round_trip", "roundtrip"]
-    api_type = "1" if is_return else "2"
+    api_flight_type = "round_trip" if is_return else "one_way"
 
     params = {
         "engine": "google_flights",
         "departure_id": dep_iata,
         "arrival_id": arr_iata,
         "outbound_date": date,
-        "type": api_type,
+        "flight_type": api_flight_type,
         "travel_class": travel_class,
         "currency": currency,
         "api_key": SEARCH_API_KEY,
@@ -58,8 +58,8 @@ def search_flights(
     try:
         resp = requests.get("https://www.searchapi.io/api/v1/search", params=params, timeout=REQUEST_TIMEOUT_SECONDS)
         logger.info(
-            "GET searchapi.io departure_id=%s arrival_id=%s outbound_date=%s type=%s travel_class=%s -> %s", 
-            dep_iata, arr_iata, date, api_type, travel_class, resp.status_code
+            "GET searchapi.io departure_id=%s arrival_id=%s outbound_date=%s flight_type=%s travel_class=%s -> %s", 
+            dep_iata, arr_iata, date, api_flight_type, travel_class, resp.status_code
         )
         resp.raise_for_status()
         return True, resp.json()

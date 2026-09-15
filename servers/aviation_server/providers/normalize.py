@@ -1,10 +1,10 @@
 """
 servers/aviation_server/providers/normalize.py
 ================================================
-AeroDataBox and Aviationstack return very different JSON shapes. Rather than
-have every tool branch on "which provider gave me this", both providers are
-normalized here into ONE common flight-record dict. Tools, formatters, and
-the DB-persistence layer only ever deal with this common shape.
+AeroDataBox, Aviationstack, and AirLabs return very different JSON shapes.
+Rather than have every tool branch on "which provider gave me this", all three
+providers are normalized here into ONE common flight-record dict. Tools,
+formatters, and the DB-persistence layer only ever deal with this common shape.
 
 After normalization, call validate_flight_record() to detect data
 inconsistencies (e.g., arrival actual without departure actual, impossible
@@ -267,4 +267,108 @@ def normalize_aviationstack_flight(raw: dict) -> dict:
             "baggage_belt": arr.get("baggage"),
         },
         "movement": movement,
+    }
+
+
+# ── AirLabs normalizer ────────────────────────────────────────────────────────
+
+def normalize_airlabs_flight(item: dict, flight_number: str | None = None) -> dict:
+    """
+    Normalize an AirLabs /flight response object into the project's common
+    flight-record format.
+
+    AirLabs /flight returns a single dict (not a list). Key fields:
+        flight_iata, flight_icao, flight_number,
+        airline_iata, airline_icao,
+        dep_iata, dep_icao, dep_terminal, dep_gate,
+        dep_time (local), dep_time_utc, dep_estimated, dep_estimated_utc,
+        dep_actual, dep_actual_utc,
+        arr_iata, arr_icao, arr_terminal, arr_gate, arr_baggage,
+        arr_time (local), arr_time_utc, arr_estimated, arr_estimated_utc,
+        arr_actual, arr_actual_utc,
+        status, delayed, dep_delayed, arr_delayed,
+        lat, lng, alt, dir, speed,            <- live position (if airborne)
+        aircraft_icao, reg_number, model, manufacturer, engine, engine_count,
+        built, age, type
+    """
+    fn = (
+        item.get("flight_iata")
+        or item.get("flight_icao")
+        or flight_number
+        or "UNKNOWN"
+    )
+
+    # ── Live movement (only present if flight is airborne) ────────────────
+    lat = item.get("lat")
+    lng = item.get("lng")
+    movement = None
+    if lat is not None and lng is not None:
+        movement = {
+            "lat": lat,
+            "lon": lng,
+            "altitude_m": item.get("alt"),
+            "speed_kmh": item.get("speed"),
+            "heading": item.get("dir"),
+        }
+
+    # ── Delay helper ─────────────────────────────────────────────────────
+    status_raw = (item.get("status") or "unknown").lower()
+    dep_delay = item.get("dep_delayed") or item.get("delayed")
+    arr_delay = item.get("arr_delayed") or item.get("delayed")
+
+    return {
+        "source": "airlabs",
+        "flight_number": fn,
+        "status": status_raw,
+        "airline": {
+            "name": None,  # AirLabs /flight doesn't return airline name inline
+            "iata": item.get("airline_iata"),
+            "icao": item.get("airline_icao"),
+        },
+        "aircraft": {
+            "model": item.get("model") or item.get("aircraft_icao"),
+            "reg": item.get("reg_number"),
+        },
+        "departure": {
+            "iata": item.get("dep_iata"),
+            "icao": item.get("dep_icao"),
+            "name": None,
+            "city": None,
+            "country_code": None,
+            "lat": None,
+            "lon": None,
+            "timezone": None,
+            # AirLabs "dep_time" is local; "dep_time_utc" is UTC
+            "scheduled_utc": item.get("dep_time_utc"),
+            "actual_utc": item.get("dep_actual_utc"),
+            "estimated_utc": item.get("dep_estimated_utc"),
+            "scheduled_local": item.get("dep_time"),
+            "actual_local": item.get("dep_actual"),
+            "estimated_local": item.get("dep_estimated"),
+            "terminal": item.get("dep_terminal"),
+            "gate": item.get("dep_gate"),
+            "delay_minutes": dep_delay,
+        },
+        "arrival": {
+            "iata": item.get("arr_iata"),
+            "icao": item.get("arr_icao"),
+            "name": None,
+            "city": None,
+            "country_code": None,
+            "lat": None,
+            "lon": None,
+            "timezone": None,
+            "scheduled_utc": item.get("arr_time_utc"),
+            "actual_utc": item.get("arr_actual_utc"),
+            "estimated_utc": item.get("arr_estimated_utc"),
+            "scheduled_local": item.get("arr_time"),
+            "actual_local": item.get("arr_actual"),
+            "estimated_local": item.get("arr_estimated"),
+            "terminal": item.get("arr_terminal"),
+            "gate": item.get("arr_gate"),
+            "baggage_belt": item.get("arr_baggage"),
+            "delay_minutes": arr_delay,
+        },
+        "movement": movement,
+        "warnings": [],
     }
