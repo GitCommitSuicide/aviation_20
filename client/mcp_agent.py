@@ -82,7 +82,9 @@ SYSTEM_PROMPT = (
     "- get_airline_info: Use when the user asks about an AIRLINE — type, country, hub, codes. "
     "Args: search_term (airline name or IATA code like '6E', 'AI').\n"
     "- suggest_flight_search: Use when the user gives a partial/ambiguous name for an airport or airline "
-    "and you need to resolve it to an IATA code. Args: query.\n\n"
+    "and you need to resolve it to an IATA code. Args: query.\n"
+    "- google_search_travel: Use for airport navigation, hotels, and general travel search (restaurants, lounges). "
+    "Requires location extraction.\n\n"
 
     "## TIME DISPLAY (CRITICAL)\n"
     "Tool results are already formatted in the LOCAL timezone of each airport. Use those exact "
@@ -149,8 +151,18 @@ def build_agent(tools):
     # Add our local memory tool to the list of tools
     all_tools = tools + [update_memory]
     
+    from langchain_openai import ChatOpenAI
+    
     llm = ChatGroq(model="openai/gpt-oss-20b", temperature=0)
-    llm_with_tools = llm.bind_tools(all_tools)
+    
+    fallback_llm = ChatOpenAI(
+        base_url="https://integrate.api.nvidia.com/v1",
+        api_key="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",
+        model="deepseek-ai/deepseek-v4-flash-0731",
+        temperature=0
+    )
+    
+    llm_with_tools = llm.bind_tools(all_tools).with_fallbacks([fallback_llm.bind_tools(all_tools)])
 
     system_prompt_base = SYSTEM_PROMPT.format(today=datetime.datetime.now().strftime("%Y-%m-%d"))
 
@@ -164,14 +176,24 @@ def build_agent(tools):
         ctx = " | ".join(context_str) if context_str else "None"
         system_prompt = system_prompt_base + f"\n\nCURRENT CONTEXT: {ctx}"
         
-        # Limit memory to the last 5 user interactions to avoid context bloat
+        # Limit memory to avoid context bloat on Groq
         messages_to_keep = []
         user_msg_count = 0
+        
+        # Traverse messages backwards
         for msg in reversed(state["messages"]):
+            # If it's a tool message from a previous turn (we've already seen a human message),
+            # truncate its content to save massive amounts of tokens.
+            if getattr(msg, "type", "") == "tool" and user_msg_count > 0:
+                import copy
+                msg = copy.copy(msg)
+                msg.content = "[Tool output omitted from history to save tokens]"
+                
             messages_to_keep.append(msg)
             if getattr(msg, "type", "") == "human":
                 user_msg_count += 1
-                if user_msg_count == 5:
+                # Only keep the last 2 interactions instead of 5
+                if user_msg_count == 2:
                     break
         messages_to_keep.reverse()
         

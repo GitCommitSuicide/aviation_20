@@ -77,6 +77,8 @@ def get_airport_schedules(
         return "Could not fetch schedules for {}: {}".format(airport_iata, payload)
 
     flights = payload if isinstance(payload, list) else []
+    flights = flights[:limit]  # Enforce limit locally since AirLabs might ignore it
+
     if not flights:
         dir_label = "arrivals" if is_arrival else "departures"
         return "No {} found for {} in the next 10 hours.".format(dir_label, airport_iata)
@@ -84,12 +86,8 @@ def get_airport_schedules(
     board_type = "ARRIVALS" if is_arrival else "DEPARTURES"
     airline_filter = " ({})".format(airline_iata) if airline_iata else ""
     from_or_to = "From" if is_arrival else "To"
-    lines = [
-        "**Airport {} {}{}** -- next {} flights".format(airport_iata, board_type, airline_filter, len(flights)),
-        "",
-        "| Flight | Airline | {} | Scheduled | Estimated | Status | Gate |".format(from_or_to),
-        "|--------|---------|-----|-----------|-----------|--------|------|",
-    ]
+    
+    lines = []
 
     for f in flights:
         flight_num = f.get("flight_iata") or f.get("flight_icao") or "N/A"
@@ -97,24 +95,26 @@ def get_airport_schedules(
         if is_arrival:
             other_airport = f.get("dep_iata", "N/A")
             sched_time = _fmt_time(f.get("dep_time"))
-            est_time = _fmt_time(f.get("arr_estimated") or f.get("dep_estimated"))
-            gate = f.get("arr_gate", "")
-            terminal = f.get("arr_terminal", "")
         else:
             other_airport = f.get("arr_iata", "N/A")
             sched_time = _fmt_time(f.get("dep_time"))
-            est_time = _fmt_time(f.get("dep_estimated") or f.get("dep_actual") or f.get("dep_time"))
-            gate = f.get("dep_gate", "")
-            terminal = f.get("dep_terminal", "")
 
         status_raw = (f.get("status") or "unknown").lower()
         delay = f.get("delayed") or f.get("dep_delayed") or 0
         status_badge = _STATUS_LABEL.get(status_raw, "[?]")
         status_str = "{}{}{}".format(status_badge, " " + status_raw.title() if status_badge != status_raw else "", _fmt_delay(delay))
-        gate_str = "{}/{}".format(terminal, gate).strip("/") if terminal else gate or "--"
 
-        lines.append("| {} | {} | {} | {} | {} | {} | {} |".format(
-            flight_num, airline, other_airport, sched_time, est_time, status_str, gate_str
-        ))
+        # concise summary string
+        lines.append(f"{flight_num} {airline} {from_or_to} {other_airport} at {sched_time} ({status_str})")
 
-    return "\n".join(lines)
+    import json
+    # Provide 1 highly condensed JSON example to save tokens
+    example = {}
+    if flights:
+        raw = flights[0]
+        keys_to_keep = ["flight_iata", "airline_iata", "dep_iata", "arr_iata", "dep_time", "status", "dep_terminal", "dep_gate"]
+        example = {k: raw.get(k) for k in keys_to_keep if k in raw}
+        
+    examples_str = json.dumps([example], indent=2)
+
+    return f"**Airport {airport_iata} {board_type}** -- next {len(flights)} flights\n\nRaw Data Example:\n```json\n{examples_str}\n```\n\nAll Flights Summary:\n" + "\n".join(lines)

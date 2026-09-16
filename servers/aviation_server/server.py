@@ -30,6 +30,8 @@ from servers.aviation_server.tools.airport_schedules import get_airport_schedule
 from servers.aviation_server.tools.airport_info import get_airport_info, find_nearby_airports
 from servers.aviation_server.tools.airline_info import get_airline_info, suggest_flight_search
 
+from servers.aviation_server.tools.search_travel import google_search_travel
+
 mcp = FastMCP("aviation-server")
 
 for fn in (
@@ -47,6 +49,8 @@ for fn in (
     find_nearby_airports,
     get_airline_info,
     suggest_flight_search,
+    # ── SearchApi tools ──────────────────────────
+    google_search_travel,
 ):
     mcp.tool()(fn)
 
