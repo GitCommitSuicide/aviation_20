@@ -192,7 +192,7 @@ def build_agent(tools):
             messages_to_keep.append(msg)
             if getattr(msg, "type", "") == "human":
                 user_msg_count += 1
-                # Only keep the last 2 interactions instead of 5
+                
                 if user_msg_count == 2:
                     break
         messages_to_keep.reverse()

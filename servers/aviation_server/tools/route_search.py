@@ -59,6 +59,17 @@ def get_flights_by_route(
         flight_type=flight_type, 
         return_date=return_date
     )
+
+    import os
+    import json
+    
+    os.makedirs("debugdata", exist_ok=True)
+    try:
+        debug_file_name = f"debugdata/route_search_{dep_iata}_{arr_iata}_{date}.json"
+        with open(debug_file_name, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=4, default=str)
+    except Exception as e:
+        logger.error(f"Failed to save debugdata: {e}")
     if not ok:
         if data == "NO_KEY":
             return "Route search is unavailable (missing SEARCH_API key)."

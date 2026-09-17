@@ -1,0 +1,332 @@
+{
+    "search_metadata": {
+        "id": "search_BZAYNyvAW2i71zRpBeo93VJQ",
+        "status": "Success",
+        "created_at": "2026-09-17T08:04:53Z",
+        "request_time_taken": 1.12,
+        "parsing_time_taken": 0.01,
+        "total_time_taken": 1.13,
+        "request_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTA5LTE3agcIARIDTUFBcgcIARIDUE5RQAFIBHABggELCP___________wGYAQI&hl=en&gl=us&curr=INR",
+        "html_url": "https://www.searchapi.io/api/v1/searches/search_BZAYNyvAW2i71zRpBeo93VJQ.html",
+        "json_url": "https://www.searchapi.io/api/v1/searches/search_BZAYNyvAW2i71zRpBeo93VJQ"
+    },
+    "search_parameters": {
+        "engine": "google_flights",
+        "departure_id": "MAA",
+        "arrival_id": "PNQ",
+        "currency": "INR",
+        "hl": "en",
+        "gl": "us",
+        "outbound_date": "2026-09-17",
+        "flight_type": "one_way",
+        "travel_class": "first_class",
+        "stops": "any",
+        "adults": "1",
+        "children": "0",
+        "infants_in_seat": "0",
+        "infants_on_lap": "0"
+    },
+    "other_flights": [
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Chennai International Airport",
+                        "id": "MAA",
+                        "date": "2026-09-17",
+                        "time": "20:10"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-09-17",
+                        "time": "23:00"
+                    },
+                    "duration": 170,
+                    "airplane": "Boeing 777",
+                    "airline": "Air India",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+                    "travel_class": "First_class",
+                    "flight_number": "AI 538",
+                    "extensions": [
+                        "Power and USB outlets",
+                        "Stream video to own device",
+                        "Seat type Lie Flat",
+                        "Carbon emission: 844 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_power_and_usb_outlets": true,
+                        "has_stream_video_to_own_device": true,
+                        "seat_type": "Lie Flat",
+                        "carbon_emission": 844
+                    }
+                },
+                {
+                    "departure_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-09-17",
+                        "time": "23:50"
+                    },
+                    "arrival_airport": {
+                        "name": "Pune International Airport",
+                        "id": "PNQ",
+                        "date": "2026-09-18",
+                        "time": "02:05"
+                    },
+                    "duration": 135,
+                    "airplane": "Airbus A320neo",
+                    "airline": "Air India",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+                    "travel_class": "First_class",
+                    "flight_number": "AI 2609",
+                    "is_overnight": true,
+                    "is_different_class_business": true,
+                    "extensions": [
+                        "Power and USB outlets",
+                        "Stream video to own device",
+                        "Seat type Extra Reclining",
+                        "Carbon emission: 157 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_power_and_usb_outlets": true,
+                        "has_stream_video_to_own_device": true,
+                        "seat_type": "Extra Reclining",
+                        "carbon_emission": 157
+                    }
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 50,
+                    "name": "Indira Gandhi International Airport",
+                    "id": "DEL"
+                }
+            ],
+            "total_duration": 355,
+            "carbon_emissions": {
+                "this_flight": 1002000,
+                "typical_for_this_route": 120000,
+                "difference_percent": 735,
+                "lowest_route": 977000
+            },
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+            "booking_token": "WyJDalJJUTFneldrWlBWRTVTYmpCQlF5MXFibWRDUnkwdExTMHRMUzB0TFc5clltdG1OMEZCUVVGQlIzRnlibmxaUWtReFptVkJFZ3hCU1RVek9IeEJTVEkyTURrNEhRPT0iLFtbIk1BQSIsIjIwMjYtMDktMTciLCJERUwiLG51bGwsIkFJIiwiNTM4Il0sWyJERUwiLCIyMDI2LTA5LTE3IiwiUE5RIixudWxsLCJBSSIsIjI2MDkiXV1d"
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Chennai International Airport",
+                        "id": "MAA",
+                        "date": "2026-09-17",
+                        "time": "20:10"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-09-17",
+                        "time": "23:00"
+                    },
+                    "duration": 170,
+                    "airplane": "Boeing 777",
+                    "airline": "Air India",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+                    "travel_class": "First_class",
+                    "flight_number": "AI 538",
+                    "extensions": [
+                        "Power and USB outlets",
+                        "Stream video to own device",
+                        "Seat type Lie Flat",
+                        "Carbon emission: 844 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_power_and_usb_outlets": true,
+                        "has_stream_video_to_own_device": true,
+                        "seat_type": "Lie Flat",
+                        "carbon_emission": 844
+                    }
+                },
+                {
+                    "departure_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-09-18",
+                        "time": "04:40"
+                    },
+                    "arrival_airport": {
+                        "name": "Pune International Airport",
+                        "id": "PNQ",
+                        "date": "2026-09-18",
+                        "time": "06:55"
+                    },
+                    "duration": 135,
+                    "airplane": "Boeing 737",
+                    "airline": "Air India Express",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/IX.png",
+                    "travel_class": "First_class",
+                    "flight_number": "IX 1230",
+                    "ticket_also_sold_by": [
+                        "Air India"
+                    ],
+                    "is_overnight": true,
+                    "is_different_class_business": true,
+                    "extensions": [
+                        "In-seat USB outlet",
+                        "Seat type Average Legroom",
+                        "Legroom 30 inches",
+                        "Carbon emission: 107 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_in_seat_usb_outlet": true,
+                        "seat_type": "Average Legroom",
+                        "legroom_short": "30 in",
+                        "legroom_long": "30 inches",
+                        "carbon_emission": 107
+                    }
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 340,
+                    "name": "Indira Gandhi International Airport",
+                    "id": "DEL",
+                    "is_overnight": true
+                }
+            ],
+            "total_duration": 645,
+            "carbon_emissions": {
+                "this_flight": 952000,
+                "typical_for_this_route": 120000,
+                "difference_percent": 693,
+                "lowest_route": 977000
+            },
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "booking_token": "WyJDalJJUTFneldrWlBWRTVTYmpCQlF5MXFibWRDUnkwdExTMHRMUzB0TFc5clltdG1OMEZCUVVGQlIzRnlibmxaUWtReFptVkJFZ3hCU1RVek9IeEpXREV5TXpBNEhRPT0iLFtbIk1BQSIsIjIwMjYtMDktMTciLCJERUwiLG51bGwsIkFJIiwiNTM4Il0sWyJERUwiLCIyMDI2LTA5LTE4IiwiUE5RIixudWxsLCJJWCIsIjEyMzAiXV1d"
+        }
+    ],
+    "airports": [
+        {
+            "departure": [
+                {
+                    "airport": {
+                        "id": "MAA",
+                        "name": "Chennai International Airport"
+                    },
+                    "city": "Chennai",
+                    "country": "India",
+                    "country_code": "IN",
+                    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS3WRTUF8pvOWEz44rcfEAVPPgqakd7YAuFf6-JADAN2a8iJl-zhj-rNtYe_vpfWQzDSrEACFgAfhfj5Q",
+                    "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSGPH_OZz8sEcX7jj0gyl2SmlVj0Xs36035Fy8ZWO4gDAEVciKd9OeDPyPgABnjGLOxtUWc5DAXGd7SZtugLTwpZXnYgoIqVxHtsGdbQdo"
+                }
+            ],
+            "arrival": [
+                {
+                    "airport": {
+                        "id": "PNQ",
+                        "name": "Pune International Airport"
+                    },
+                    "city": "Pune",
+                    "country": "India",
+                    "country_code": "IN",
+                    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRBiAgGg-eU4YXi_JsRV5bBxZGldsGn94VXHQOp3PxK63wRjPs_yUW2taNVLYix_SPBvejw4776PSAoFw",
+                    "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQXucf-z8YAwMWssJ_qV5GpIyJ3-sPWxWOOATL2xtnM4OGkjVhGJ6JYq7lf0jHynhKiXTnmTG4cVg2AWj7Q2wwPtQeKhwPY8EHNF6p4RZM"
+                }
+            ]
+        }
+    ],
+    "airlines": {
+        "alliances": [
+            {
+                "code": "ONEWORLD",
+                "name": "Oneworld"
+            },
+            {
+                "code": "SKYTEAM",
+                "name": "SkyTeam"
+            },
+            {
+                "code": "STAR_ALLIANCE",
+                "name": "Star Alliance"
+            }
+        ],
+        "airlines": [
+            {
+                "code": "AI",
+                "name": "Air India"
+            },
+            {
+                "code": "IX",
+                "name": "Air India Express"
+            },
+            {
+                "code": "QP",
+                "name": "Akasa Air"
+            },
+            {
+                "code": "6E",
+                "name": "IndiGo"
+            }
+        ],
+        "hubs": [
+            {
+                "code": "BLR",
+                "name": "Bengaluru"
+            },
+            {
+                "code": "IXC",
+                "name": "Chandigarh"
+            },
+            {
+                "code": "HYD",
+                "name": "Hyderabad"
+            },
+            {
+                "code": "IDR",
+                "name": "Indore"
+            },
+            {
+                "code": "JAI",
+                "name": "Jaipur"
+            },
+            {
+                "code": "LKO",
+                "name": "Lucknow"
+            },
+            {
+                "code": "BOM",
+                "name": "Mumbai"
+            },
+            {
+                "code": "DEL",
+                "name": "New Delhi"
+            }
+        ]
+    },
+    "baggage_allowance_links": [
+        {
+            "airline_code": "AI",
+            "airline": "Air India",
+            "url": "https://www.airindia.com/in/en/travel-information/baggage-guidelines.html"
+        },
+        {
+            "airline_code": "IX",
+            "airline": "Air India Express",
+            "url": "https://www.airindiaexpress.com/products-and-services?selectedtab=baggage"
+        }
+    ],
+    "passenger_assistance_links": [
+        {
+            "airline_code": "AI",
+            "airline": "Air India",
+            "url": "https://www.airindia.com/in/en/travel-information/health-medical-assistance.html"
+        },
+        {
+            "airline_code": "IX",
+            "airline": "Air India Express",
+            "url": "https://www.airindiaexpress.com/support/faqs/special-guests"
+        }
+    ]
+}

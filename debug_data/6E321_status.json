@@ -1,0 +1,82 @@
+[
+  {
+    "greatCircleDistance": {
+      "meter": 1382650.67,
+      "km": 1382.65,
+      "mile": 859.14,
+      "nm": 746.57,
+      "feet": 4536255.48
+    },
+    "departure": {
+      "airport": {
+        "icao": "VOMM",
+        "iata": "MAA",
+        "name": "Chennai",
+        "shortName": "Chennai",
+        "municipalityName": "Chennai",
+        "location": {
+          "lat": 12.990005,
+          "lon": 80.1693
+        },
+        "countryCode": "IN",
+        "timeZone": "Asia/Kolkata"
+      },
+      "scheduledTime": {
+        "utc": "2026-09-16 02:50Z",
+        "local": "2026-09-16 08:20+05:30"
+      },
+      "terminal": "1",
+      "quality": [
+        "Basic"
+      ]
+    },
+    "arrival": {
+      "airport": {
+        "icao": "VECC",
+        "iata": "CCU",
+        "name": "Kolkata Netaji Subhash Chandra Bose",
+        "shortName": "Netaji Subhash Chandra Bose",
+        "municipalityName": "Kolkata",
+        "location": {
+          "lat": 22.6547,
+          "lon": 88.4467
+        },
+        "countryCode": "IN",
+        "timeZone": "Asia/Kolkata"
+      },
+      "scheduledTime": {
+        "utc": "2026-09-16 05:10Z",
+        "local": "2026-09-16 10:40+05:30"
+      },
+      "revisedTime": {
+        "utc": "2026-09-16 04:47Z",
+        "local": "2026-09-16 10:17+05:30"
+      },
+      "runwayTime": {
+        "utc": "2026-09-16 04:47Z",
+        "local": "2026-09-16 10:17+05:30"
+      },
+      "runway": "19L",
+      "quality": [
+        "Basic",
+        "Live"
+      ]
+    },
+    "lastUpdatedUtc": "2026-09-16 04:48Z",
+    "number": "6E 321",
+    "callSign": "IGO126F",
+    "status": "Arrived",
+    "codeshareStatus": "IsOperator",
+    "isCargo": false,
+    "aircraft": {
+      "reg": "VT-IBD",
+      "modeS": "80154D",
+      "model": "Airbus A321 NEO"
+    },
+    "airline": {
+      "name": "IndiGo",
+      "iata": "6E",
+      "icao": "IGO"
+    }
+  }
+]
