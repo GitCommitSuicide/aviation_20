@@ -1,0 +1,82 @@
+[
+  {
+    "greatCircleDistance": {
+      "meter": 3004157.68,
+      "km": 3004.16,
+      "mile": 1866.7,
+      "nm": 1622.12,
+      "feet": 9856160.37
+    },
+    "departure": {
+      "airport": {
+        "icao": "VTSP",
+        "iata": "HKT",
+        "name": "Phuket",
+        "shortName": "Phuket",
+        "municipalityName": "Phuket",
+        "location": {
+          "lat": 8.1132,
+          "lon": 98.3169
+        },
+        "countryCode": "TH",
+        "timeZone": "Asia/Bangkok"
+      },
+      "scheduledTime": {
+        "utc": "2026-09-17 05:20Z",
+        "local": "2026-09-17 12:20+07:00"
+      },
+      "revisedTime": {
+        "utc": "2026-09-17 05:15Z",
+        "local": "2026-09-17 12:15+07:00"
+      },
+      "terminal": "I",
+      "gate": "81",
+      "quality": [
+        "Basic",
+        "Live"
+      ]
+    },
+    "arrival": {
+      "airport": {
+        "icao": "VABB",
+        "iata": "BOM",
+        "name": "Mumbai Chhatrapati Shivaji",
+        "shortName": "Chhatrapati Shivaji",
+        "municipalityName": "Mumbai",
+        "location": {
+          "lat": 19.0887,
+          "lon": 72.8679
+        },
+        "countryCode": "IN",
+        "timeZone": "Asia/Kolkata"
+      },
+      "scheduledTime": {
+        "utc": "2026-09-17 09:55Z",
+        "local": "2026-09-17 15:25+05:30"
+      },
+      "revisedTime": {
+        "utc": "2026-09-17 09:27Z",
+        "local": "2026-09-17 14:57+05:30"
+      },
+      "terminal": "2",
+      "baggageBelt": "7",
+      "quality": [
+        "Basic",
+        "Live"
+      ]
+    },
+    "lastUpdatedUtc": "2026-09-17 07:20Z",
+    "number": "6E 1072",
+    "status": "Arrived",
+    "codeshareStatus": "IsOperator",
+    "isCargo": false,
+    "aircraft": {
+      "model": "Airbus A320"
+    },
+    "airline": {
+      "name": "IndiGo",
+      "iata": "6E",
+      "icao": "IGO"
+    }
+  }
+]

@@ -4,9 +4,9 @@ servers/aviation_server/tools/flight_status.py
 get_flight_details — flight status/schedule lookup by flight number.
 
 Provider order:
-  1. AeroDataBox (primary)  — richest data: terminals, gates, live position.
-  2. AirLabs /flight (fallback) — excellent all-in-one: status + schedule +
+  1. AirLabs (primary) — excellent all-in-one: status + schedule +
      estimated/actual times + live position + aircraft details.
+  2. AeroDataBox (fallback)  — richest data: terminals, gates, live position.
   3. Aviationstack (last resort) — used only when both above are unconfigured
      or rate-limited.
 
@@ -59,43 +59,46 @@ def get_flight_details(flight_number: str, date: str | None = None) -> str:
         except ValueError:
             return f"Invalid date format: {date}. Please use YYYY-MM-DD."
 
-    # ── 1. Try AeroDataBox ───────────────────────────────────────────────
-    ok, payload = aerodatabox.get_flight_by_number(flight_number, date)
+    # ── 1. Try AirLabs /flight ───────────────────────────────────────────────
+    airlabs_error = "NOT_CONFIGURED"
+    if HAS_AIRLABS:
+        ok, payload = airlabs.get_flight_info(flight_number)
 
-    # DEBUG: Save raw payload
-    try:
-        os.makedirs("debug_data", exist_ok=True)
-        with open(f"debug_data/{flight_number}_status.json", "w") as f:
-            json.dump(payload, f, indent=2)
-    except Exception as e:
-        logger.error(f"Failed to save debug data: {e}")
+        # DEBUG: Save raw payload
+        try:
+            os.makedirs("debug_data", exist_ok=True)
+            with open(f"debug_data/{flight_number}_status.json", "w") as f:
+                json.dump(payload, f, indent=2)
+        except Exception as e:
+            logger.error(f"Failed to save debug data: {e}")
 
-    if ok and isinstance(payload, list):
-        records = [validate_flight_record(normalize_aerodatabox_flight(item, flight_number)) for item in payload]
+        if ok and isinstance(payload, dict) and payload:
+            record = validate_flight_record(normalize_airlabs_flight(payload, flight_number))
+            if _valid_route(record):
+                save_flights([record], flight_number, date)
+                return format_flight_records([record], flight_number, date)
+        
+        airlabs_error = payload if not ok else "NO_USABLE_DATA"
+
+    # ── 2. Fall back to AeroDataBox ─────────────────────────────────────────
+    logger.info("AirLabs unavailable (%s) — trying AeroDataBox for %s", airlabs_error, flight_number)
+    ok2, payload2 = aerodatabox.get_flight_by_number(flight_number, date)
+    if ok2 and isinstance(payload2, list):
+        records = [validate_flight_record(normalize_aerodatabox_flight(item, flight_number)) for item in payload2]
         records = [r for r in records if _valid_route(r)]
         if records:
             save_flights(records, flight_number, date)
-            return format_flight_records(records, flight_number, date)
-
-    aerodatabox_error = payload if not ok else "NO_USABLE_DATA"
-
-    # ── 2. Fall back to AirLabs /flight ──────────────────────────────────
-    if HAS_AIRLABS:
-        logger.info("AeroDataBox unavailable (%s) — trying AirLabs for %s", aerodatabox_error, flight_number)
-        ok2, payload2 = airlabs.get_flight_info(flight_number)
-        if ok2 and isinstance(payload2, dict) and payload2:
-            record = validate_flight_record(normalize_airlabs_flight(payload2, flight_number))
-            if _valid_route(record):
-                save_flights([record], flight_number, date)
-                result = format_flight_records([record], flight_number, date)
-                return (
-                    "[Note: Primary data source was unavailable — "
-                    "data below is from AirLabs instead.]\n\n" + result
-                )
+            result = format_flight_records(records, flight_number, date)
+            return (
+                "[Note: Primary data source was unavailable — "
+                "data below is from AeroDataBox instead.]\n\n" + result
+            )
+            
+    aerodatabox_error = payload2 if not ok2 else "NO_USABLE_DATA"
 
     # ── 3. Fall back to Aviationstack ────────────────────────────────────
     if HAS_AVIATIONSTACK:
-        logger.info("AeroDataBox and AirLabs unavailable — falling back to Aviationstack for %s", flight_number)
+        logger.info("AirLabs and AeroDataBox unavailable — falling back to Aviationstack for %s", flight_number)
         ok3, payload3 = aviationstack.get_flight_by_number(flight_number, date)
         if ok3 and isinstance(payload3, list):
             records = [validate_flight_record(normalize_aviationstack_flight(item)) for item in payload3]
@@ -109,11 +112,11 @@ def get_flight_details(flight_number: str, date: str | None = None) -> str:
                 )
 
     # ── 4. All providers failed ──────────────────────────────────────────
-    if aerodatabox_error == "NO_KEY" and not HAS_AVIATIONSTACK and not HAS_AIRLABS:
+    if airlabs_error == "NO_KEY" and aerodatabox_error == "NO_KEY" and not HAS_AVIATIONSTACK:
         return "Flight lookup is unavailable: no RAPID_API_KEY, AIRLABS_API, or AVIATIONSTACK_API_KEY configured."
-    if aerodatabox_error == "NOT_FOUND":
+    if airlabs_error == "NOT_FOUND" and aerodatabox_error == "NOT_FOUND":
         return f"Flight {flight_number} was not found for {date}."
-    if aerodatabox_error == "RATE_LIMITED":
+    if airlabs_error == "RATE_LIMITED" and aerodatabox_error == "RATE_LIMITED":
         return (
             "FLIGHT_DATA_UNAVAILABLE: All flight data providers are currently rate-limited. "
             "Do not guess or estimate a schedule."

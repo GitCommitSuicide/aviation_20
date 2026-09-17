@@ -1,75 +1,53 @@
-[
-  {
-    "greatCircleDistance": {
-      "meter": 853951.94,
-      "km": 853.95,
-      "mile": 530.62,
-      "nm": 461.1,
-      "feet": 2801679.59
-    },
-    "departure": {
-      "airport": {
-        "icao": "VIJO",
-        "iata": "JDH",
-        "name": "Jodhpur",
-        "shortName": "Jodhpur",
-        "municipalityName": "Jodhpur",
-        "location": {
-          "lat": 26.2511,
-          "lon": 73.0489
-        },
-        "countryCode": "IN",
-        "timeZone": "Asia/Kolkata"
-      },
-      "scheduledTime": {
-        "utc": "2026-09-16 09:00Z",
-        "local": "2026-09-16 14:30+05:30"
-      },
-      "quality": [
-        "Basic"
-      ]
-    },
-    "arrival": {
-      "airport": {
-        "icao": "VAPO",
-        "iata": "PNQ",
-        "name": "Pune",
-        "shortName": "Pune",
-        "municipalityName": "Pune",
-        "location": {
-          "lat": 18.5821,
-          "lon": 73.9197
-        },
-        "countryCode": "IN",
-        "timeZone": "Asia/Kolkata"
-      },
-      "scheduledTime": {
-        "utc": "2026-09-16 10:40Z",
-        "local": "2026-09-16 16:10+05:30"
-      },
-      "predictedTime": {
-        "utc": "2026-09-16 11:01Z",
-        "local": "2026-09-16 16:31+05:30"
-      },
-      "quality": [
-        "Basic"
-      ]
-    },
-    "lastUpdatedUtc": "2026-09-16 10:31Z",
-    "number": "6E 414",
-    "callSign": "IGO414",
-    "status": "Unknown",
-    "codeshareStatus": "IsOperator",
-    "isCargo": false,
-    "aircraft": {
-      "reg": "VT-IPY",
-      "modeS": "8015DA",
-      "model": "Airbus A320 NEO"
-    },
-    "airline": {
-      "name": "IndiGo",
-      "iata": "6E",
-      "icao": "IGO"
-    }
-  }
-]
+{
+  "aircraft_icao": null,
+  "airline_iata": "6E",
+  "airline_icao": "IGO",
+  "flight_iata": "6E414",
+  "flight_icao": "IGO414",
+  "flight_number": "414",
+  "dep_iata": "JDH",
+  "dep_icao": "VIJO",
+  "dep_terminal": null,
+  "dep_gate": null,
+  "dep_time": "2026-09-17 14:30",
+  "dep_estimated": null,
+  "dep_actual": null,
+  "dep_time_utc": "2026-09-17 09:00",
+  "dep_estimated_utc": null,
+  "dep_actual_utc": null,
+  "dep_time_ts": 1789635600,
+  "arr_iata": "PNQ",
+  "arr_icao": "VAPO",
+  "arr_terminal": null,
+  "arr_gate": null,
+  "arr_baggage": null,
+  "arr_time": "2026-09-17 16:10",
+  "arr_estimated": "2026-09-17 16:05",
+  "arr_actual": null,
+  "arr_time_utc": "2026-09-17 10:40",
+  "arr_estimated_utc": "2026-09-17 10:35",
+  "arr_actual_utc": null,
+  "arr_time_ts": 1789641600,
+  "arr_estimated_ts": 1789641300,
+  "cs_airline_iata": null,
+  "cs_flight_number": null,
+  "cs_flight_iata": null,
+  "reg_number": null,
+  "status": "scheduled",
+  "duration": 100,
+  "delayed": null,
+  "dep_delayed": null,
+  "arr_delayed": null,
+  "updated": 1789601487,
+  "dep_name": "Jodhpur Airport",
+  "dep_city": "Jodhpur",
+  "dep_country": "IN",
+  "arr_name": "Pune Airport",
+  "arr_city": "Pune",
+  "arr_country": "IN",
+  "airline_name": "IndiGo",
+  "flag": "IN",
+  "percent": 0,
+  "type": "landplane",
+  "utc": "2026-09-17 08:45"
+}
