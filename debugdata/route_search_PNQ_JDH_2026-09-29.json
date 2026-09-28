@@ -1,0 +1,587 @@
+{
+    "search_metadata": {
+        "id": "search_mpO7djkNqos2GVrxmvAPE9xq",
+        "status": "Success",
+        "created_at": "2026-09-28T08:09:20Z",
+        "request_time_taken": 0.97,
+        "parsing_time_taken": 0.01,
+        "total_time_taken": 0.98,
+        "request_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTA5LTI5agcIARIDUE5RcgcIARIDSkRIQAFIAXABggELCP___________wGYAQI&hl=en&gl=us&curr=INR",
+        "html_url": "https://www.searchapi.io/api/v1/searches/search_mpO7djkNqos2GVrxmvAPE9xq.html",
+        "json_url": "https://www.searchapi.io/api/v1/searches/search_mpO7djkNqos2GVrxmvAPE9xq"
+    },
+    "search_parameters": {
+        "engine": "google_flights",
+        "departure_id": "PNQ",
+        "arrival_id": "JDH",
+        "currency": "INR",
+        "hl": "en",
+        "gl": "us",
+        "outbound_date": "2026-09-29",
+        "flight_type": "one_way",
+        "travel_class": "economy",
+        "stops": "any",
+        "adults": "1",
+        "children": "0",
+        "infants_in_seat": "0",
+        "infants_on_lap": "0"
+    },
+    "other_flights": [
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Pune International Airport",
+                        "id": "PNQ",
+                        "date": "2026-09-29",
+                        "time": "12:15"
+                    },
+                    "arrival_airport": {
+                        "name": "Jodhpur Airport",
+                        "id": "JDH",
+                        "date": "2026-09-29",
+                        "time": "14:00"
+                    },
+                    "duration": 105,
+                    "airplane": "Airbus A320neo",
+                    "airline": "IndiGo",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+                    "travel_class": "Economy",
+                    "flight_number": "6E 133",
+                    "extensions": [
+                        "Seat type Below Average Legroom",
+                        "Legroom 28 inches",
+                        "Carbon emission: 75 kg"
+                    ],
+                    "detected_extensions": {
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "28 in",
+                        "legroom_long": "28 inches",
+                        "carbon_emission": 75
+                    }
+                }
+            ],
+            "total_duration": 105,
+            "carbon_emissions": {
+                "this_flight": 75000,
+                "typical_for_this_route": 73000,
+                "difference_percent": 3,
+                "lowest_route": 149000
+            },
+            "price": 9583,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+            "booking_token": "WyJDalJJTFRsSWVHSTFla0ZoU1dkQlVUaFFTa0ZDUnkwdExTMHRMUzB0TFhaM2RHY3lNRUZCUVVGQlIzRTJTVXhCVDFwSk9GTkJFZ1UyUlRFek14b0tDTzlLRUFBYUEwbE9VamdkY0lKTyIsW1siUE5RIiwiMjAyNi0wOS0yOSIsIkpESCIsbnVsbCwiNkUiLCIxMzMiXV1d"
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Pune International Airport",
+                        "id": "PNQ",
+                        "date": "2026-09-29",
+                        "time": "08:45"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-09-29",
+                        "time": "11:10"
+                    },
+                    "duration": 145,
+                    "airplane": "Airbus A320neo",
+                    "airline": "Air India",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AI 1838",
+                    "extensions": [
+                        "Power and USB outlets",
+                        "Stream video to own device",
+                        "Seat type Extra Reclining",
+                        "Carbon emission: 167 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_power_and_usb_outlets": true,
+                        "has_stream_video_to_own_device": true,
+                        "seat_type": "Extra Reclining",
+                        "carbon_emission": 167
+                    }
+                },
+                {
+                    "departure_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-09-29",
+                        "time": "13:40"
+                    },
+                    "arrival_airport": {
+                        "name": "Jodhpur Airport",
+                        "id": "JDH",
+                        "date": "2026-09-29",
+                        "time": "15:00"
+                    },
+                    "duration": 80,
+                    "airplane": "Airbus A320",
+                    "airline": "Air India Express",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/IX.png",
+                    "travel_class": "Economy",
+                    "flight_number": "IX 1823",
+                    "ticket_also_sold_by": [
+                        "Air India"
+                    ],
+                    "extensions": [
+                        "In-seat USB outlet",
+                        "Seat type Below Average Legroom",
+                        "Legroom 28 inches",
+                        "Carbon emission: 56 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_in_seat_usb_outlet": true,
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "28 in",
+                        "legroom_long": "28 inches",
+                        "carbon_emission": 56
+                    }
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 150,
+                    "name": "Indira Gandhi International Airport",
+                    "id": "DEL"
+                }
+            ],
+            "total_duration": 375,
+            "carbon_emissions": {
+                "this_flight": 223000,
+                "typical_for_this_route": 73000,
+                "difference_percent": 205,
+                "lowest_route": 149000
+            },
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "booking_token": "WyJDalJJTFRsSWVHSTFla0ZoU1dkQlVUaFFTa0ZDUnkwdExTMHRMUzB0TFhaM2RHY3lNRUZCUVVGQlIzRTJTVXhCVDFwSk9GTkJFZzFCU1RFNE16aDhTVmd4T0RJek9CMD0iLFtbIlBOUSIsIjIwMjYtMDktMjkiLCJERUwiLG51bGwsIkFJIiwiMTgzOCJdLFsiREVMIiwiMjAyNi0wOS0yOSIsIkpESCIsbnVsbCwiSVgiLCIxODIzIl1dXQ=="
+        }
+    ],
+    "price_insights": {
+        "lowest_price": 9583,
+        "price_level": "high",
+        "typical_price_range": {
+            "low_price": 5600,
+            "high_price": 8400
+        },
+        "price_history": [
+            {
+                "price": 5727,
+                "iso_date": "2026-07-28T18:30:00Z"
+            },
+            {
+                "price": 5727,
+                "iso_date": "2026-07-29T18:30:00Z"
+            },
+            {
+                "price": 5786,
+                "iso_date": "2026-07-30T18:30:00Z"
+            },
+            {
+                "price": 5786,
+                "iso_date": "2026-07-31T18:30:00Z"
+            },
+            {
+                "price": 5786,
+                "iso_date": "2026-08-01T18:30:00Z"
+            },
+            {
+                "price": 5786,
+                "iso_date": "2026-08-02T18:30:00Z"
+            },
+            {
+                "price": 5786,
+                "iso_date": "2026-08-03T18:30:00Z"
+            },
+            {
+                "price": 5786,
+                "iso_date": "2026-08-04T18:30:00Z"
+            },
+            {
+                "price": 5786,
+                "iso_date": "2026-08-05T18:30:00Z"
+            },
+            {
+                "price": 5786,
+                "iso_date": "2026-08-06T18:30:00Z"
+            },
+            {
+                "price": 5786,
+                "iso_date": "2026-08-07T18:30:00Z"
+            },
+            {
+                "price": 5786,
+                "iso_date": "2026-08-08T18:30:00Z"
+            },
+            {
+                "price": 5786,
+                "iso_date": "2026-08-09T18:30:00Z"
+            },
+            {
+                "price": 5786,
+                "iso_date": "2026-08-10T18:30:00Z"
+            },
+            {
+                "price": 5786,
+                "iso_date": "2026-08-11T18:30:00Z"
+            },
+            {
+                "price": 5656,
+                "iso_date": "2026-08-12T18:30:00Z"
+            },
+            {
+                "price": 5656,
+                "iso_date": "2026-08-13T18:30:00Z"
+            },
+            {
+                "price": 5656,
+                "iso_date": "2026-08-14T18:30:00Z"
+            },
+            {
+                "price": 5656,
+                "iso_date": "2026-08-15T18:30:00Z"
+            },
+            {
+                "price": 5656,
+                "iso_date": "2026-08-16T18:30:00Z"
+            },
+            {
+                "price": 6941,
+                "iso_date": "2026-08-17T18:30:00Z"
+            },
+            {
+                "price": 6941,
+                "iso_date": "2026-08-18T18:30:00Z"
+            },
+            {
+                "price": 6941,
+                "iso_date": "2026-08-19T18:30:00Z"
+            },
+            {
+                "price": 6941,
+                "iso_date": "2026-08-20T18:30:00Z"
+            },
+            {
+                "price": 6941,
+                "iso_date": "2026-08-21T18:30:00Z"
+            },
+            {
+                "price": 6941,
+                "iso_date": "2026-08-22T18:30:00Z"
+            },
+            {
+                "price": 6941,
+                "iso_date": "2026-08-23T18:30:00Z"
+            },
+            {
+                "price": 6941,
+                "iso_date": "2026-08-24T18:30:00Z"
+            },
+            {
+                "price": 6941,
+                "iso_date": "2026-08-25T18:30:00Z"
+            },
+            {
+                "price": 6941,
+                "iso_date": "2026-08-26T18:30:00Z"
+            },
+            {
+                "price": 6941,
+                "iso_date": "2026-08-27T18:30:00Z"
+            },
+            {
+                "price": 6941,
+                "iso_date": "2026-08-28T18:30:00Z"
+            },
+            {
+                "price": 6941,
+                "iso_date": "2026-08-29T18:30:00Z"
+            },
+            {
+                "price": 6941,
+                "iso_date": "2026-08-30T18:30:00Z"
+            },
+            {
+                "price": 7382,
+                "iso_date": "2026-08-31T18:30:00Z"
+            },
+            {
+                "price": 7382,
+                "iso_date": "2026-09-01T18:30:00Z"
+            },
+            {
+                "price": 7382,
+                "iso_date": "2026-09-02T18:30:00Z"
+            },
+            {
+                "price": 7382,
+                "iso_date": "2026-09-03T18:30:00Z"
+            },
+            {
+                "price": 7382,
+                "iso_date": "2026-09-04T18:30:00Z"
+            },
+            {
+                "price": 7382,
+                "iso_date": "2026-09-05T18:30:00Z"
+            },
+            {
+                "price": 7382,
+                "iso_date": "2026-09-06T18:30:00Z"
+            },
+            {
+                "price": 7382,
+                "iso_date": "2026-09-07T18:30:00Z"
+            },
+            {
+                "price": 7382,
+                "iso_date": "2026-09-08T18:30:00Z"
+            },
+            {
+                "price": 7854,
+                "iso_date": "2026-09-09T18:30:00Z"
+            },
+            {
+                "price": 7854,
+                "iso_date": "2026-09-10T18:30:00Z"
+            },
+            {
+                "price": 7854,
+                "iso_date": "2026-09-11T18:30:00Z"
+            },
+            {
+                "price": 7854,
+                "iso_date": "2026-09-12T18:30:00Z"
+            },
+            {
+                "price": 7854,
+                "iso_date": "2026-09-13T18:30:00Z"
+            },
+            {
+                "price": 8379,
+                "iso_date": "2026-09-14T18:30:00Z"
+            },
+            {
+                "price": 8379,
+                "iso_date": "2026-09-15T18:30:00Z"
+            },
+            {
+                "price": 8379,
+                "iso_date": "2026-09-16T18:30:00Z"
+            },
+            {
+                "price": 8379,
+                "iso_date": "2026-09-17T18:30:00Z"
+            },
+            {
+                "price": 8379,
+                "iso_date": "2026-09-18T18:30:00Z"
+            },
+            {
+                "price": 8379,
+                "iso_date": "2026-09-19T18:30:00Z"
+            },
+            {
+                "price": 8379,
+                "iso_date": "2026-09-20T18:30:00Z"
+            },
+            {
+                "price": 8379,
+                "iso_date": "2026-09-21T18:30:00Z"
+            },
+            {
+                "price": 8936,
+                "iso_date": "2026-09-22T18:30:00Z"
+            },
+            {
+                "price": 8985,
+                "iso_date": "2026-09-23T18:30:00Z"
+            },
+            {
+                "price": 8985,
+                "iso_date": "2026-09-24T18:30:00Z"
+            },
+            {
+                "price": 8985,
+                "iso_date": "2026-09-25T18:30:00Z"
+            },
+            {
+                "price": 9583,
+                "iso_date": "2026-09-26T18:30:00Z"
+            },
+            {
+                "price": 9583,
+                "iso_date": "2026-09-27T18:30:00Z"
+            }
+        ]
+    },
+    "airports": [
+        {
+            "departure": [
+                {
+                    "airport": {
+                        "id": "PNQ",
+                        "name": "Pune International Airport"
+                    },
+                    "city": "Pune",
+                    "country": "India",
+                    "country_code": "IN",
+                    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRBiAgGg-eU4YXi_JsRV5bBxZGldsGn94VXHQOp3PxK63wRjPs_yUW2taNVLYix_SPBvejw4776PSAoFw",
+                    "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQXucf-z8YAwMWssJ_qV5GpIyJ3-sPWxWOOATL2xtnM4OGkjVhGJ6JYq7lf0jHynhKiXTnmTG4cVg2AWj7Q2wwPtQeKhwPY8EHNF6p4RZM"
+                }
+            ],
+            "arrival": [
+                {
+                    "airport": {
+                        "id": "JDH",
+                        "name": "Jodhpur Airport"
+                    },
+                    "city": "Jodhpur",
+                    "country": "India",
+                    "country_code": "IN",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQULXHH8CV48q7vUotdLcMePrRdjbLgGr3DAJEacBYGPlh5FDQdhtBonr3_v5FwF8JIxKAvzpjK6dgtiQ",
+                    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNiZ1LWawrCvx2pYCpiicC4uZ60dJOy82KZyzmL_5cyFBCnsZLUhln5SzQTRCbwtYtRj3O0McFqEv-pKpHkwjNL3l-5A8AQg3RseOkFsw"
+                }
+            ]
+        }
+    ],
+    "airlines": {
+        "alliances": [
+            {
+                "code": "ONEWORLD",
+                "name": "Oneworld"
+            },
+            {
+                "code": "SKYTEAM",
+                "name": "SkyTeam"
+            },
+            {
+                "code": "STAR_ALLIANCE",
+                "name": "Star Alliance"
+            }
+        ],
+        "airlines": [
+            {
+                "code": "AI",
+                "name": "Air India"
+            },
+            {
+                "code": "IX",
+                "name": "Air India Express"
+            },
+            {
+                "code": "6E",
+                "name": "IndiGo"
+            }
+        ],
+        "hubs": [
+            {
+                "code": "AMD",
+                "name": "Ahmedabad"
+            },
+            {
+                "code": "BLR",
+                "name": "Bengaluru"
+            },
+            {
+                "code": "IXC",
+                "name": "Chandigarh"
+            },
+            {
+                "code": "MAA",
+                "name": "Chennai"
+            },
+            {
+                "code": "DXB",
+                "name": "Dubai"
+            },
+            {
+                "code": "GOI",
+                "name": "Goa"
+            },
+            {
+                "code": "HYD",
+                "name": "Hyderabad"
+            },
+            {
+                "code": "IDR",
+                "name": "Indore"
+            },
+            {
+                "code": "JAI",
+                "name": "Jaipur"
+            },
+            {
+                "code": "CCU",
+                "name": "Kolkata"
+            },
+            {
+                "code": "BOM",
+                "name": "Mumbai"
+            },
+            {
+                "code": "NAG",
+                "name": "Nagpur"
+            },
+            {
+                "code": "DEL",
+                "name": "New Delhi"
+            },
+            {
+                "code": "PAT",
+                "name": "Patna"
+            },
+            {
+                "code": "HSR",
+                "name": "Rajkot"
+            },
+            {
+                "code": "UDR",
+                "name": "Udaipur"
+            }
+        ]
+    },
+    "baggage_allowance_links": [
+        {
+            "airline_code": "AI",
+            "airline": "Air India",
+            "url": "https://www.airindia.com/in/en/travel-information/baggage-guidelines.html"
+        },
+        {
+            "airline_code": "IX",
+            "airline": "Air India Express",
+            "url": "https://www.airindiaexpress.com/products-and-services?selectedtab=baggage"
+        },
+        {
+            "airline_code": "6E",
+            "airline": "IndiGo",
+            "url": "https://www.goindigo.in/baggage/baggage-allowance.html"
+        }
+    ],
+    "passenger_assistance_links": [
+        {
+            "airline_code": "6E",
+            "airline": "IndiGo",
+            "url": "https://www.goindigo.in/information/special-disability-assistance/disability-assistance.html"
+        },
+        {
+            "airline_code": "AI",
+            "airline": "Air India",
+            "url": "https://www.airindia.com/in/en/travel-information/health-medical-assistance.html"
+        },
+        {
+            "airline_code": "IX",
+            "airline": "Air India Express",
+            "url": "https://www.airindiaexpress.com/support/faqs/special-guests"
+        }
+    ]
+}

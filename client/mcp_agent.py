@@ -1,15 +1,3 @@
-"""
-client/mcp_agent.py
-=====================
-Builds the LangGraph agent used by app.py. The agent talks to BOTH MCP
-servers (aviation_server, database_server) as tools, loaded over stdio via
-langchain-mcp-adapters' MultiServerMCPClient — each server runs as its own
-subprocess, exactly like it would under Claude Desktop / any other MCP host.
-
-This file replaces the old monolithic `build_agent()` in app.py, which
-imported every @tool function directly in-process. Now the two toolsets are
-fully decoupled processes talking MCP.
-"""
 
 import datetime
 import sys

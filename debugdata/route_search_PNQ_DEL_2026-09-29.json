@@ -1,0 +1,1624 @@
+{
+    "search_metadata": {
+        "id": "search_K0EOpDkpY6hpbOJ3ae3wzYN9",
+        "status": "Success",
+        "created_at": "2026-09-28T10:45:40Z",
+        "request_time_taken": 1.15,
+        "parsing_time_taken": 0.06,
+        "total_time_taken": 1.21,
+        "request_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTA5LTI5agcIARIDUE5RcgcIARIDREVMQAFIAXABggELCP___________wGYAQI&hl=en&gl=us&curr=INR",
+        "html_url": "https://www.searchapi.io/api/v1/searches/search_K0EOpDkpY6hpbOJ3ae3wzYN9.html",
+        "json_url": "https://www.searchapi.io/api/v1/searches/search_K0EOpDkpY6hpbOJ3ae3wzYN9"
+    },
+    "search_parameters": {
+        "engine": "google_flights",
+        "departure_id": "PNQ",
+        "arrival_id": "DEL",
+        "currency": "INR",
+        "hl": "en",
+        "gl": "us",
+        "outbound_date": "2026-09-29",
+        "flight_type": "one_way",
+        "travel_class": "economy",
+        "stops": "any",
+        "adults": "1",
+        "children": "0",
+        "infants_in_seat": "0",
+        "infants_on_lap": "0"
+    },
+    "best_flights": [
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Pune International Airport",
+                        "id": "PNQ",
+                        "date": "2026-09-29",
+                        "time": "00:35"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-09-29",
+                        "time": "03:00"
+                    },
+                    "duration": 145,
+                    "airplane": "Airbus A320neo",
+                    "airline": "Air India",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AI 2608",
+                    "is_overnight": true,
+                    "extensions": [
+                        "In-seat USB outlet",
+                        "Stream video to own device",
+                        "Seat type Below Average Legroom",
+                        "Legroom 28 inches",
+                        "Carbon emission: 111 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_in_seat_usb_outlet": true,
+                        "has_stream_video_to_own_device": true,
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "28 in",
+                        "legroom_long": "28 inches",
+                        "carbon_emission": 111
+                    }
+                }
+            ],
+            "total_duration": 145,
+            "carbon_emissions": {
+                "this_flight": 111000,
+                "typical_for_this_route": 98000,
+                "difference_percent": 13,
+                "lowest_route": 99000
+            },
+            "price": 6801,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+            "booking_token": "WyJDalJJVDBscFVVVk1iRkpRT1dOQlJXTndUMUZDUnkwdExTMHRMWFowZDJJeE55MXVNa0ZCUVVGQlIzRTJVbFpSU3pWdFlrZEJFZ1pCU1RJMk1EZ2FDZ2lSTlJBQUdnTkpUbEk0SFhDcU53PT0iLFtbIlBOUSIsIjIwMjYtMDktMjkiLCJERUwiLG51bGwsIkFJIiwiMjYwOCJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Pune International Airport",
+                        "id": "PNQ",
+                        "date": "2026-09-29",
+                        "time": "04:55"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-09-29",
+                        "time": "07:15"
+                    },
+                    "duration": 140,
+                    "airplane": "Airbus A320neo",
+                    "airline": "Air India",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AI 2712",
+                    "is_overnight": true,
+                    "extensions": [
+                        "In-seat USB outlet",
+                        "Stream video to own device",
+                        "Seat type Below Average Legroom",
+                        "Legroom 28 inches",
+                        "Carbon emission: 111 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_in_seat_usb_outlet": true,
+                        "has_stream_video_to_own_device": true,
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "28 in",
+                        "legroom_long": "28 inches",
+                        "carbon_emission": 111
+                    }
+                }
+            ],
+            "total_duration": 140,
+            "carbon_emissions": {
+                "this_flight": 111000,
+                "typical_for_this_route": 98000,
+                "difference_percent": 13,
+                "lowest_route": 99000
+            },
+            "price": 6801,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+            "booking_token": "WyJDalJJVDBscFVVVk1iRkpRT1dOQlJXTndUMUZDUnkwdExTMHRMWFowZDJJeE55MXVNa0ZCUVVGQlIzRTJVbFpSU3pWdFlrZEJFZ1pCU1RJM01USWFDZ2lSTlJBQUdnTkpUbEk0SFhDcU53PT0iLFtbIlBOUSIsIjIwMjYtMDktMjkiLCJERUwiLG51bGwsIkFJIiwiMjcxMiJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Pune International Airport",
+                        "id": "PNQ",
+                        "date": "2026-09-29",
+                        "time": "22:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-09-30",
+                        "time": "00:25"
+                    },
+                    "duration": 145,
+                    "airplane": "Airbus A320neo",
+                    "airline": "Air India",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AI 1804",
+                    "extensions": [
+                        "In-seat USB outlet",
+                        "Stream video to own device",
+                        "Seat type Below Average Legroom",
+                        "Legroom 28 inches",
+                        "Carbon emission: 111 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_in_seat_usb_outlet": true,
+                        "has_stream_video_to_own_device": true,
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "28 in",
+                        "legroom_long": "28 inches",
+                        "carbon_emission": 111
+                    }
+                }
+            ],
+            "total_duration": 145,
+            "carbon_emissions": {
+                "this_flight": 111000,
+                "typical_for_this_route": 98000,
+                "difference_percent": 13,
+                "lowest_route": 99000
+            },
+            "price": 6801,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+            "booking_token": "WyJDalJJVDBscFVVVk1iRkpRT1dOQlJXTndUMUZDUnkwdExTMHRMWFowZDJJeE55MXVNa0ZCUVVGQlIzRTJVbFpSU3pWdFlrZEJFZ1pCU1RFNE1EUWFDZ2lSTlJBQUdnTkpUbEk0SFhDcU53PT0iLFtbIlBOUSIsIjIwMjYtMDktMjkiLCJERUwiLG51bGwsIkFJIiwiMTgwNCJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Pune International Airport",
+                        "id": "PNQ",
+                        "date": "2026-09-29",
+                        "time": "08:45"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-09-29",
+                        "time": "11:10"
+                    },
+                    "duration": 145,
+                    "airplane": "Airbus A320neo",
+                    "airline": "Air India",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AI 1838",
+                    "extensions": [
+                        "In-seat USB outlet",
+                        "Stream video to own device",
+                        "Seat type Below Average Legroom",
+                        "Legroom 28 inches",
+                        "Carbon emission: 111 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_in_seat_usb_outlet": true,
+                        "has_stream_video_to_own_device": true,
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "28 in",
+                        "legroom_long": "28 inches",
+                        "carbon_emission": 111
+                    }
+                }
+            ],
+            "total_duration": 145,
+            "carbon_emissions": {
+                "this_flight": 111000,
+                "typical_for_this_route": 98000,
+                "difference_percent": 13,
+                "lowest_route": 99000
+            },
+            "price": 6911,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+            "booking_token": "WyJDalJJVDBscFVVVk1iRkpRT1dOQlJXTndUMUZDUnkwdExTMHRMWFowZDJJeE55MXVNa0ZCUVVGQlIzRTJVbFpSU3pWdFlrZEJFZ1pCU1RFNE16Z2FDZ2ovTlJBQUdnTkpUbEk0SFhDY09BPT0iLFtbIlBOUSIsIjIwMjYtMDktMjkiLCJERUwiLG51bGwsIkFJIiwiMTgzOCJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Pune International Airport",
+                        "id": "PNQ",
+                        "date": "2026-09-29",
+                        "time": "01:45"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-09-29",
+                        "time": "04:00"
+                    },
+                    "duration": 135,
+                    "airplane": "Airbus A321neo",
+                    "airline": "IndiGo",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+                    "travel_class": "Economy",
+                    "flight_number": "6E 2418",
+                    "is_overnight": true,
+                    "extensions": [
+                        "Seat type Below Average Legroom",
+                        "Legroom 28 inches",
+                        "Carbon emission: 96 kg"
+                    ],
+                    "detected_extensions": {
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "28 in",
+                        "legroom_long": "28 inches",
+                        "carbon_emission": 96
+                    }
+                }
+            ],
+            "total_duration": 135,
+            "carbon_emissions": {
+                "this_flight": 96000,
+                "typical_for_this_route": 98000,
+                "difference_percent": -2,
+                "lowest_route": 99000
+            },
+            "price": 7014,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+            "booking_token": "WyJDalJJVDBscFVVVk1iRkpRT1dOQlJXTndUMUZDUnkwdExTMHRMWFowZDJJeE55MXVNa0ZCUVVGQlIzRTJVbFpSU3pWdFlrZEJFZ1kyUlRJME1UZ2FDZ2ptTmhBQUdnTkpUbEk0SFhDSE9RPT0iLFtbIlBOUSIsIjIwMjYtMDktMjkiLCJERUwiLG51bGwsIjZFIiwiMjQxOCJdXV0="
+        }
+    ],
+    "other_flights": [
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Pune International Airport",
+                        "id": "PNQ",
+                        "date": "2026-09-29",
+                        "time": "07:40"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-09-29",
+                        "time": "10:05"
+                    },
+                    "duration": 145,
+                    "airplane": "Airbus A321",
+                    "airline": "Air India",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AI 2470",
+                    "extensions": [
+                        "Power and USB outlets",
+                        "On-demand video",
+                        "Wi-Fi for fee",
+                        "Seat type Below Average Legroom",
+                        "Legroom 29 inches",
+                        "Carbon emission: 141 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_power_and_usb_outlets": true,
+                        "has_on_demand_video": true,
+                        "wifi": "for fee",
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "29 in",
+                        "legroom_long": "29 inches",
+                        "carbon_emission": 141
+                    }
+                }
+            ],
+            "total_duration": 145,
+            "carbon_emissions": {
+                "this_flight": 141000,
+                "typical_for_this_route": 98000,
+                "difference_percent": 44,
+                "lowest_route": 99000
+            },
+            "price": 6911,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+            "booking_token": "WyJDalJJVDBscFVVVk1iRkpRT1dOQlJXTndUMUZDUnkwdExTMHRMWFowZDJJeE55MXVNa0ZCUVVGQlIzRTJVbFpSU3pWdFlrZEJFZ1pCU1RJME56QWFDZ2ovTlJBQUdnTkpUbEk0SFhDY09BPT0iLFtbIlBOUSIsIjIwMjYtMDktMjkiLCJERUwiLG51bGwsIkFJIiwiMjQ3MCJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Pune International Airport",
+                        "id": "PNQ",
+                        "date": "2026-09-29",
+                        "time": "15:50"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-09-29",
+                        "time": "18:15"
+                    },
+                    "duration": 145,
+                    "airplane": "Airbus A320neo",
+                    "airline": "Air India",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AI 1839",
+                    "extensions": [
+                        "In-seat USB outlet",
+                        "Stream video to own device",
+                        "Seat type Below Average Legroom",
+                        "Legroom 28 inches",
+                        "Carbon emission: 111 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_in_seat_usb_outlet": true,
+                        "has_stream_video_to_own_device": true,
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "28 in",
+                        "legroom_long": "28 inches",
+                        "carbon_emission": 111
+                    }
+                }
+            ],
+            "total_duration": 145,
+            "carbon_emissions": {
+                "this_flight": 111000,
+                "typical_for_this_route": 98000,
+                "difference_percent": 13,
+                "lowest_route": 99000
+            },
+            "price": 6911,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+            "booking_token": "WyJDalJJVDBscFVVVk1iRkpRT1dOQlJXTndUMUZDUnkwdExTMHRMWFowZDJJeE55MXVNa0ZCUVVGQlIzRTJVbFpSU3pWdFlrZEJFZ1pCU1RFNE16a2FDZ2ovTlJBQUdnTkpUbEk0SFhDY09BPT0iLFtbIlBOUSIsIjIwMjYtMDktMjkiLCJERUwiLG51bGwsIkFJIiwiMTgzOSJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Pune International Airport",
+                        "id": "PNQ",
+                        "date": "2026-09-29",
+                        "time": "18:45"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-09-29",
+                        "time": "21:10"
+                    },
+                    "duration": 145,
+                    "airplane": "Airbus A320neo",
+                    "airline": "Air India",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AI 2972",
+                    "extensions": [
+                        "In-seat USB outlet",
+                        "Stream video to own device",
+                        "Seat type Below Average Legroom",
+                        "Legroom 28 inches",
+                        "Carbon emission: 111 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_in_seat_usb_outlet": true,
+                        "has_stream_video_to_own_device": true,
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "28 in",
+                        "legroom_long": "28 inches",
+                        "carbon_emission": 111
+                    }
+                }
+            ],
+            "total_duration": 145,
+            "carbon_emissions": {
+                "this_flight": 111000,
+                "typical_for_this_route": 98000,
+                "difference_percent": 13,
+                "lowest_route": 99000
+            },
+            "price": 6911,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+            "booking_token": "WyJDalJJVDBscFVVVk1iRkpRT1dOQlJXTndUMUZDUnkwdExTMHRMWFowZDJJeE55MXVNa0ZCUVVGQlIzRTJVbFpSU3pWdFlrZEJFZ1pCU1RJNU56SWFDZ2ovTlJBQUdnTkpUbEk0SFhDY09BPT0iLFtbIlBOUSIsIjIwMjYtMDktMjkiLCJERUwiLG51bGwsIkFJIiwiMjk3MiJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Pune International Airport",
+                        "id": "PNQ",
+                        "date": "2026-09-29",
+                        "time": "20:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-09-29",
+                        "time": "23:00"
+                    },
+                    "duration": 150,
+                    "airplane": "Airbus A320neo",
+                    "airline": "Air India",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AI 2548",
+                    "extensions": [
+                        "In-seat USB outlet",
+                        "Stream video to own device",
+                        "Seat type Below Average Legroom",
+                        "Legroom 28 inches",
+                        "Carbon emission: 111 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_in_seat_usb_outlet": true,
+                        "has_stream_video_to_own_device": true,
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "28 in",
+                        "legroom_long": "28 inches",
+                        "carbon_emission": 111
+                    }
+                }
+            ],
+            "total_duration": 150,
+            "carbon_emissions": {
+                "this_flight": 111000,
+                "typical_for_this_route": 98000,
+                "difference_percent": 13,
+                "lowest_route": 99000
+            },
+            "price": 6911,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+            "booking_token": "WyJDalJJVDBscFVVVk1iRkpRT1dOQlJXTndUMUZDUnkwdExTMHRMWFowZDJJeE55MXVNa0ZCUVVGQlIzRTJVbFpSU3pWdFlrZEJFZ1pCU1RJMU5EZ2FDZ2ovTlJBQUdnTkpUbEk0SFhDY09BPT0iLFtbIlBOUSIsIjIwMjYtMDktMjkiLCJERUwiLG51bGwsIkFJIiwiMjU0OCJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Pune International Airport",
+                        "id": "PNQ",
+                        "date": "2026-09-29",
+                        "time": "00:15"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-09-29",
+                        "time": "02:30"
+                    },
+                    "duration": 135,
+                    "airplane": "Airbus A321neo",
+                    "airline": "IndiGo",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+                    "travel_class": "Economy",
+                    "flight_number": "6E 5321",
+                    "is_overnight": true,
+                    "extensions": [
+                        "Seat type Below Average Legroom",
+                        "Legroom 28 inches",
+                        "Carbon emission: 96 kg"
+                    ],
+                    "detected_extensions": {
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "28 in",
+                        "legroom_long": "28 inches",
+                        "carbon_emission": 96
+                    }
+                }
+            ],
+            "total_duration": 135,
+            "carbon_emissions": {
+                "this_flight": 96000,
+                "typical_for_this_route": 98000,
+                "difference_percent": -2,
+                "lowest_route": 99000
+            },
+            "price": 7014,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+            "booking_token": "WyJDalJJVDBscFVVVk1iRkpRT1dOQlJXTndUMUZDUnkwdExTMHRMWFowZDJJeE55MXVNa0ZCUVVGQlIzRTJVbFpSU3pWdFlrZEJFZ1kyUlRVek1qRWFDZ2ptTmhBQUdnTkpUbEk0SFhDSE9RPT0iLFtbIlBOUSIsIjIwMjYtMDktMjkiLCJERUwiLG51bGwsIjZFIiwiNTMyMSJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Pune International Airport",
+                        "id": "PNQ",
+                        "date": "2026-09-29",
+                        "time": "19:10"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-09-29",
+                        "time": "21:25"
+                    },
+                    "duration": 135,
+                    "airplane": "Airbus A321neo",
+                    "airline": "IndiGo",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+                    "travel_class": "Economy",
+                    "flight_number": "6E 2126",
+                    "extensions": [
+                        "Seat type Below Average Legroom",
+                        "Legroom 28 inches",
+                        "Carbon emission: 96 kg"
+                    ],
+                    "detected_extensions": {
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "28 in",
+                        "legroom_long": "28 inches",
+                        "carbon_emission": 96
+                    }
+                }
+            ],
+            "total_duration": 135,
+            "carbon_emissions": {
+                "this_flight": 96000,
+                "typical_for_this_route": 98000,
+                "difference_percent": -2,
+                "lowest_route": 99000
+            },
+            "price": 7014,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+            "booking_token": "WyJDalJJVDBscFVVVk1iRkpRT1dOQlJXTndUMUZDUnkwdExTMHRMWFowZDJJeE55MXVNa0ZCUVVGQlIzRTJVbFpSU3pWdFlrZEJFZ1kyUlRJeE1qWWFDZ2ptTmhBQUdnTkpUbEk0SFhDSE9RPT0iLFtbIlBOUSIsIjIwMjYtMDktMjkiLCJERUwiLG51bGwsIjZFIiwiMjEyNiJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Pune International Airport",
+                        "id": "PNQ",
+                        "date": "2026-09-29",
+                        "time": "21:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-09-29",
+                        "time": "23:15"
+                    },
+                    "duration": 135,
+                    "airplane": "Airbus A321neo",
+                    "airline": "IndiGo",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+                    "travel_class": "Economy",
+                    "flight_number": "6E 2624",
+                    "extensions": [
+                        "Seat type Below Average Legroom",
+                        "Legroom 28 inches",
+                        "Carbon emission: 96 kg"
+                    ],
+                    "detected_extensions": {
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "28 in",
+                        "legroom_long": "28 inches",
+                        "carbon_emission": 96
+                    }
+                }
+            ],
+            "total_duration": 135,
+            "carbon_emissions": {
+                "this_flight": 96000,
+                "typical_for_this_route": 98000,
+                "difference_percent": -2,
+                "lowest_route": 99000
+            },
+            "price": 7014,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+            "booking_token": "WyJDalJJVDBscFVVVk1iRkpRT1dOQlJXTndUMUZDUnkwdExTMHRMWFowZDJJeE55MXVNa0ZCUVVGQlIzRTJVbFpSU3pWdFlrZEJFZ1kyUlRJMk1qUWFDZ2ptTmhBQUdnTkpUbEk0SFhDSE9RPT0iLFtbIlBOUSIsIjIwMjYtMDktMjkiLCJERUwiLG51bGwsIjZFIiwiMjYyNCJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Pune International Airport",
+                        "id": "PNQ",
+                        "date": "2026-09-29",
+                        "time": "05:05"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-09-29",
+                        "time": "07:30"
+                    },
+                    "duration": 145,
+                    "airplane": "Airbus A320neo",
+                    "airline": "Air India",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AI 2404",
+                    "extensions": [
+                        "In-seat USB outlet",
+                        "Stream video to own device",
+                        "Seat type Below Average Legroom",
+                        "Legroom 28 inches",
+                        "Carbon emission: 111 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_in_seat_usb_outlet": true,
+                        "has_stream_video_to_own_device": true,
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "28 in",
+                        "legroom_long": "28 inches",
+                        "carbon_emission": 111
+                    }
+                }
+            ],
+            "total_duration": 145,
+            "carbon_emissions": {
+                "this_flight": 111000,
+                "typical_for_this_route": 98000,
+                "difference_percent": 13,
+                "lowest_route": 99000
+            },
+            "price": 7095,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+            "booking_token": "WyJDalJJVDBscFVVVk1iRkpRT1dOQlJXTndUMUZDUnkwdExTMHRMWFowZDJJeE55MXVNa0ZCUVVGQlIzRTJVbFpSU3pWdFlrZEJFZ1pCU1RJME1EUWFDZ2kzTnhBQUdnTkpUbEk0SFhEY09RPT0iLFtbIlBOUSIsIjIwMjYtMDktMjkiLCJERUwiLG51bGwsIkFJIiwiMjQwNCJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Pune International Airport",
+                        "id": "PNQ",
+                        "date": "2026-09-29",
+                        "time": "18:50"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-09-29",
+                        "time": "21:20"
+                    },
+                    "duration": 150,
+                    "airplane": "Boeing 737MAX 8 Passenger",
+                    "airline": "Air India Express",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/IX.png",
+                    "travel_class": "Economy",
+                    "flight_number": "IX 1231",
+                    "extensions": [
+                        "In-seat USB outlet",
+                        "Seat type Average Legroom",
+                        "Legroom 30 inches",
+                        "Carbon emission: 113 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_in_seat_usb_outlet": true,
+                        "seat_type": "Average Legroom",
+                        "legroom_short": "30 in",
+                        "legroom_long": "30 inches",
+                        "carbon_emission": 113
+                    }
+                }
+            ],
+            "total_duration": 150,
+            "carbon_emissions": {
+                "this_flight": 113000,
+                "typical_for_this_route": 98000,
+                "difference_percent": 15,
+                "lowest_route": 99000
+            },
+            "price": 7246,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/IX.png",
+            "booking_token": "WyJDalJJVDBscFVVVk1iRkpRT1dOQlJXTndUMUZDUnkwdExTMHRMWFowZDJJeE55MXVNa0ZCUVVGQlIzRTJVbFpSU3pWdFlrZEJFZ1pKV0RFeU16RWFDZ2pPT0JBQUdnTkpUbEk0SFhENU9nPT0iLFtbIlBOUSIsIjIwMjYtMDktMjkiLCJERUwiLG51bGwsIklYIiwiMTIzMSJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Pune International Airport",
+                        "id": "PNQ",
+                        "date": "2026-09-29",
+                        "time": "05:05"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-09-29",
+                        "time": "07:15"
+                    },
+                    "duration": 130,
+                    "airplane": "Airbus A321neo",
+                    "airline": "IndiGo",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+                    "travel_class": "Economy",
+                    "flight_number": "6E 2419",
+                    "extensions": [
+                        "Seat type Below Average Legroom",
+                        "Legroom 28 inches",
+                        "Carbon emission: 96 kg"
+                    ],
+                    "detected_extensions": {
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "28 in",
+                        "legroom_long": "28 inches",
+                        "carbon_emission": 96
+                    }
+                }
+            ],
+            "total_duration": 130,
+            "carbon_emissions": {
+                "this_flight": 96000,
+                "typical_for_this_route": 98000,
+                "difference_percent": -2,
+                "lowest_route": 99000
+            },
+            "price": 7308,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+            "booking_token": "WyJDalJJVDBscFVVVk1iRkpRT1dOQlJXTndUMUZDUnkwdExTMHRMWFowZDJJeE55MXVNa0ZCUVVGQlIzRTJVbFpSU3pWdFlrZEJFZ1kyUlRJME1Ua2FDZ2lNT1JBQUdnTkpUbEk0SFhDNk93PT0iLFtbIlBOUSIsIjIwMjYtMDktMjkiLCJERUwiLG51bGwsIjZFIiwiMjQxOSJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Pune International Airport",
+                        "id": "PNQ",
+                        "date": "2026-09-29",
+                        "time": "08:50"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-09-29",
+                        "time": "11:05"
+                    },
+                    "duration": 135,
+                    "airplane": "Airbus A321neo",
+                    "airline": "IndiGo",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+                    "travel_class": "Economy",
+                    "flight_number": "6E 2661",
+                    "extensions": [
+                        "Seat type Below Average Legroom",
+                        "Legroom 28 inches",
+                        "Carbon emission: 96 kg"
+                    ],
+                    "detected_extensions": {
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "28 in",
+                        "legroom_long": "28 inches",
+                        "carbon_emission": 96
+                    }
+                }
+            ],
+            "total_duration": 135,
+            "carbon_emissions": {
+                "this_flight": 96000,
+                "typical_for_this_route": 98000,
+                "difference_percent": -2,
+                "lowest_route": 99000
+            },
+            "price": 7308,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+            "booking_token": "WyJDalJJVDBscFVVVk1iRkpRT1dOQlJXTndUMUZDUnkwdExTMHRMWFowZDJJeE55MXVNa0ZCUVVGQlIzRTJVbFpSU3pWdFlrZEJFZ1kyUlRJMk5qRWFDZ2lNT1JBQUdnTkpUbEk0SFhDNk93PT0iLFtbIlBOUSIsIjIwMjYtMDktMjkiLCJERUwiLG51bGwsIjZFIiwiMjY2MSJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Pune International Airport",
+                        "id": "PNQ",
+                        "date": "2026-09-29",
+                        "time": "12:25"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-09-29",
+                        "time": "14:40"
+                    },
+                    "duration": 135,
+                    "airplane": "Airbus A321neo",
+                    "airline": "IndiGo",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+                    "travel_class": "Economy",
+                    "flight_number": "6E 6431",
+                    "extensions": [
+                        "Seat type Below Average Legroom",
+                        "Legroom 28 inches",
+                        "Carbon emission: 96 kg"
+                    ],
+                    "detected_extensions": {
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "28 in",
+                        "legroom_long": "28 inches",
+                        "carbon_emission": 96
+                    }
+                }
+            ],
+            "total_duration": 135,
+            "carbon_emissions": {
+                "this_flight": 96000,
+                "typical_for_this_route": 98000,
+                "difference_percent": -2,
+                "lowest_route": 99000
+            },
+            "price": 7308,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+            "booking_token": "WyJDalJJVDBscFVVVk1iRkpRT1dOQlJXTndUMUZDUnkwdExTMHRMWFowZDJJeE55MXVNa0ZCUVVGQlIzRTJVbFpSU3pWdFlrZEJFZ1kyUlRZME16RWFDZ2lNT1JBQUdnTkpUbEk0SFhDNk93PT0iLFtbIlBOUSIsIjIwMjYtMDktMjkiLCJERUwiLG51bGwsIjZFIiwiNjQzMSJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Pune International Airport",
+                        "id": "PNQ",
+                        "date": "2026-09-29",
+                        "time": "14:45"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-09-29",
+                        "time": "17:00"
+                    },
+                    "duration": 135,
+                    "airplane": "Airbus A321neo",
+                    "airline": "IndiGo",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+                    "travel_class": "Economy",
+                    "flight_number": "6E 2285",
+                    "is_often_delayed": true,
+                    "extensions": [
+                        "Seat type Below Average Legroom",
+                        "Legroom 28 inches",
+                        "Carbon emission: 96 kg"
+                    ],
+                    "detected_extensions": {
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "28 in",
+                        "legroom_long": "28 inches",
+                        "carbon_emission": 96
+                    }
+                }
+            ],
+            "total_duration": 135,
+            "carbon_emissions": {
+                "this_flight": 96000,
+                "typical_for_this_route": 98000,
+                "difference_percent": -2,
+                "lowest_route": 99000
+            },
+            "price": 7308,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+            "booking_token": "WyJDalJJVDBscFVVVk1iRkpRT1dOQlJXTndUMUZDUnkwdExTMHRMWFowZDJJeE55MXVNa0ZCUVVGQlIzRTJVbFpSU3pWdFlrZEJFZ1kyUlRJeU9EVWFDZ2lNT1JBQUdnTkpUbEk0SFhDNk93PT0iLFtbIlBOUSIsIjIwMjYtMDktMjkiLCJERUwiLG51bGwsIjZFIiwiMjI4NSJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Pune International Airport",
+                        "id": "PNQ",
+                        "date": "2026-09-29",
+                        "time": "21:05"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-09-29",
+                        "time": "23:30"
+                    },
+                    "duration": 145,
+                    "airplane": "Boeing 737MAX 8 Passenger",
+                    "airline": "Akasa Air",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+                    "travel_class": "Economy",
+                    "flight_number": "QP 1810",
+                    "extensions": [
+                        "In-seat USB outlet",
+                        "Seat type Below Average Legroom",
+                        "Legroom 28 inches",
+                        "Carbon emission: 98 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_in_seat_usb_outlet": true,
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "28 in",
+                        "legroom_long": "28 inches",
+                        "carbon_emission": 98
+                    }
+                }
+            ],
+            "total_duration": 145,
+            "carbon_emissions": {
+                "this_flight": 99000,
+                "typical_for_this_route": 98000,
+                "difference_percent": 1,
+                "lowest_route": 99000
+            },
+            "price": 7420,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+            "booking_token": "WyJDalJJVDBscFVVVk1iRkpRT1dOQlJXTndUMUZDUnkwdExTMHRMWFowZDJJeE55MXVNa0ZCUVVGQlIzRTJVbFpSU3pWdFlrZEJFZ1pSVURFNE1UQWFDZ2o4T1JBQUdnTkpUbEk0SFhDdVBBPT0iLFtbIlBOUSIsIjIwMjYtMDktMjkiLCJERUwiLG51bGwsIlFQIiwiMTgxMCJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Pune International Airport",
+                        "id": "PNQ",
+                        "date": "2026-09-29",
+                        "time": "07:40"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-09-29",
+                        "time": "10:20"
+                    },
+                    "duration": 160,
+                    "airplane": "Boeing 737MAX 8 Passenger",
+                    "airline": "Air India Express",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/IX.png",
+                    "travel_class": "Economy",
+                    "flight_number": "IX 1672",
+                    "extensions": [
+                        "In-seat USB outlet",
+                        "Seat type Average Legroom",
+                        "Legroom 30 inches",
+                        "Carbon emission: 113 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_in_seat_usb_outlet": true,
+                        "seat_type": "Average Legroom",
+                        "legroom_short": "30 in",
+                        "legroom_long": "30 inches",
+                        "carbon_emission": 113
+                    }
+                }
+            ],
+            "total_duration": 160,
+            "carbon_emissions": {
+                "this_flight": 113000,
+                "typical_for_this_route": 98000,
+                "difference_percent": 15,
+                "lowest_route": 99000
+            },
+            "price": 7542,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/IX.png",
+            "booking_token": "WyJDalJJVDBscFVVVk1iRkpRT1dOQlJXTndUMUZDUnkwdExTMHRMWFowZDJJeE55MXVNa0ZCUVVGQlIzRTJVbFpSU3pWdFlrZEJFZ1pKV0RFMk56SWFDZ2oyT2hBQUdnTkpUbEk0SFhDdFBRPT0iLFtbIlBOUSIsIjIwMjYtMDktMjkiLCJERUwiLG51bGwsIklYIiwiMTY3MiJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Pune International Airport",
+                        "id": "PNQ",
+                        "date": "2026-09-29",
+                        "time": "14:05"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-09-29",
+                        "time": "16:25"
+                    },
+                    "duration": 140,
+                    "airplane": "Boeing 737MAX 8 Passenger",
+                    "airline": "Akasa Air",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+                    "travel_class": "Economy",
+                    "flight_number": "QP 1872",
+                    "extensions": [
+                        "In-seat USB outlet",
+                        "Seat type Below Average Legroom",
+                        "Legroom 28 inches",
+                        "Carbon emission: 93 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_in_seat_usb_outlet": true,
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "28 in",
+                        "legroom_long": "28 inches",
+                        "carbon_emission": 93
+                    }
+                }
+            ],
+            "total_duration": 140,
+            "carbon_emissions": {
+                "this_flight": 93000,
+                "typical_for_this_route": 98000,
+                "difference_percent": -5,
+                "lowest_route": 99000
+            },
+            "price": 7670,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+            "booking_token": "WyJDalJJVDBscFVVVk1iRkpRT1dOQlJXTndUMUZDUnkwdExTMHRMWFowZDJJeE55MXVNa0ZCUVVGQlIzRTJVbFpSU3pWdFlrZEJFZ1pSVURFNE56SWFDZ2oyT3hBQUdnTkpUbEk0SFhDelBnPT0iLFtbIlBOUSIsIjIwMjYtMDktMjkiLCJERUwiLG51bGwsIlFQIiwiMTg3MiJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Pune International Airport",
+                        "id": "PNQ",
+                        "date": "2026-09-29",
+                        "time": "07:50"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-09-29",
+                        "time": "10:10"
+                    },
+                    "duration": 140,
+                    "airplane": "Boeing 737MAX 8 Passenger",
+                    "airline": "Akasa Air",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+                    "travel_class": "Economy",
+                    "flight_number": "QP 1607",
+                    "extensions": [
+                        "In-seat USB outlet",
+                        "Seat type Below Average Legroom",
+                        "Legroom 28 inches",
+                        "Carbon emission: 93 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_in_seat_usb_outlet": true,
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "28 in",
+                        "legroom_long": "28 inches",
+                        "carbon_emission": 93
+                    }
+                }
+            ],
+            "total_duration": 140,
+            "carbon_emissions": {
+                "this_flight": 93000,
+                "typical_for_this_route": 98000,
+                "difference_percent": -5,
+                "lowest_route": 99000
+            },
+            "price": 8201,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+            "booking_token": "WyJDalJJVDBscFVVVk1iRkpRT1dOQlJXTndUMUZDUnkwdExTMHRMWFowZDJJeE55MXVNa0ZCUVVGQlIzRTJVbFpSU3pWdFlrZEJFZ1pSVURFMk1EY2FDZ2lKUUJBQUdnTkpUbEk0SFhEYlFnPT0iLFtbIlBOUSIsIjIwMjYtMDktMjkiLCJERUwiLG51bGwsIlFQIiwiMTYwNyJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Pune International Airport",
+                        "id": "PNQ",
+                        "date": "2026-09-29",
+                        "time": "07:25"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-09-29",
+                        "time": "09:40"
+                    },
+                    "duration": 135,
+                    "airplane": "Airbus A321neo",
+                    "airline": "IndiGo",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+                    "travel_class": "Economy",
+                    "flight_number": "6E 2375",
+                    "extensions": [
+                        "Seat type Below Average Legroom",
+                        "Legroom 28 inches",
+                        "Carbon emission: 96 kg"
+                    ],
+                    "detected_extensions": {
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "28 in",
+                        "legroom_long": "28 inches",
+                        "carbon_emission": 96
+                    }
+                }
+            ],
+            "total_duration": 135,
+            "carbon_emissions": {
+                "this_flight": 96000,
+                "typical_for_this_route": 98000,
+                "difference_percent": -2,
+                "lowest_route": 99000
+            },
+            "price": 8368,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+            "booking_token": "WyJDalJJVDBscFVVVk1iRkpRT1dOQlJXTndUMUZDUnkwdExTMHRMWFowZDJJeE55MXVNa0ZCUVVGQlIzRTJVbFpSU3pWdFlrZEJFZ1kyUlRJek56VWFDZ2l3UVJBQUdnTkpUbEk0SFhDSlJBPT0iLFtbIlBOUSIsIjIwMjYtMDktMjkiLCJERUwiLG51bGwsIjZFIiwiMjM3NSJdXV0="
+        }
+    ],
+    "price_insights": {
+        "lowest_price": 6801,
+        "price_level": "typical",
+        "typical_price_range": {
+            "low_price": 6800,
+            "high_price": 7100
+        },
+        "price_history": [
+            {
+                "price": 7057,
+                "iso_date": "2026-07-29T18:30:00Z"
+            },
+            {
+                "price": 6968,
+                "iso_date": "2026-07-30T18:30:00Z"
+            },
+            {
+                "price": 6893,
+                "iso_date": "2026-07-31T18:30:00Z"
+            },
+            {
+                "price": 6893,
+                "iso_date": "2026-08-01T18:30:00Z"
+            },
+            {
+                "price": 6893,
+                "iso_date": "2026-08-02T18:30:00Z"
+            },
+            {
+                "price": 6893,
+                "iso_date": "2026-08-03T18:30:00Z"
+            },
+            {
+                "price": 6893,
+                "iso_date": "2026-08-04T18:30:00Z"
+            },
+            {
+                "price": 6893,
+                "iso_date": "2026-08-05T18:30:00Z"
+            },
+            {
+                "price": 6893,
+                "iso_date": "2026-08-06T18:30:00Z"
+            },
+            {
+                "price": 6893,
+                "iso_date": "2026-08-07T18:30:00Z"
+            },
+            {
+                "price": 6893,
+                "iso_date": "2026-08-08T18:30:00Z"
+            },
+            {
+                "price": 6890,
+                "iso_date": "2026-08-09T18:30:00Z"
+            },
+            {
+                "price": 6893,
+                "iso_date": "2026-08-10T18:30:00Z"
+            },
+            {
+                "price": 7049,
+                "iso_date": "2026-08-11T18:30:00Z"
+            },
+            {
+                "price": 6870,
+                "iso_date": "2026-08-12T18:30:00Z"
+            },
+            {
+                "price": 6870,
+                "iso_date": "2026-08-13T18:30:00Z"
+            },
+            {
+                "price": 6870,
+                "iso_date": "2026-08-14T18:30:00Z"
+            },
+            {
+                "price": 6870,
+                "iso_date": "2026-08-15T18:30:00Z"
+            },
+            {
+                "price": 6890,
+                "iso_date": "2026-08-16T18:30:00Z"
+            },
+            {
+                "price": 6890,
+                "iso_date": "2026-08-17T18:30:00Z"
+            },
+            {
+                "price": 6890,
+                "iso_date": "2026-08-18T18:30:00Z"
+            },
+            {
+                "price": 6890,
+                "iso_date": "2026-08-19T18:30:00Z"
+            },
+            {
+                "price": 6890,
+                "iso_date": "2026-08-20T18:30:00Z"
+            },
+            {
+                "price": 6890,
+                "iso_date": "2026-08-21T18:30:00Z"
+            },
+            {
+                "price": 6890,
+                "iso_date": "2026-08-22T18:30:00Z"
+            },
+            {
+                "price": 6890,
+                "iso_date": "2026-08-23T18:30:00Z"
+            },
+            {
+                "price": 6890,
+                "iso_date": "2026-08-24T18:30:00Z"
+            },
+            {
+                "price": 6890,
+                "iso_date": "2026-08-25T18:30:00Z"
+            },
+            {
+                "price": 6890,
+                "iso_date": "2026-08-26T18:30:00Z"
+            },
+            {
+                "price": 6890,
+                "iso_date": "2026-08-27T18:30:00Z"
+            },
+            {
+                "price": 6890,
+                "iso_date": "2026-08-28T18:30:00Z"
+            },
+            {
+                "price": 6890,
+                "iso_date": "2026-08-29T18:30:00Z"
+            },
+            {
+                "price": 6890,
+                "iso_date": "2026-08-30T18:30:00Z"
+            },
+            {
+                "price": 6890,
+                "iso_date": "2026-08-31T18:30:00Z"
+            },
+            {
+                "price": 7049,
+                "iso_date": "2026-09-01T18:30:00Z"
+            },
+            {
+                "price": 7049,
+                "iso_date": "2026-09-02T18:30:00Z"
+            },
+            {
+                "price": 7049,
+                "iso_date": "2026-09-03T18:30:00Z"
+            },
+            {
+                "price": 7049,
+                "iso_date": "2026-09-04T18:30:00Z"
+            },
+            {
+                "price": 7049,
+                "iso_date": "2026-09-05T18:30:00Z"
+            },
+            {
+                "price": 7016,
+                "iso_date": "2026-09-06T18:30:00Z"
+            },
+            {
+                "price": 7016,
+                "iso_date": "2026-09-07T18:30:00Z"
+            },
+            {
+                "price": 6965,
+                "iso_date": "2026-09-08T18:30:00Z"
+            },
+            {
+                "price": 6965,
+                "iso_date": "2026-09-09T18:30:00Z"
+            },
+            {
+                "price": 6932,
+                "iso_date": "2026-09-10T18:30:00Z"
+            },
+            {
+                "price": 6932,
+                "iso_date": "2026-09-11T18:30:00Z"
+            },
+            {
+                "price": 6932,
+                "iso_date": "2026-09-12T18:30:00Z"
+            },
+            {
+                "price": 6932,
+                "iso_date": "2026-09-13T18:30:00Z"
+            },
+            {
+                "price": 6932,
+                "iso_date": "2026-09-14T18:30:00Z"
+            },
+            {
+                "price": 6932,
+                "iso_date": "2026-09-15T18:30:00Z"
+            },
+            {
+                "price": 6932,
+                "iso_date": "2026-09-16T18:30:00Z"
+            },
+            {
+                "price": 6932,
+                "iso_date": "2026-09-17T18:30:00Z"
+            },
+            {
+                "price": 6932,
+                "iso_date": "2026-09-18T18:30:00Z"
+            },
+            {
+                "price": 6932,
+                "iso_date": "2026-09-19T18:30:00Z"
+            },
+            {
+                "price": 6932,
+                "iso_date": "2026-09-20T18:30:00Z"
+            },
+            {
+                "price": 6854,
+                "iso_date": "2026-09-21T18:30:00Z"
+            },
+            {
+                "price": 6854,
+                "iso_date": "2026-09-22T18:30:00Z"
+            },
+            {
+                "price": 6854,
+                "iso_date": "2026-09-23T18:30:00Z"
+            },
+            {
+                "price": 6801,
+                "iso_date": "2026-09-24T18:30:00Z"
+            },
+            {
+                "price": 6801,
+                "iso_date": "2026-09-25T18:30:00Z"
+            },
+            {
+                "price": 6801,
+                "iso_date": "2026-09-26T18:30:00Z"
+            },
+            {
+                "price": 6801,
+                "iso_date": "2026-09-27T18:30:00Z"
+            }
+        ]
+    },
+    "airports": [
+        {
+            "departure": [
+                {
+                    "airport": {
+                        "id": "PNQ",
+                        "name": "Pune International Airport"
+                    },
+                    "city": "Pune",
+                    "country": "India",
+                    "country_code": "IN",
+                    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRBiAgGg-eU4YXi_JsRV5bBxZGldsGn94VXHQOp3PxK63wRjPs_yUW2taNVLYix_SPBvejw4776PSAoFw",
+                    "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQXucf-z8YAwMWssJ_qV5GpIyJ3-sPWxWOOATL2xtnM4OGkjVhGJ6JYq7lf0jHynhKiXTnmTG4cVg2AWj7Q2wwPtQeKhwPY8EHNF6p4RZM"
+                }
+            ],
+            "arrival": [
+                {
+                    "airport": {
+                        "id": "DEL",
+                        "name": "Indira Gandhi International Airport"
+                    },
+                    "city": "New Delhi",
+                    "country": "India",
+                    "country_code": "IN",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkRqzwP-0z4pH29-KifVzfrxM5wwXx56g3Hoo_ebldH9Fy8a8EjGqPzd3fZqJSKoE5tSIRC2iGJxgqzQ",
+                    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY7HqndXM-ihFCu1qUKosYR--X_yXSd-0mkQHeSUaG5rkpq5Y6uxD8CMmYUCdngZE7mV0onuN2zv_aVxGGO8xv4FMcpMlWvbXdvJFcemY"
+                }
+            ]
+        }
+    ],
+    "airlines": {
+        "alliances": [
+            {
+                "code": "ONEWORLD",
+                "name": "Oneworld"
+            },
+            {
+                "code": "SKYTEAM",
+                "name": "SkyTeam"
+            },
+            {
+                "code": "STAR_ALLIANCE",
+                "name": "Star Alliance"
+            }
+        ],
+        "airlines": [
+            {
+                "code": "AI",
+                "name": "Air India"
+            },
+            {
+                "code": "IX",
+                "name": "Air India Express"
+            },
+            {
+                "code": "QP",
+                "name": "Akasa Air"
+            },
+            {
+                "code": "6E",
+                "name": "IndiGo"
+            },
+            {
+                "code": "SG",
+                "name": "SpiceJet"
+            }
+        ],
+        "hubs": [
+            {
+                "code": "AMD",
+                "name": "Ahmedabad"
+            },
+            {
+                "code": "ATQ",
+                "name": "Amritsar"
+            },
+            {
+                "code": "BLR",
+                "name": "Bengaluru"
+            },
+            {
+                "code": "BBI",
+                "name": "Bhubaneswar"
+            },
+            {
+                "code": "IXC",
+                "name": "Chandigarh"
+            },
+            {
+                "code": "MAA",
+                "name": "Chennai"
+            },
+            {
+                "code": "IDR",
+                "name": "Indore"
+            },
+            {
+                "code": "JAI",
+                "name": "Jaipur"
+            },
+            {
+                "code": "COK",
+                "name": "Kochi"
+            },
+            {
+                "code": "IXL",
+                "name": "Leh"
+            },
+            {
+                "code": "LKO",
+                "name": "Lucknow"
+            },
+            {
+                "code": "BOM",
+                "name": "Mumbai"
+            }
+        ]
+    },
+    "baggage_allowance_links": [
+        {
+            "airline_code": "AI",
+            "airline": "Air India",
+            "url": "https://www.airindia.com/in/en/travel-information/baggage-guidelines.html"
+        },
+        {
+            "airline_code": "IX",
+            "airline": "Air India Express",
+            "url": "https://www.airindiaexpress.com/products-and-services?selectedtab=baggage"
+        },
+        {
+            "airline_code": "QP",
+            "airline": "Akasa Air",
+            "url": "https://www.akasaair.com/add-ons/excess-baggage"
+        },
+        {
+            "airline_code": "6E",
+            "airline": "IndiGo",
+            "url": "https://www.goindigo.in/baggage/baggage-allowance.html"
+        }
+    ],
+    "passenger_assistance_links": [
+        {
+            "airline_code": "AI",
+            "airline": "Air India",
+            "url": "https://www.airindia.com/in/en/travel-information/health-medical-assistance.html"
+        },
+        {
+            "airline_code": "6E",
+            "airline": "IndiGo",
+            "url": "https://www.goindigo.in/information/special-disability-assistance/disability-assistance.html"
+        },
+        {
+            "airline_code": "IX",
+            "airline": "Air India Express",
+            "url": "https://www.airindiaexpress.com/support/faqs/special-guests"
+        }
+    ]
+}
