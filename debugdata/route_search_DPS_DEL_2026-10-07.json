@@ -1,0 +1,1044 @@
+{
+    "search_metadata": {
+        "id": "search_QJGXn64VVWFxJLZGR45l1jp7",
+        "status": "Success",
+        "created_at": "2026-09-29T09:39:10Z",
+        "request_time_taken": 0.86,
+        "parsing_time_taken": 0.01,
+        "total_time_taken": 0.87,
+        "request_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEwLTA3agcIARIDRFBTcgcIARIDREVMQAFIAXABggELCP___________wGYAQI&hl=en&gl=us&curr=INR",
+        "html_url": "https://www.searchapi.io/api/v1/searches/search_QJGXn64VVWFxJLZGR45l1jp7.html",
+        "json_url": "https://www.searchapi.io/api/v1/searches/search_QJGXn64VVWFxJLZGR45l1jp7"
+    },
+    "search_parameters": {
+        "engine": "google_flights",
+        "departure_id": "DPS",
+        "arrival_id": "DEL",
+        "currency": "INR",
+        "hl": "en",
+        "gl": "us",
+        "outbound_date": "2026-10-07",
+        "flight_type": "one_way",
+        "travel_class": "economy",
+        "stops": "any",
+        "adults": "1",
+        "children": "0",
+        "infants_in_seat": "0",
+        "infants_on_lap": "0"
+    },
+    "best_flights": [
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "I Gusti Ngurah Rai International Airport",
+                        "id": "DPS",
+                        "date": "2026-10-07",
+                        "time": "14:35"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-10-07",
+                        "time": "19:40"
+                    },
+                    "duration": 455,
+                    "airplane": "Airbus A321",
+                    "airline": "Air India",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AI 2148",
+                    "is_often_delayed": true,
+                    "extensions": [
+                        "Power and USB outlets",
+                        "On-demand video",
+                        "Wi-Fi for fee",
+                        "Seat type Below Average Legroom",
+                        "Legroom 29 inches",
+                        "Carbon emission: 556 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_power_and_usb_outlets": true,
+                        "has_on_demand_video": true,
+                        "wifi": "for fee",
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "29 in",
+                        "legroom_long": "29 inches",
+                        "carbon_emission": 556
+                    }
+                }
+            ],
+            "total_duration": 455,
+            "carbon_emissions": {
+                "this_flight": 557000,
+                "typical_for_this_route": 441000,
+                "difference_percent": 26,
+                "lowest_route": 412000
+            },
+            "price": 37983,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+            "booking_token": "WyJDalJJVTJJeU9GSXhkM1JtY2xGQlEyNUJhVkZDUnkwdExTMHRMUzB0TFMxNWFXZ3hNVUZCUVVGQlIzRTNhSG8wUjIxVmEwbEJFZ1pCU1RJeE5EZ2FDd2pmcUFJUUFCb0RTVTVTT0Ixd3BiVUMiLFtbIkRQUyIsIjIwMjYtMTAtMDciLCJERUwiLG51bGwsIkFJIiwiMjE0OCJdXV0="
+        }
+    ],
+    "other_flights": [
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "I Gusti Ngurah Rai International Airport",
+                        "id": "DPS",
+                        "date": "2026-10-07",
+                        "time": "11:20"
+                    },
+                    "arrival_airport": {
+                        "name": "Kempegowda International Airport Bengaluru",
+                        "id": "BLR",
+                        "date": "2026-10-07",
+                        "time": "15:10"
+                    },
+                    "duration": 380,
+                    "airplane": "Airbus A320neo",
+                    "airline": "IndiGo",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+                    "travel_class": "Economy",
+                    "flight_number": "6E 1606",
+                    "extensions": [
+                        "Seat type Below Average Legroom",
+                        "Legroom 28 inches",
+                        "Carbon emission: 317 kg"
+                    ],
+                    "detected_extensions": {
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "28 in",
+                        "legroom_long": "28 inches",
+                        "carbon_emission": 317
+                    }
+                },
+                {
+                    "departure_airport": {
+                        "name": "Kempegowda International Airport Bengaluru",
+                        "id": "BLR",
+                        "date": "2026-10-07",
+                        "time": "20:40"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-10-07",
+                        "time": "23:30"
+                    },
+                    "duration": 170,
+                    "airplane": "Airbus A321neo",
+                    "airline": "IndiGo",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+                    "travel_class": "Economy",
+                    "flight_number": "6E 817",
+                    "extensions": [
+                        "Seat type Below Average Legroom",
+                        "Legroom 28 inches",
+                        "Carbon emission: 121 kg"
+                    ],
+                    "detected_extensions": {
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "28 in",
+                        "legroom_long": "28 inches",
+                        "carbon_emission": 121
+                    }
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 330,
+                    "name": "Kempegowda International Airport Bengaluru",
+                    "id": "BLR",
+                    "is_overnight": true
+                }
+            ],
+            "total_duration": 880,
+            "carbon_emissions": {
+                "this_flight": 439000,
+                "typical_for_this_route": 441000,
+                "difference_percent": 0,
+                "lowest_route": 412000
+            },
+            "price": 42559,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+            "booking_token": "WyJDalJJVTJJeU9GSXhkM1JtY2xGQlEyNUJhVkZDUnkwdExTMHRMUzB0TFMxNWFXZ3hNVUZCUVVGQlIzRTNhSG8wUjIxVmEwbEJFZ3cyUlRFMk1EWjhOa1U0TVRjYUN3aS96QUlRQUJvRFNVNVNPQjF3eDlvQyIsW1siRFBTIiwiMjAyNi0xMC0wNyIsIkJMUiIsbnVsbCwiNkUiLCIxNjA2Il0sWyJCTFIiLCIyMDI2LTEwLTA3IiwiREVMIixudWxsLCI2RSIsIjgxNyJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "I Gusti Ngurah Rai International Airport",
+                        "id": "DPS",
+                        "date": "2026-10-07",
+                        "time": "13:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Kuala Lumpur International Airport",
+                        "id": "KUL",
+                        "date": "2026-10-07",
+                        "time": "16:05"
+                    },
+                    "duration": 185,
+                    "airplane": "Airbus A321neo",
+                    "airline": "AirAsia",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AK.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AK 365",
+                    "extensions": [
+                        "In-seat USB outlet",
+                        "Seat type Below Average Legroom",
+                        "Legroom 28 inches",
+                        "Carbon emission: 128 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_in_seat_usb_outlet": true,
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "28 in",
+                        "legroom_long": "28 inches",
+                        "carbon_emission": 128
+                    }
+                },
+                {
+                    "departure_airport": {
+                        "name": "Kuala Lumpur International Airport",
+                        "id": "KUL",
+                        "date": "2026-10-07",
+                        "time": "18:55"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-10-07",
+                        "time": "22:05"
+                    },
+                    "duration": 340,
+                    "airplane": "Airbus A330",
+                    "airline": "AirAsia X",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/D7.png",
+                    "travel_class": "Economy",
+                    "flight_number": "D7 182",
+                    "extensions": [
+                        "Seat type Average Legroom",
+                        "Legroom 31 inches",
+                        "Carbon emission: 240 kg"
+                    ],
+                    "detected_extensions": {
+                        "seat_type": "Average Legroom",
+                        "legroom_short": "31 in",
+                        "legroom_long": "31 inches",
+                        "carbon_emission": 240
+                    }
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 170,
+                    "name": "Kuala Lumpur International Airport",
+                    "id": "KUL"
+                }
+            ],
+            "total_duration": 695,
+            "carbon_emissions": {
+                "this_flight": 369000,
+                "typical_for_this_route": 441000,
+                "difference_percent": -16,
+                "lowest_route": 412000
+            },
+            "price": 46921,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "booking_token": "WyJDalJJVTJJeU9GSXhkM1JtY2xGQlEyNUJhVkZDUnkwdExTMHRMUzB0TFMxNWFXZ3hNVUZCUVVGQlIzRTNhSG8wUjIxVmEwbEJFZ3RCU3pNMk5YeEVOekU0TWhvTENNbnVBaEFBR2dOSlRsSTRIWENKL2dJPSIsW1siRFBTIiwiMjAyNi0xMC0wNyIsIktVTCIsbnVsbCwiQUsiLCIzNjUiXSxbIktVTCIsIjIwMjYtMTAtMDciLCJERUwiLG51bGwsIkQ3IiwiMTgyIl1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "I Gusti Ngurah Rai International Airport",
+                        "id": "DPS",
+                        "date": "2026-10-07",
+                        "time": "19:10"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-10-08",
+                        "time": "00:35"
+                    },
+                    "duration": 475,
+                    "airplane": "Airbus A320neo",
+                    "airline": "IndiGo",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+                    "travel_class": "Economy",
+                    "flight_number": "6E 1612",
+                    "extensions": [
+                        "Seat type Below Average Legroom",
+                        "Legroom 28 inches",
+                        "Carbon emission: 385 kg"
+                    ],
+                    "detected_extensions": {
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "28 in",
+                        "legroom_long": "28 inches",
+                        "carbon_emission": 385
+                    }
+                }
+            ],
+            "total_duration": 475,
+            "carbon_emissions": {
+                "this_flight": 385000,
+                "typical_for_this_route": 441000,
+                "difference_percent": -13,
+                "lowest_route": 412000
+            },
+            "price": 54167,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+            "booking_token": "WyJDalJJVTJJeU9GSXhkM1JtY2xGQlEyNUJhVkZDUnkwdExTMHRMUzB0TFMxNWFXZ3hNVUZCUVVGQlIzRTNhSG8wUjIxVmEwbEJFZ1kyUlRFMk1USWFDd2lYcHdNUUFCb0RTVTVTT0Ixd2lya0QiLFtbIkRQUyIsIjIwMjYtMTAtMDciLCJERUwiLG51bGwsIjZFIiwiMTYxMiJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "I Gusti Ngurah Rai International Airport",
+                        "id": "DPS",
+                        "date": "2026-10-07",
+                        "time": "21:40"
+                    },
+                    "arrival_airport": {
+                        "name": "Singapore Changi Airport",
+                        "id": "SIN",
+                        "date": "2026-10-08",
+                        "time": "00:15"
+                    },
+                    "duration": 155,
+                    "airplane": "Boeing 787",
+                    "airline": "Singapore Airlines",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SQ.png",
+                    "travel_class": "Economy",
+                    "flight_number": "SQ 947",
+                    "extensions": [
+                        "Power and USB outlets",
+                        "On-demand video",
+                        "Wi-Fi free",
+                        "Seat type Above Average Legroom",
+                        "Legroom 32 inches",
+                        "Carbon emission: 98 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_power_and_usb_outlets": true,
+                        "has_on_demand_video": true,
+                        "wifi": "free",
+                        "seat_type": "Above Average Legroom",
+                        "legroom_short": "32 in",
+                        "legroom_long": "32 inches",
+                        "carbon_emission": 98
+                    }
+                },
+                {
+                    "departure_airport": {
+                        "name": "Singapore Changi Airport",
+                        "id": "SIN",
+                        "date": "2026-10-08",
+                        "time": "02:35"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-10-08",
+                        "time": "05:40"
+                    },
+                    "duration": 335,
+                    "airplane": "Boeing 787",
+                    "airline": "Singapore Airlines",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SQ.png",
+                    "travel_class": "Economy",
+                    "flight_number": "SQ 402",
+                    "is_overnight": true,
+                    "extensions": [
+                        "Power and USB outlets",
+                        "On-demand video",
+                        "Wi-Fi free",
+                        "Seat type Above Average Legroom",
+                        "Legroom 32 inches",
+                        "Carbon emission: 220 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_power_and_usb_outlets": true,
+                        "has_on_demand_video": true,
+                        "wifi": "free",
+                        "seat_type": "Above Average Legroom",
+                        "legroom_short": "32 in",
+                        "legroom_long": "32 inches",
+                        "carbon_emission": 220
+                    }
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 140,
+                    "name": "Singapore Changi Airport",
+                    "id": "SIN"
+                }
+            ],
+            "total_duration": 630,
+            "carbon_emissions": {
+                "this_flight": 319000,
+                "typical_for_this_route": 441000,
+                "difference_percent": -28,
+                "lowest_route": 412000
+            },
+            "price": 72473,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SQ.png",
+            "booking_token": "WyJDalJJVTJJeU9GSXhkM1JtY2xGQlEyNUJhVkZDUnkwdExTMHRMUzB0TFMxNWFXZ3hNVUZCUVVGQlIzRTNhSG8wUjIxVmEwbEJFZ3RUVVRrME4zeFRVVFF3TWhvTENKbTJCQkFBR2dOSlRsSTRIWENTemdRPSIsW1siRFBTIiwiMjAyNi0xMC0wNyIsIlNJTiIsbnVsbCwiU1EiLCI5NDciXSxbIlNJTiIsIjIwMjYtMTAtMDgiLCJERUwiLG51bGwsIlNRIiwiNDAyIl1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "I Gusti Ngurah Rai International Airport",
+                        "id": "DPS",
+                        "date": "2026-10-07",
+                        "time": "19:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Suvarnabhumi Airport",
+                        "id": "BKK",
+                        "date": "2026-10-07",
+                        "time": "22:10"
+                    },
+                    "duration": 250,
+                    "airplane": "Airbus A320",
+                    "airline": "THAI",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TG.png",
+                    "travel_class": "Economy",
+                    "flight_number": "TG 440",
+                    "extensions": [
+                        "Stream video to own device",
+                        "Seat type Average Legroom",
+                        "Legroom 30 inches",
+                        "Carbon emission: 291 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_stream_video_to_own_device": true,
+                        "seat_type": "Average Legroom",
+                        "legroom_short": "30 in",
+                        "legroom_long": "30 inches",
+                        "carbon_emission": 291
+                    }
+                },
+                {
+                    "departure_airport": {
+                        "name": "Suvarnabhumi Airport",
+                        "id": "BKK",
+                        "date": "2026-10-07",
+                        "time": "23:15"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-10-08",
+                        "time": "02:15"
+                    },
+                    "duration": 270,
+                    "airplane": "Airbus A321neo",
+                    "airline": "THAI",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TG.png",
+                    "travel_class": "Economy",
+                    "flight_number": "TG 331",
+                    "ticket_also_sold_by": [
+                        "EVA Air"
+                    ],
+                    "is_overnight": true,
+                    "extensions": [
+                        "In-seat USB outlet",
+                        "On-demand video",
+                        "Wi-Fi for fee",
+                        "Seat type Above Average Legroom",
+                        "Legroom 32 inches",
+                        "Carbon emission: 256 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_in_seat_usb_outlet": true,
+                        "has_on_demand_video": true,
+                        "wifi": "for fee",
+                        "seat_type": "Above Average Legroom",
+                        "legroom_short": "32 in",
+                        "legroom_long": "32 inches",
+                        "carbon_emission": 256
+                    }
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 65,
+                    "name": "Suvarnabhumi Airport",
+                    "id": "BKK"
+                }
+            ],
+            "total_duration": 585,
+            "carbon_emissions": {
+                "this_flight": 548000,
+                "typical_for_this_route": 441000,
+                "difference_percent": 24,
+                "lowest_route": 412000
+            },
+            "price": 111086,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TG.png",
+            "booking_token": "WyJDalJJVTJJeU9GSXhkM1JtY2xGQlEyNUJhVkZDUnkwdExTMHRMUzB0TFMxNWFXZ3hNVUZCUVVGQlIzRTNhSG8wUjIxVmEwbEJFZ3RVUnpRME1IeFVSek16TVJvTENPN2pCaEFBR2dOSlRsSTRIWERJaUFjPSIsW1siRFBTIiwiMjAyNi0xMC0wNyIsIkJLSyIsbnVsbCwiVEciLCI0NDAiXSxbIkJLSyIsIjIwMjYtMTAtMDciLCJERUwiLG51bGwsIlRHIiwiMzMxIl1dXQ=="
+        }
+    ],
+    "price_insights": {
+        "lowest_price": 37983,
+        "price_level": "high",
+        "typical_price_range": {
+            "low_price": 20500,
+            "high_price": 32000
+        },
+        "price_history": [
+            {
+                "price": 22301,
+                "iso_date": "2026-07-30T16:00:00Z"
+            },
+            {
+                "price": 22338,
+                "iso_date": "2026-07-31T16:00:00Z"
+            },
+            {
+                "price": 24950,
+                "iso_date": "2026-08-01T16:00:00Z"
+            },
+            {
+                "price": 24950,
+                "iso_date": "2026-08-02T16:00:00Z"
+            },
+            {
+                "price": 24940,
+                "iso_date": "2026-08-03T16:00:00Z"
+            },
+            {
+                "price": 25011,
+                "iso_date": "2026-08-04T16:00:00Z"
+            },
+            {
+                "price": 25195,
+                "iso_date": "2026-08-05T16:00:00Z"
+            },
+            {
+                "price": 25073,
+                "iso_date": "2026-08-06T16:00:00Z"
+            },
+            {
+                "price": 24506,
+                "iso_date": "2026-08-07T16:00:00Z"
+            },
+            {
+                "price": 24623,
+                "iso_date": "2026-08-08T16:00:00Z"
+            },
+            {
+                "price": 24644,
+                "iso_date": "2026-08-09T16:00:00Z"
+            },
+            {
+                "price": 24642,
+                "iso_date": "2026-08-10T16:00:00Z"
+            },
+            {
+                "price": 24695,
+                "iso_date": "2026-08-11T16:00:00Z"
+            },
+            {
+                "price": 24647,
+                "iso_date": "2026-08-12T16:00:00Z"
+            },
+            {
+                "price": 26057,
+                "iso_date": "2026-08-13T16:00:00Z"
+            },
+            {
+                "price": 26058,
+                "iso_date": "2026-08-14T16:00:00Z"
+            },
+            {
+                "price": 26177,
+                "iso_date": "2026-08-15T16:00:00Z"
+            },
+            {
+                "price": 25946,
+                "iso_date": "2026-08-16T16:00:00Z"
+            },
+            {
+                "price": 25933,
+                "iso_date": "2026-08-17T16:00:00Z"
+            },
+            {
+                "price": 26008,
+                "iso_date": "2026-08-18T16:00:00Z"
+            },
+            {
+                "price": 25952,
+                "iso_date": "2026-08-19T16:00:00Z"
+            },
+            {
+                "price": 25979,
+                "iso_date": "2026-08-20T16:00:00Z"
+            },
+            {
+                "price": 26130,
+                "iso_date": "2026-08-21T16:00:00Z"
+            },
+            {
+                "price": 26222,
+                "iso_date": "2026-08-22T16:00:00Z"
+            },
+            {
+                "price": 26222,
+                "iso_date": "2026-08-23T16:00:00Z"
+            },
+            {
+                "price": 26258,
+                "iso_date": "2026-08-24T16:00:00Z"
+            },
+            {
+                "price": 26159,
+                "iso_date": "2026-08-25T16:00:00Z"
+            },
+            {
+                "price": 25686,
+                "iso_date": "2026-08-26T16:00:00Z"
+            },
+            {
+                "price": 20044,
+                "iso_date": "2026-08-27T16:00:00Z"
+            },
+            {
+                "price": 20085,
+                "iso_date": "2026-08-28T16:00:00Z"
+            },
+            {
+                "price": 20081,
+                "iso_date": "2026-08-29T16:00:00Z"
+            },
+            {
+                "price": 20071,
+                "iso_date": "2026-08-30T16:00:00Z"
+            },
+            {
+                "price": 25016,
+                "iso_date": "2026-08-31T16:00:00Z"
+            },
+            {
+                "price": 24965,
+                "iso_date": "2026-09-01T16:00:00Z"
+            },
+            {
+                "price": 24873,
+                "iso_date": "2026-09-02T16:00:00Z"
+            },
+            {
+                "price": 24814,
+                "iso_date": "2026-09-03T16:00:00Z"
+            },
+            {
+                "price": 24964,
+                "iso_date": "2026-09-04T16:00:00Z"
+            },
+            {
+                "price": 24940,
+                "iso_date": "2026-09-05T16:00:00Z"
+            },
+            {
+                "price": 24957,
+                "iso_date": "2026-09-06T16:00:00Z"
+            },
+            {
+                "price": 24918,
+                "iso_date": "2026-09-07T16:00:00Z"
+            },
+            {
+                "price": 24898,
+                "iso_date": "2026-09-08T16:00:00Z"
+            },
+            {
+                "price": 25334,
+                "iso_date": "2026-09-09T16:00:00Z"
+            },
+            {
+                "price": 25325,
+                "iso_date": "2026-09-10T16:00:00Z"
+            },
+            {
+                "price": 25273,
+                "iso_date": "2026-09-11T16:00:00Z"
+            },
+            {
+                "price": 32694,
+                "iso_date": "2026-09-12T16:00:00Z"
+            },
+            {
+                "price": 28838,
+                "iso_date": "2026-09-13T16:00:00Z"
+            },
+            {
+                "price": 30426,
+                "iso_date": "2026-09-14T16:00:00Z"
+            },
+            {
+                "price": 33585,
+                "iso_date": "2026-09-15T16:00:00Z"
+            },
+            {
+                "price": 33583,
+                "iso_date": "2026-09-16T16:00:00Z"
+            },
+            {
+                "price": 36576,
+                "iso_date": "2026-09-17T16:00:00Z"
+            },
+            {
+                "price": 36668,
+                "iso_date": "2026-09-18T16:00:00Z"
+            },
+            {
+                "price": 36763,
+                "iso_date": "2026-09-19T16:00:00Z"
+            },
+            {
+                "price": 34961,
+                "iso_date": "2026-09-20T16:00:00Z"
+            },
+            {
+                "price": 34782,
+                "iso_date": "2026-09-21T16:00:00Z"
+            },
+            {
+                "price": 41923,
+                "iso_date": "2026-09-22T16:00:00Z"
+            },
+            {
+                "price": 44187,
+                "iso_date": "2026-09-23T16:00:00Z"
+            },
+            {
+                "price": 40705,
+                "iso_date": "2026-09-24T16:00:00Z"
+            },
+            {
+                "price": 32228,
+                "iso_date": "2026-09-25T16:00:00Z"
+            },
+            {
+                "price": 32347,
+                "iso_date": "2026-09-26T16:00:00Z"
+            },
+            {
+                "price": 38011,
+                "iso_date": "2026-09-27T16:00:00Z"
+            },
+            {
+                "price": 37983,
+                "iso_date": "2026-09-28T16:00:00Z"
+            }
+        ]
+    },
+    "airports": [
+        {
+            "departure": [
+                {
+                    "airport": {
+                        "id": "DPS",
+                        "name": "I Gusti Ngurah Rai International Airport"
+                    },
+                    "city": "Denpasar",
+                    "country": "Indonesia",
+                    "country_code": "ID",
+                    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSpjCo287YKiDxrbQlSm3Af70o71dUjCPZ6_dVDyf-1TqPjvjrZ37t33Q_7iDHhYS48wNu0LJdENRBRSg",
+                    "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQFsxUxjHvh4B-OC3MBZsppnugcvv5-mwb1QyUnDEw4ERAN8pQGYpPooKz04neOm3ivuxDBxp0nyrI4S_UEFevemYjK9tdUmJgtUDr1HgQ"
+                }
+            ],
+            "arrival": [
+                {
+                    "airport": {
+                        "id": "DEL",
+                        "name": "Indira Gandhi International Airport"
+                    },
+                    "city": "New Delhi",
+                    "country": "India",
+                    "country_code": "IN",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkRqzwP-0z4pH29-KifVzfrxM5wwXx56g3Hoo_ebldH9Fy8a8EjGqPzd3fZqJSKoE5tSIRC2iGJxgqzQ",
+                    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY7HqndXM-ihFCu1qUKosYR--X_yXSd-0mkQHeSUaG5rkpq5Y6uxD8CMmYUCdngZE7mV0onuN2zv_aVxGGO8xv4FMcpMlWvbXdvJFcemY"
+                }
+            ]
+        }
+    ],
+    "airlines": {
+        "alliances": [
+            {
+                "code": "ONEWORLD",
+                "name": "Oneworld"
+            },
+            {
+                "code": "SKYTEAM",
+                "name": "SkyTeam"
+            },
+            {
+                "code": "STAR_ALLIANCE",
+                "name": "Star Alliance"
+            }
+        ],
+        "airlines": [
+            {
+                "code": "AI",
+                "name": "Air India"
+            },
+            {
+                "code": "AK",
+                "name": "AirAsia"
+            },
+            {
+                "code": "D7",
+                "name": "AirAsia X"
+            },
+            {
+                "code": "OZ",
+                "name": "Asiana Airlines"
+            },
+            {
+                "code": "OD",
+                "name": "Batik Air"
+            },
+            {
+                "code": "CX",
+                "name": "Cathay Pacific"
+            },
+            {
+                "code": "MU",
+                "name": "China Eastern"
+            },
+            {
+                "code": "CZ",
+                "name": "China Southern"
+            },
+            {
+                "code": "EK",
+                "name": "Emirates"
+            },
+            {
+                "code": "EY",
+                "name": "Etihad"
+            },
+            {
+                "code": "BR",
+                "name": "EVA Air"
+            },
+            {
+                "code": "AY",
+                "name": "Finnair"
+            },
+            {
+                "code": "GA",
+                "name": "Garuda Indonesia"
+            },
+            {
+                "code": "6E",
+                "name": "IndiGo"
+            },
+            {
+                "code": "JL",
+                "name": "JAL"
+            },
+            {
+                "code": "KE",
+                "name": "Korean Air"
+            },
+            {
+                "code": "MH",
+                "name": "Malaysia Airlines"
+            },
+            {
+                "code": "WY",
+                "name": "Oman Air"
+            },
+            {
+                "code": "QF",
+                "name": "Qantas"
+            },
+            {
+                "code": "QR",
+                "name": "Qatar Airways"
+            },
+            {
+                "code": "SQ",
+                "name": "Singapore Airlines"
+            },
+            {
+                "code": "UL",
+                "name": "SriLankan"
+            },
+            {
+                "code": "TG",
+                "name": "THAI"
+            },
+            {
+                "code": "SL",
+                "name": "Thai Lion Air"
+            },
+            {
+                "code": "VJ",
+                "name": "Vietjet"
+            },
+            {
+                "code": "VN",
+                "name": "Vietnam Airlines"
+            }
+        ],
+        "hubs": [
+            {
+                "code": "AUH",
+                "name": "Abu Dhabi"
+            },
+            {
+                "code": "BKK",
+                "name": "Bangkok"
+            },
+            {
+                "code": "BLR",
+                "name": "Bengaluru"
+            },
+            {
+                "code": "MAA",
+                "name": "Chennai"
+            },
+            {
+                "code": "CMB",
+                "name": "Colombo"
+            },
+            {
+                "code": "DXB",
+                "name": "Dubai"
+            },
+            {
+                "code": "KUL",
+                "name": "Federal Territory of Kuala Lumpur"
+            },
+            {
+                "code": "CAN",
+                "name": "Guangzhou"
+            },
+            {
+                "code": "HAN",
+                "name": "Hanoi"
+            },
+            {
+                "code": "SGN",
+                "name": "Ho Chi Minh City"
+            },
+            {
+                "code": "HKG",
+                "name": "Hong Kong"
+            },
+            {
+                "code": "HYD",
+                "name": "Hyderabad"
+            },
+            {
+                "code": "CGK",
+                "name": "Jakarta"
+            },
+            {
+                "code": "BOM",
+                "name": "Mumbai"
+            },
+            {
+                "code": "MCT",
+                "name": "Muscat"
+            },
+            {
+                "code": "PVG",
+                "name": "Shanghai"
+            },
+            {
+                "code": "SIN",
+                "name": "Singapore"
+            }
+        ]
+    },
+    "baggage_allowance_links": [
+        {
+            "airline_code": "AI",
+            "airline": "Air India",
+            "url": "https://www.airindia.com/in/en/travel-information/baggage-guidelines.html"
+        },
+        {
+            "airline_code": "AK",
+            "airline": "AirAsia",
+            "url": "https://www.airasia.com/aa/inflight-comforts/en/gb/baggage.html"
+        },
+        {
+            "airline_code": "D7",
+            "airline": "AirAsia X",
+            "url": "https://www.airasia.com/aa/inflight-comforts/en/gb/baggage.html"
+        },
+        {
+            "airline_code": "6E",
+            "airline": "IndiGo",
+            "url": "https://www.goindigo.in/baggage/baggage-allowance.html"
+        },
+        {
+            "airline_code": "SQ",
+            "airline": "Singapore Airlines",
+            "url": "https://www.singaporeair.com/en_UK/travel-information/baggage-allowances/"
+        },
+        {
+            "airline_code": "TG",
+            "airline": "THAI",
+            "url": "http://www.thaiairways.com/en/plan_my_trip/travel_information/Baggage.page?"
+        }
+    ],
+    "passenger_assistance_links": [
+        {
+            "airline_code": "AI",
+            "airline": "Air India",
+            "url": "https://www.airindia.com/in/en/travel-information/health-medical-assistance.html"
+        },
+        {
+            "airline_code": "6E",
+            "airline": "IndiGo",
+            "url": "https://www.goindigo.in/information/special-disability-assistance/disability-assistance.html"
+        },
+        {
+            "airline_code": "SQ",
+            "airline": "Singapore Airlines",
+            "url": "https://www.singaporeair.com/en_UK/sg/travel-info/special-assistance/"
+        },
+        {
+            "airline_code": "TG",
+            "airline": "THAI",
+            "url": "https://www.thaiairways.com/en/help/special_request_assistance/index.page"
+        }
+    ]
+}

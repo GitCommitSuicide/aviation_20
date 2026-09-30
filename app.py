@@ -1,19 +1,3 @@
-"""
-app.py — Streamlit UI for the Aviation Chatbot
-================================================
-This file contains ONLY Streamlit page rendering + wiring to the LangGraph
-agent. ALL tool logic now lives in two separate MCP servers, launched as
-subprocesses by client/mcp_agent.py:
-
-    servers/aviation_server/  — external API tools (flight status, live
-                                 tracking, route search, weather, news,
-                                 reliability stats, trip planning)
-    servers/database_server/  — local PostgreSQL cache read tools
-
-Run with:
-    streamlit run app.py
-"""
-
 import re
 import asyncio
 
@@ -87,7 +71,14 @@ if prompt := st.chat_input("Ask about a flight or route…"):
                 cached_reply = get_cached_response(embedding)
 
                 if cached_reply:
-                    reply = cached_reply
+                    def stream_cache(text):
+                        import time
+                        # split by space to stream word by word while preserving some spaces
+                        for chunk in text.split(" "):
+                            yield chunk + " "
+                            time.sleep(0.02)
+                    
+                    reply = st.write_stream(stream_cache(cached_reply))
                     timing_handler = None
                     st.toast("⚡ Semantic Cache Hit!")
                     print(f"\n[CACHE HIT] Answer served from Semantic Cache for query: '{prompt}'")
@@ -98,25 +89,38 @@ if prompt := st.chat_input("Ask about a flight or route…"):
                         "configurable": {"thread_id": st.session_state.thread_id},
                         "callbacks": [timing_handler]
                     }
-                    response = asyncio.run(agent.ainvoke({"messages": [("user", prompt)]}, config))
-                    reply = response["messages"][-1].content
                     
-                    # Determine if it was a live query by checking the tools called
-                    used_live_tools = False
-                    live_tools = {
-                        "get_flight_details", "track_flight_live", "get_flights_by_route",
-                        "get_airport_weather", "search_aviation_news", "get_flight_reliability",
-                        "get_flight_route_info", "plan_trip_itinerary"
-                    }
+                    placeholder = st.empty()
                     
-                    for msg in response["messages"]:
-                        if hasattr(msg, "tool_calls") and msg.tool_calls:
-                            for tc in msg.tool_calls:
-                                if tc.get("name") in live_tools:
-                                    used_live_tools = True
-                                    break
-                        if used_live_tools:
-                            break
+                    async def run_agent_stream():
+                        full_reply = ""
+                        used_live = False
+                        live_tools_set = {
+                            "get_flight_details", "track_flight_live", "get_flights_by_route",
+                            "get_airport_weather", "search_aviation_news", "get_flight_reliability",
+                            "get_flight_route_info", "plan_trip_itinerary"
+                        }
+                        
+                        async for event in agent.astream_events(
+                            {"messages": [("user", prompt)]}, 
+                            config=config, 
+                            version="v2"
+                        ):
+                            kind = event["event"]
+                            if kind == "on_chat_model_stream":
+                                chunk = event["data"]["chunk"]
+                                if getattr(chunk, "content", None):
+                                    full_reply += chunk.content
+                                    placeholder.markdown(full_reply + "▌")
+                            elif kind == "on_tool_start":
+                                tool_name = event["name"]
+                                if tool_name in live_tools_set:
+                                    used_live = True
+                                    
+                        placeholder.markdown(full_reply)
+                        return full_reply, used_live
+
+                    reply, used_live_tools = asyncio.run(run_agent_stream())
                     
                     if used_live_tools:
                         expires_in_hours = 1 / 60.0  # 1 minute
@@ -130,7 +134,7 @@ if prompt := st.chat_input("Ask about a flight or route…"):
             except Exception as e:
                 reply = f"Sorry, something went wrong: {e}"
                 timing_handler = None
-        st.markdown(reply)
+                st.markdown(reply)
 
         pct = parse_tracking_progress(reply)
         if pct is not None:

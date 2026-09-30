@@ -1,0 +1,30 @@
+{
+    "search_metadata": {
+        "id": "search_mR5DzpePyDIEPYMMq4YdGQno",
+        "status": "Success",
+        "created_at": "2026-09-28T12:24:39Z",
+        "request_time_taken": 13.19,
+        "parsing_time_taken": 0.0,
+        "total_time_taken": 13.19,
+        "request_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTA5LTI4agcIARIDSkRIcgcIARIDUE5RQAFIAXABggELCP___________wGYAQI&hl=en&gl=us&curr=INR",
+        "html_url": "https://www.searchapi.io/api/v1/searches/search_mR5DzpePyDIEPYMMq4YdGQno.html",
+        "json_url": "https://www.searchapi.io/api/v1/searches/search_mR5DzpePyDIEPYMMq4YdGQno"
+    },
+    "search_parameters": {
+        "engine": "google_flights",
+        "departure_id": "JDH",
+        "arrival_id": "PNQ",
+        "currency": "INR",
+        "hl": "en",
+        "gl": "us",
+        "outbound_date": "2026-09-28",
+        "flight_type": "one_way",
+        "travel_class": "economy",
+        "stops": "any",
+        "adults": "1",
+        "children": "0",
+        "infants_in_seat": "0",
+        "infants_on_lap": "0"
+    },
+    "error": "Google Flights didn't return any results."
+}

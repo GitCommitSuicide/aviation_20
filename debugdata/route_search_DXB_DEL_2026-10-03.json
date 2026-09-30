@@ -1,0 +1,1540 @@
+{
+    "search_metadata": {
+        "id": "search_JoY68Me7qNsyNoQxdv0axRVb",
+        "status": "Success",
+        "created_at": "2026-09-29T09:23:50Z",
+        "request_time_taken": 2.37,
+        "parsing_time_taken": 0.02,
+        "total_time_taken": 2.39,
+        "request_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEwLTAzagcIARIDRFhCcgcIARIDREVMQAFIAXABggELCP___________wGYAQI&hl=en&gl=us&curr=INR",
+        "html_url": "https://www.searchapi.io/api/v1/searches/search_JoY68Me7qNsyNoQxdv0axRVb.html",
+        "json_url": "https://www.searchapi.io/api/v1/searches/search_JoY68Me7qNsyNoQxdv0axRVb"
+    },
+    "search_parameters": {
+        "engine": "google_flights",
+        "departure_id": "DXB",
+        "arrival_id": "DEL",
+        "currency": "INR",
+        "hl": "en",
+        "gl": "us",
+        "outbound_date": "2026-10-03",
+        "flight_type": "one_way",
+        "travel_class": "economy",
+        "stops": "any",
+        "adults": "1",
+        "children": "0",
+        "infants_in_seat": "0",
+        "infants_on_lap": "0"
+    },
+    "best_flights": [
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Dubai International Airport",
+                        "id": "DXB",
+                        "date": "2026-10-03",
+                        "time": "21:55"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-10-04",
+                        "time": "03:10"
+                    },
+                    "duration": 225,
+                    "airplane": "Boeing 737",
+                    "airline": "flydubai",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/FZ.png",
+                    "travel_class": "Economy",
+                    "flight_number": "FZ 441",
+                    "is_overnight": true,
+                    "is_often_delayed": true,
+                    "extensions": [
+                        "In-seat USB outlet",
+                        "On-demand video",
+                        "Seat type Average Legroom",
+                        "Legroom 30 inches",
+                        "Carbon emission: 207 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_in_seat_usb_outlet": true,
+                        "has_on_demand_video": true,
+                        "seat_type": "Average Legroom",
+                        "legroom_short": "30 in",
+                        "legroom_long": "30 inches",
+                        "carbon_emission": 207
+                    }
+                }
+            ],
+            "total_duration": 225,
+            "carbon_emissions": {
+                "this_flight": 207000,
+                "typical_for_this_route": 259000,
+                "difference_percent": -20,
+                "lowest_route": 187000
+            },
+            "price": 14395,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/FZ.png",
+            "booking_token": "WyJDalJJTkdSQ01uVkNUbVpsY2tWQlExVTROMUZDUnkwdExTMHRMUzB0ZG5SaVpISXpPRUZCUVVGQlIzRTNaelpqUmxoMFVVOUJFZ1ZHV2pRME1Sb0tDTHR3RUFBYUEwbE9VamdkY0p4MSIsW1siRFhCIiwiMjAyNi0xMC0wMyIsIkRFTCIsbnVsbCwiRloiLCI0NDEiXV1d"
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Dubai International Airport",
+                        "id": "DXB",
+                        "date": "2026-10-03",
+                        "time": "10:45"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-10-03",
+                        "time": "16:20"
+                    },
+                    "duration": 245,
+                    "airplane": "Airbus A320",
+                    "airline": "SpiceJet",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SG.png",
+                    "travel_class": "Economy",
+                    "flight_number": "SG 5106",
+                    "extensions": [
+                        "Seat type Below Average Legroom",
+                        "Legroom 28 inches",
+                        "Carbon emission: 195 kg"
+                    ],
+                    "detected_extensions": {
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "28 in",
+                        "legroom_long": "28 inches",
+                        "carbon_emission": 195
+                    }
+                }
+            ],
+            "total_duration": 245,
+            "carbon_emissions": {
+                "this_flight": 196000,
+                "typical_for_this_route": 259000,
+                "difference_percent": -24,
+                "lowest_route": 187000
+            },
+            "price": 15074,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SG.png",
+            "booking_token": "WyJDalJJTkdSQ01uVkNUbVpsY2tWQlExVTROMUZDUnkwdExTMHRMUzB0ZG5SaVpISXpPRUZCUVVGQlIzRTNaelpqUmxoMFVVOUJFZ1pUUnpVeE1EWWFDZ2ppZFJBQUdnTkpUbEk0SFhEZmVnPT0iLFtbIkRYQiIsIjIwMjYtMTAtMDMiLCJERUwiLG51bGwsIlNHIiwiNTEwNiJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Dubai International Airport",
+                        "id": "DXB",
+                        "date": "2026-10-03",
+                        "time": "22:20"
+                    },
+                    "arrival_airport": {
+                        "name": "Muscat International Airport",
+                        "id": "MCT",
+                        "date": "2026-10-03",
+                        "time": "23:35"
+                    },
+                    "duration": 75,
+                    "airplane": "Boeing 737MAX 8 Passenger",
+                    "airline": "Oman Air",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/WY.png",
+                    "travel_class": "Economy",
+                    "flight_number": "WY 612",
+                    "extensions": [
+                        "In-seat USB outlet",
+                        "Seat type Average Legroom",
+                        "Legroom 30 inches",
+                        "Carbon emission: 44 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_in_seat_usb_outlet": true,
+                        "seat_type": "Average Legroom",
+                        "legroom_short": "30 in",
+                        "legroom_long": "30 inches",
+                        "carbon_emission": 44
+                    }
+                },
+                {
+                    "departure_airport": {
+                        "name": "Muscat International Airport",
+                        "id": "MCT",
+                        "date": "2026-10-04",
+                        "time": "03:20"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-10-04",
+                        "time": "08:05"
+                    },
+                    "duration": 195,
+                    "airplane": "Boeing 737",
+                    "airline": "Oman Air",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/WY.png",
+                    "travel_class": "Economy",
+                    "flight_number": "WY 241",
+                    "is_overnight": true,
+                    "extensions": [
+                        "Power and USB outlets",
+                        "On-demand video",
+                        "Seat type Average Legroom",
+                        "Legroom 30 inches",
+                        "Carbon emission: 199 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_power_and_usb_outlets": true,
+                        "has_on_demand_video": true,
+                        "seat_type": "Average Legroom",
+                        "legroom_short": "30 in",
+                        "legroom_long": "30 inches",
+                        "carbon_emission": 199
+                    }
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 225,
+                    "name": "Muscat International Airport",
+                    "id": "MCT"
+                }
+            ],
+            "total_duration": 495,
+            "carbon_emissions": {
+                "this_flight": 244000,
+                "typical_for_this_route": 259000,
+                "difference_percent": -6,
+                "lowest_route": 187000
+            },
+            "price": 17634,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/WY.png",
+            "booking_token": "WyJDalJJTkdSQ01uVkNUbVpsY2tWQlExVTROMUZDUnkwdExTMHRMUzB0ZG5SaVpISXpPRUZCUVVGQlIzRTNaelpqUmxoMFVVOUJFZ3RYV1RZeE1ueFhXVEkwTVJvTENPS0pBUkFBR2dOSlRsSTRIWERNandFPSIsW1siRFhCIiwiMjAyNi0xMC0wMyIsIk1DVCIsbnVsbCwiV1kiLCI2MTIiXSxbIk1DVCIsIjIwMjYtMTAtMDQiLCJERUwiLG51bGwsIldZIiwiMjQxIl1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Dubai International Airport",
+                        "id": "DXB",
+                        "date": "2026-10-03",
+                        "time": "11:50"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-10-03",
+                        "time": "17:05"
+                    },
+                    "duration": 225,
+                    "airplane": "Airbus A321neo",
+                    "airline": "IndiGo",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+                    "travel_class": "Economy",
+                    "flight_number": "6E 1462",
+                    "is_often_delayed": true,
+                    "extensions": [
+                        "Seat type Below Average Legroom",
+                        "Legroom 28 inches",
+                        "Carbon emission: 161 kg"
+                    ],
+                    "detected_extensions": {
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "28 in",
+                        "legroom_long": "28 inches",
+                        "carbon_emission": 161
+                    }
+                }
+            ],
+            "total_duration": 225,
+            "carbon_emissions": {
+                "this_flight": 162000,
+                "typical_for_this_route": 259000,
+                "difference_percent": -37,
+                "lowest_route": 187000
+            },
+            "price": 22076,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+            "booking_token": "WyJDalJJTkdSQ01uVkNUbVpsY2tWQlExVTROMUZDUnkwdExTMHRMUzB0ZG5SaVpISXpPRUZCUVVGQlIzRTNaelpqUmxoMFVVOUJFZ1kyUlRFME5qSWFDd2k4ckFFUUFCb0RTVTVTT0IxdzRyTUIiLFtbIkRYQiIsIjIwMjYtMTAtMDMiLCJERUwiLG51bGwsIjZFIiwiMTQ2MiJdXV0="
+        }
+    ],
+    "other_flights": [
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Dubai International Airport",
+                        "id": "DXB",
+                        "date": "2026-10-03",
+                        "time": "15:45"
+                    },
+                    "arrival_airport": {
+                        "name": "Kuwait International Airport",
+                        "id": "KWI",
+                        "date": "2026-10-03",
+                        "time": "16:40"
+                    },
+                    "duration": 115,
+                    "airplane": "Airbus A320neo",
+                    "airline": "Jazeera",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/J9.png",
+                    "travel_class": "Economy",
+                    "flight_number": "J9 124",
+                    "extensions": [
+                        "In-seat USB outlet",
+                        "Seat type Below Average Legroom",
+                        "Legroom 28 inches",
+                        "Carbon emission: 74 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_in_seat_usb_outlet": true,
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "28 in",
+                        "legroom_long": "28 inches",
+                        "carbon_emission": 74
+                    }
+                },
+                {
+                    "departure_airport": {
+                        "name": "Kuwait International Airport",
+                        "id": "KWI",
+                        "date": "2026-10-03",
+                        "time": "23:50"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-10-04",
+                        "time": "06:55"
+                    },
+                    "duration": 275,
+                    "airplane": "Airbus A320neo",
+                    "airline": "Jazeera",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/J9.png",
+                    "travel_class": "Economy",
+                    "flight_number": "J9 409",
+                    "is_overnight": true,
+                    "extensions": [
+                        "In-seat USB outlet",
+                        "Seat type Below Average Legroom",
+                        "Legroom 28 inches",
+                        "Carbon emission: 208 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_in_seat_usb_outlet": true,
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "28 in",
+                        "legroom_long": "28 inches",
+                        "carbon_emission": 208
+                    }
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 430,
+                    "name": "Kuwait International Airport",
+                    "id": "KWI",
+                    "is_overnight": true
+                }
+            ],
+            "total_duration": 820,
+            "carbon_emissions": {
+                "this_flight": 284000,
+                "typical_for_this_route": 259000,
+                "difference_percent": 10,
+                "lowest_route": 187000
+            },
+            "price": 14500,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/J9.png",
+            "booking_token": "WyJDalJJTkdSQ01uVkNUbVpsY2tWQlExVTROMUZDUnkwdExTMHRMUzB0ZG5SaVpISXpPRUZCUVVGQlIzRTNaelpqUmxoMFVVOUJFZ3RLT1RFeU5IeEtPVFF3T1JvS0NLUnhFQUFhQTBsT1VqZ2RjSWwyIixbWyJEWEIiLCIyMDI2LTEwLTAzIiwiS1dJIixudWxsLCJKOSIsIjEyNCJdLFsiS1dJIiwiMjAyNi0xMC0wMyIsIkRFTCIsbnVsbCwiSjkiLCI0MDkiXV1d"
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Dubai International Airport",
+                        "id": "DXB",
+                        "date": "2026-10-03",
+                        "time": "22:50"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-10-04",
+                        "time": "04:25"
+                    },
+                    "duration": 245,
+                    "airplane": "Airbus A320",
+                    "airline": "SpiceJet",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SG.png",
+                    "travel_class": "Economy",
+                    "flight_number": "SG 5112",
+                    "is_overnight": true,
+                    "extensions": [
+                        "Seat type Below Average Legroom",
+                        "Legroom 28 inches",
+                        "Carbon emission: 195 kg"
+                    ],
+                    "detected_extensions": {
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "28 in",
+                        "legroom_long": "28 inches",
+                        "carbon_emission": 195
+                    }
+                }
+            ],
+            "total_duration": 245,
+            "carbon_emissions": {
+                "this_flight": 196000,
+                "typical_for_this_route": 259000,
+                "difference_percent": -24,
+                "lowest_route": 187000
+            },
+            "price": 20012,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SG.png",
+            "booking_token": "WyJDalJJTkdSQ01uVkNUbVpsY2tWQlExVTROMUZDUnkwdExTMHRMUzB0ZG5SaVpISXpPRUZCUVVGQlIzRTNaelpqUmxoMFVVOUJFZ1pUUnpVeE1USWFDd2lzbkFFUUFCb0RTVTVTT0IxdytxSUIiLFtbIkRYQiIsIjIwMjYtMTAtMDMiLCJERUwiLG51bGwsIlNHIiwiNTExMiJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Dubai International Airport",
+                        "id": "DXB",
+                        "date": "2026-10-03",
+                        "time": "22:25"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-10-04",
+                        "time": "04:00"
+                    },
+                    "duration": 245,
+                    "airplane": "Airbus A321neo",
+                    "airline": "IndiGo",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+                    "travel_class": "Economy",
+                    "flight_number": "6E 1464",
+                    "is_overnight": true,
+                    "is_often_delayed": true,
+                    "extensions": [
+                        "Seat type Below Average Legroom",
+                        "Legroom 28 inches",
+                        "Carbon emission: 161 kg"
+                    ],
+                    "detected_extensions": {
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "28 in",
+                        "legroom_long": "28 inches",
+                        "carbon_emission": 161
+                    }
+                }
+            ],
+            "total_duration": 245,
+            "carbon_emissions": {
+                "this_flight": 162000,
+                "typical_for_this_route": 259000,
+                "difference_percent": -37,
+                "lowest_route": 187000
+            },
+            "price": 21240,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+            "booking_token": "WyJDalJJTkdSQ01uVkNUbVpsY2tWQlExVTROMUZDUnkwdExTMHRMUzB0ZG5SaVpISXpPRUZCUVVGQlIzRTNaelpqUmxoMFVVOUJFZ1kyUlRFME5qUWFDd2o0cFFFUUFCb0RTVTVTT0Ixdytxd0IiLFtbIkRYQiIsIjIwMjYtMTAtMDMiLCJERUwiLG51bGwsIjZFIiwiMTQ2NCJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Dubai International Airport",
+                        "id": "DXB",
+                        "date": "2026-10-03",
+                        "time": "05:35"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-10-03",
+                        "time": "11:10"
+                    },
+                    "duration": 245,
+                    "airplane": "Airbus A320neo",
+                    "airline": "Air India",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AI 4308",
+                    "extensions": [
+                        "In-seat USB outlet",
+                        "Stream video to own device",
+                        "Seat type Below Average Legroom",
+                        "Legroom 28 inches",
+                        "Carbon emission: 188 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_in_seat_usb_outlet": true,
+                        "has_stream_video_to_own_device": true,
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "28 in",
+                        "legroom_long": "28 inches",
+                        "carbon_emission": 188
+                    }
+                }
+            ],
+            "total_duration": 245,
+            "carbon_emissions": {
+                "this_flight": 188000,
+                "typical_for_this_route": 259000,
+                "difference_percent": -27,
+                "lowest_route": 187000
+            },
+            "price": 25471,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+            "booking_token": "WyJDalJJTkdSQ01uVkNUbVpsY2tWQlExVTROMUZDUnkwdExTMHRMUzB0ZG5SaVpISXpPRUZCUVVGQlIzRTNaelpqUmxoMFVVOUJFZ1pCU1RRek1EZ2FDd2oveGdFUUFCb0RTVTVTT0Ixd3RNOEIiLFtbIkRYQiIsIjIwMjYtMTAtMDMiLCJERUwiLG51bGwsIkFJIiwiNDMwOCJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Dubai International Airport",
+                        "id": "DXB",
+                        "date": "2026-10-03",
+                        "time": "15:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-10-03",
+                        "time": "21:00"
+                    },
+                    "duration": 240,
+                    "airplane": "Boeing 787",
+                    "airline": "Air India",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AI 4210",
+                    "extensions": [
+                        "Power and USB outlets",
+                        "Stream video to own device",
+                        "Seat type Above Average Legroom",
+                        "Legroom 33 inches",
+                        "Carbon emission: 185 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_power_and_usb_outlets": true,
+                        "has_stream_video_to_own_device": true,
+                        "seat_type": "Above Average Legroom",
+                        "legroom_short": "33 in",
+                        "legroom_long": "33 inches",
+                        "carbon_emission": 185
+                    }
+                }
+            ],
+            "total_duration": 240,
+            "carbon_emissions": {
+                "this_flight": 185000,
+                "typical_for_this_route": 259000,
+                "difference_percent": -29,
+                "lowest_route": 187000
+            },
+            "price": 25471,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+            "booking_token": "WyJDalJJTkdSQ01uVkNUbVpsY2tWQlExVTROMUZDUnkwdExTMHRMUzB0ZG5SaVpISXpPRUZCUVVGQlIzRTNaelpqUmxoMFVVOUJFZ1pCU1RReU1UQWFDd2oveGdFUUFCb0RTVTVTT0Ixd3RNOEIiLFtbIkRYQiIsIjIwMjYtMTAtMDMiLCJERUwiLG51bGwsIkFJIiwiNDIxMCJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Dubai International Airport",
+                        "id": "DXB",
+                        "date": "2026-10-03",
+                        "time": "19:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-10-04",
+                        "time": "01:00"
+                    },
+                    "duration": 240,
+                    "airplane": "Boeing 787",
+                    "airline": "Air India",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AI 4310",
+                    "extensions": [
+                        "Power and USB outlets",
+                        "Stream video to own device",
+                        "Seat type Above Average Legroom",
+                        "Legroom 33 inches",
+                        "Carbon emission: 185 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_power_and_usb_outlets": true,
+                        "has_stream_video_to_own_device": true,
+                        "seat_type": "Above Average Legroom",
+                        "legroom_short": "33 in",
+                        "legroom_long": "33 inches",
+                        "carbon_emission": 185
+                    }
+                }
+            ],
+            "total_duration": 240,
+            "carbon_emissions": {
+                "this_flight": 185000,
+                "typical_for_this_route": 259000,
+                "difference_percent": -29,
+                "lowest_route": 187000
+            },
+            "price": 25471,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+            "booking_token": "WyJDalJJTkdSQ01uVkNUbVpsY2tWQlExVTROMUZDUnkwdExTMHRMUzB0ZG5SaVpISXpPRUZCUVVGQlIzRTNaelpqUmxoMFVVOUJFZ1pCU1RRek1UQWFDd2oveGdFUUFCb0RTVTVTT0Ixd3RNOEIiLFtbIkRYQiIsIjIwMjYtMTAtMDMiLCJERUwiLG51bGwsIkFJIiwiNDMxMCJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Dubai International Airport",
+                        "id": "DXB",
+                        "date": "2026-10-03",
+                        "time": "00:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-10-03",
+                        "time": "06:00"
+                    },
+                    "duration": 240,
+                    "airplane": "Boeing 787",
+                    "airline": "Air India",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AI 4306",
+                    "is_overnight": true,
+                    "extensions": [
+                        "In-seat USB outlet",
+                        "On-demand video",
+                        "Wi-Fi for fee",
+                        "Seat type Above Average Legroom",
+                        "Legroom 32 inches",
+                        "Carbon emission: 179 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_in_seat_usb_outlet": true,
+                        "has_on_demand_video": true,
+                        "wifi": "for fee",
+                        "seat_type": "Above Average Legroom",
+                        "legroom_short": "32 in",
+                        "legroom_long": "32 inches",
+                        "carbon_emission": 179
+                    }
+                }
+            ],
+            "total_duration": 240,
+            "carbon_emissions": {
+                "this_flight": 180000,
+                "typical_for_this_route": 259000,
+                "difference_percent": -31,
+                "lowest_route": 187000
+            },
+            "price": 33309,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+            "booking_token": "WyJDalJJTkdSQ01uVkNUbVpsY2tWQlExVTROMUZDUnkwdExTMHRMUzB0ZG5SaVpISXpPRUZCUVVGQlIzRTNaelpqUmxoMFVVOUJFZ1pCU1RRek1EWWFDd2lkaEFJUUFCb0RTVTVTT0Ixd25vOEMiLFtbIkRYQiIsIjIwMjYtMTAtMDMiLCJERUwiLG51bGwsIkFJIiwiNDMwNiJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Dubai International Airport",
+                        "id": "DXB",
+                        "date": "2026-10-03",
+                        "time": "03:55"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-10-03",
+                        "time": "09:05"
+                    },
+                    "duration": 220,
+                    "airplane": "Boeing 777",
+                    "airline": "Emirates",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
+                    "travel_class": "Economy",
+                    "flight_number": "EK 510",
+                    "is_overnight": true,
+                    "extensions": [
+                        "Power and USB outlets",
+                        "On-demand video",
+                        "Wi-Fi for fee",
+                        "Seat type Above Average Legroom",
+                        "Legroom 32 inches",
+                        "Carbon emission: 187 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_power_and_usb_outlets": true,
+                        "has_on_demand_video": true,
+                        "wifi": "for fee",
+                        "seat_type": "Above Average Legroom",
+                        "legroom_short": "32 in",
+                        "legroom_long": "32 inches",
+                        "carbon_emission": 187
+                    }
+                }
+            ],
+            "total_duration": 220,
+            "carbon_emissions": {
+                "this_flight": 187000,
+                "typical_for_this_route": 259000,
+                "difference_percent": -28,
+                "lowest_route": 187000
+            },
+            "price": 49245,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
+            "booking_token": "WyJDalJJTkdSQ01uVkNUbVpsY2tWQlExVTROMUZDUnkwdExTMHRMUzB0ZG5SaVpISXpPRUZCUVVGQlIzRTNaelpqUmxoMFVVOUJFZ1ZGU3pVeE1Cb0xDTjJBQXhBQUdnTkpUbEk0SFhDQWtRTT0iLFtbIkRYQiIsIjIwMjYtMTAtMDMiLCJERUwiLG51bGwsIkVLIiwiNTEwIl1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Dubai International Airport",
+                        "id": "DXB",
+                        "date": "2026-10-03",
+                        "time": "15:25"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-10-03",
+                        "time": "20:25"
+                    },
+                    "duration": 210,
+                    "airplane": "Boeing 777",
+                    "airline": "Emirates",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
+                    "travel_class": "Economy",
+                    "flight_number": "EK 514",
+                    "extensions": [
+                        "Power and USB outlets",
+                        "On-demand video",
+                        "Wi-Fi for fee",
+                        "Seat type Above Average Legroom",
+                        "Legroom 32 inches",
+                        "Carbon emission: 187 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_power_and_usb_outlets": true,
+                        "has_on_demand_video": true,
+                        "wifi": "for fee",
+                        "seat_type": "Above Average Legroom",
+                        "legroom_short": "32 in",
+                        "legroom_long": "32 inches",
+                        "carbon_emission": 187
+                    }
+                }
+            ],
+            "total_duration": 210,
+            "carbon_emissions": {
+                "this_flight": 187000,
+                "typical_for_this_route": 259000,
+                "difference_percent": -28,
+                "lowest_route": 187000
+            },
+            "price": 49245,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
+            "booking_token": "WyJDalJJTkdSQ01uVkNUbVpsY2tWQlExVTROMUZDUnkwdExTMHRMUzB0ZG5SaVpISXpPRUZCUVVGQlIzRTNaelpqUmxoMFVVOUJFZ1ZGU3pVeE5Cb0xDTjJBQXhBQUdnTkpUbEk0SFhDQWtRTT0iLFtbIkRYQiIsIjIwMjYtMTAtMDMiLCJERUwiLG51bGwsIkVLIiwiNTE0Il1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Dubai International Airport",
+                        "id": "DXB",
+                        "date": "2026-10-03",
+                        "time": "21:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-10-04",
+                        "time": "02:25"
+                    },
+                    "duration": 205,
+                    "airplane": "Boeing 777",
+                    "airline": "Emirates",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
+                    "travel_class": "Economy",
+                    "flight_number": "EK 512",
+                    "is_overnight": true,
+                    "is_often_delayed": true,
+                    "extensions": [
+                        "Power and USB outlets",
+                        "On-demand video",
+                        "Wi-Fi for fee",
+                        "Seat type Above Average Legroom",
+                        "Legroom 32 inches",
+                        "Carbon emission: 187 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_power_and_usb_outlets": true,
+                        "has_on_demand_video": true,
+                        "wifi": "for fee",
+                        "seat_type": "Above Average Legroom",
+                        "legroom_short": "32 in",
+                        "legroom_long": "32 inches",
+                        "carbon_emission": 187
+                    }
+                }
+            ],
+            "total_duration": 205,
+            "carbon_emissions": {
+                "this_flight": 187000,
+                "typical_for_this_route": 259000,
+                "difference_percent": -28,
+                "lowest_route": 187000
+            },
+            "price": 49245,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
+            "booking_token": "WyJDalJJTkdSQ01uVkNUbVpsY2tWQlExVTROMUZDUnkwdExTMHRMUzB0ZG5SaVpISXpPRUZCUVVGQlIzRTNaelpqUmxoMFVVOUJFZ1ZGU3pVeE1ob0xDTjJBQXhBQUdnTkpUbEk0SFhDQWtRTT0iLFtbIkRYQiIsIjIwMjYtMTAtMDMiLCJERUwiLG51bGwsIkVLIiwiNTEyIl1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Dubai International Airport",
+                        "id": "DXB",
+                        "date": "2026-10-03",
+                        "time": "09:50"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-10-03",
+                        "time": "14:45"
+                    },
+                    "duration": 205,
+                    "airplane": "Boeing 777",
+                    "airline": "Emirates",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
+                    "travel_class": "Economy",
+                    "flight_number": "EK 516",
+                    "is_often_delayed": true,
+                    "extensions": [
+                        "Power and USB outlets",
+                        "On-demand video",
+                        "Wi-Fi free",
+                        "Seat type Angled Flat Seat",
+                        "Carbon emission: 748 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_power_and_usb_outlets": true,
+                        "has_on_demand_video": true,
+                        "wifi": "free",
+                        "seat_type": "Angled Flat Seat",
+                        "carbon_emission": 748
+                    }
+                }
+            ],
+            "total_duration": 205,
+            "carbon_emissions": {
+                "this_flight": 748000,
+                "typical_for_this_route": 259000,
+                "difference_percent": 189,
+                "lowest_route": 187000
+            },
+            "price": 134672,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
+            "booking_token": "WyJDalJJTkdSQ01uVkNUbVpsY2tWQlExVTROMUZDUnkwdExTMHRMUzB0ZG5SaVpISXpPRUZCUVVGQlIzRTNaelpqUmxoMFVVOUJFZ1ZGU3pVeE5ob0xDSkNjQ0JBQUdnTkpUbEk0SFhEUHlBZz0iLFtbIkRYQiIsIjIwMjYtMTAtMDMiLCJERUwiLG51bGwsIkVLIiwiNTE2Il1dXQ=="
+        }
+    ],
+    "price_insights": {
+        "lowest_price": 14395,
+        "price_level": "high",
+        "typical_price_range": {
+            "low_price": 11500,
+            "high_price": 18500
+        },
+        "price_history": [
+            {
+                "price": 15766,
+                "iso_date": "2026-07-30T20:00:00Z"
+            },
+            {
+                "price": 15759,
+                "iso_date": "2026-07-31T20:00:00Z"
+            },
+            {
+                "price": 15711,
+                "iso_date": "2026-08-01T20:00:00Z"
+            },
+            {
+                "price": 15711,
+                "iso_date": "2026-08-02T20:00:00Z"
+            },
+            {
+                "price": 15712,
+                "iso_date": "2026-08-03T20:00:00Z"
+            },
+            {
+                "price": 15701,
+                "iso_date": "2026-08-04T20:00:00Z"
+            },
+            {
+                "price": 15662,
+                "iso_date": "2026-08-05T20:00:00Z"
+            },
+            {
+                "price": 15659,
+                "iso_date": "2026-08-06T20:00:00Z"
+            },
+            {
+                "price": 16294,
+                "iso_date": "2026-08-07T20:00:00Z"
+            },
+            {
+                "price": 16266,
+                "iso_date": "2026-08-08T20:00:00Z"
+            },
+            {
+                "price": 14645,
+                "iso_date": "2026-08-09T20:00:00Z"
+            },
+            {
+                "price": 14644,
+                "iso_date": "2026-08-10T20:00:00Z"
+            },
+            {
+                "price": 13608,
+                "iso_date": "2026-08-11T20:00:00Z"
+            },
+            {
+                "price": 14670,
+                "iso_date": "2026-08-12T20:00:00Z"
+            },
+            {
+                "price": 14664,
+                "iso_date": "2026-08-13T20:00:00Z"
+            },
+            {
+                "price": 14673,
+                "iso_date": "2026-08-14T20:00:00Z"
+            },
+            {
+                "price": 14706,
+                "iso_date": "2026-08-15T20:00:00Z"
+            },
+            {
+                "price": 14682,
+                "iso_date": "2026-08-16T20:00:00Z"
+            },
+            {
+                "price": 14681,
+                "iso_date": "2026-08-17T20:00:00Z"
+            },
+            {
+                "price": 14718,
+                "iso_date": "2026-08-18T20:00:00Z"
+            },
+            {
+                "price": 14737,
+                "iso_date": "2026-08-19T20:00:00Z"
+            },
+            {
+                "price": 14688,
+                "iso_date": "2026-08-20T20:00:00Z"
+            },
+            {
+                "price": 16242,
+                "iso_date": "2026-08-21T20:00:00Z"
+            },
+            {
+                "price": 16234,
+                "iso_date": "2026-08-22T20:00:00Z"
+            },
+            {
+                "price": 14720,
+                "iso_date": "2026-08-23T20:00:00Z"
+            },
+            {
+                "price": 14719,
+                "iso_date": "2026-08-24T20:00:00Z"
+            },
+            {
+                "price": 14723,
+                "iso_date": "2026-08-25T20:00:00Z"
+            },
+            {
+                "price": 14832,
+                "iso_date": "2026-08-26T20:00:00Z"
+            },
+            {
+                "price": 14678,
+                "iso_date": "2026-08-27T20:00:00Z"
+            },
+            {
+                "price": 14684,
+                "iso_date": "2026-08-28T20:00:00Z"
+            },
+            {
+                "price": 14680,
+                "iso_date": "2026-08-29T20:00:00Z"
+            },
+            {
+                "price": 14671,
+                "iso_date": "2026-08-30T20:00:00Z"
+            },
+            {
+                "price": 13008,
+                "iso_date": "2026-08-31T20:00:00Z"
+            },
+            {
+                "price": 12972,
+                "iso_date": "2026-09-01T20:00:00Z"
+            },
+            {
+                "price": 11348,
+                "iso_date": "2026-09-02T20:00:00Z"
+            },
+            {
+                "price": 11292,
+                "iso_date": "2026-09-03T20:00:00Z"
+            },
+            {
+                "price": 11293,
+                "iso_date": "2026-09-04T20:00:00Z"
+            },
+            {
+                "price": 11286,
+                "iso_date": "2026-09-05T20:00:00Z"
+            },
+            {
+                "price": 11293,
+                "iso_date": "2026-09-06T20:00:00Z"
+            },
+            {
+                "price": 11362,
+                "iso_date": "2026-09-07T20:00:00Z"
+            },
+            {
+                "price": 11414,
+                "iso_date": "2026-09-08T20:00:00Z"
+            },
+            {
+                "price": 10828,
+                "iso_date": "2026-09-09T20:00:00Z"
+            },
+            {
+                "price": 10884,
+                "iso_date": "2026-09-10T20:00:00Z"
+            },
+            {
+                "price": 11500,
+                "iso_date": "2026-09-11T20:00:00Z"
+            },
+            {
+                "price": 11502,
+                "iso_date": "2026-09-12T20:00:00Z"
+            },
+            {
+                "price": 11941,
+                "iso_date": "2026-09-13T20:00:00Z"
+            },
+            {
+                "price": 11975,
+                "iso_date": "2026-09-14T20:00:00Z"
+            },
+            {
+                "price": 11990,
+                "iso_date": "2026-09-15T20:00:00Z"
+            },
+            {
+                "price": 12004,
+                "iso_date": "2026-09-16T20:00:00Z"
+            },
+            {
+                "price": 11973,
+                "iso_date": "2026-09-17T20:00:00Z"
+            },
+            {
+                "price": 11996,
+                "iso_date": "2026-09-18T20:00:00Z"
+            },
+            {
+                "price": 11990,
+                "iso_date": "2026-09-19T20:00:00Z"
+            },
+            {
+                "price": 11836,
+                "iso_date": "2026-09-20T20:00:00Z"
+            },
+            {
+                "price": 12332,
+                "iso_date": "2026-09-21T20:00:00Z"
+            },
+            {
+                "price": 11855,
+                "iso_date": "2026-09-22T20:00:00Z"
+            },
+            {
+                "price": 13215,
+                "iso_date": "2026-09-23T20:00:00Z"
+            },
+            {
+                "price": 13220,
+                "iso_date": "2026-09-24T20:00:00Z"
+            },
+            {
+                "price": 14478,
+                "iso_date": "2026-09-25T20:00:00Z"
+            },
+            {
+                "price": 14376,
+                "iso_date": "2026-09-26T20:00:00Z"
+            },
+            {
+                "price": 14372,
+                "iso_date": "2026-09-27T20:00:00Z"
+            },
+            {
+                "price": 14395,
+                "iso_date": "2026-09-28T20:00:00Z"
+            }
+        ],
+        "cheapest_to_book": {
+            "estimated_savings": 1176
+        }
+    },
+    "airports": [
+        {
+            "departure": [
+                {
+                    "airport": {
+                        "id": "DXB",
+                        "name": "Dubai International Airport"
+                    },
+                    "city": "Dubai",
+                    "country": "United Arab Emirates",
+                    "country_code": "AE",
+                    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRegWMQBRhDOeg2gvll8nGXsG1-OPqD2V0EvCN1Ni2Poe9hGY8CBps9mRaAyrAz8Jvsvl292aI62fq43A",
+                    "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQDaD8FERvoI4iorjkWbED9zAq7S3m9hD1t5vGNU5Jznr1Kl1em9SIs9c9VkujJF5_EDvC5mKyqcQ9B8PApW9tiwfzhK_pC2qvRBND2Plo"
+                }
+            ],
+            "arrival": [
+                {
+                    "airport": {
+                        "id": "DEL",
+                        "name": "Indira Gandhi International Airport"
+                    },
+                    "city": "New Delhi",
+                    "country": "India",
+                    "country_code": "IN",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkRqzwP-0z4pH29-KifVzfrxM5wwXx56g3Hoo_ebldH9Fy8a8EjGqPzd3fZqJSKoE5tSIRC2iGJxgqzQ",
+                    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY7HqndXM-ihFCu1qUKosYR--X_yXSd-0mkQHeSUaG5rkpq5Y6uxD8CMmYUCdngZE7mV0onuN2zv_aVxGGO8xv4FMcpMlWvbXdvJFcemY"
+                }
+            ]
+        }
+    ],
+    "airlines": {
+        "alliances": [
+            {
+                "code": "ONEWORLD",
+                "name": "Oneworld"
+            },
+            {
+                "code": "SKYTEAM",
+                "name": "SkyTeam"
+            },
+            {
+                "code": "STAR_ALLIANCE",
+                "name": "Star Alliance"
+            }
+        ],
+        "airlines": [
+            {
+                "code": "KC",
+                "name": "Air Astana"
+            },
+            {
+                "code": "AI",
+                "name": "Air India"
+            },
+            {
+                "code": "IX",
+                "name": "Air India Express"
+            },
+            {
+                "code": "FG",
+                "name": "Ariana"
+            },
+            {
+                "code": "J2",
+                "name": "Azerbaijan Airlines"
+            },
+            {
+                "code": "BG",
+                "name": "Biman"
+            },
+            {
+                "code": "C6",
+                "name": "CentrumAir"
+            },
+            {
+                "code": "KB",
+                "name": "Druk Air"
+            },
+            {
+                "code": "MS",
+                "name": "EgyptAir"
+            },
+            {
+                "code": "EK",
+                "name": "Emirates"
+            },
+            {
+                "code": "ET",
+                "name": "Ethiopian"
+            },
+            {
+                "code": "FZ",
+                "name": "flydubai"
+            },
+            {
+                "code": "XY",
+                "name": "Flynas"
+            },
+            {
+                "code": "GF",
+                "name": "Gulf Air"
+            },
+            {
+                "code": "6E",
+                "name": "IndiGo"
+            },
+            {
+                "code": "J9",
+                "name": "Jazeera"
+            },
+            {
+                "code": "RQ",
+                "name": "Kam Air"
+            },
+            {
+                "code": "KU",
+                "name": "Kuwait Airways"
+            },
+            {
+                "code": "8M",
+                "name": "MAI"
+            },
+            {
+                "code": "RA",
+                "name": "Nepal Airlines"
+            },
+            {
+                "code": "WY",
+                "name": "Oman Air"
+            },
+            {
+                "code": "QR",
+                "name": "Qatar Airways"
+            },
+            {
+                "code": "OV",
+                "name": "SalamAir"
+            },
+            {
+                "code": "SV",
+                "name": "Saudia"
+            },
+            {
+                "code": "SZ",
+                "name": "Somon Air"
+            },
+            {
+                "code": "SG",
+                "name": "SpiceJet"
+            },
+            {
+                "code": "UL",
+                "name": "SriLankan"
+            },
+            {
+                "code": "TG",
+                "name": "THAI"
+            },
+            {
+                "code": "TK",
+                "name": "Turkish Airlines"
+            },
+            {
+                "code": "HY",
+                "name": "Uzbekistan"
+            }
+        ],
+        "hubs": [
+            {
+                "code": "ADD",
+                "name": "Addis Ababa"
+            },
+            {
+                "code": "AMD",
+                "name": "Ahmedabad"
+            },
+            {
+                "code": "ALA",
+                "name": "Almaty"
+            },
+            {
+                "code": "ATQ",
+                "name": "Amritsar"
+            },
+            {
+                "code": "NQZ",
+                "name": "Astana"
+            },
+            {
+                "code": "BAH",
+                "name": "Bahrain"
+            },
+            {
+                "code": "BLR",
+                "name": "Bengaluru"
+            },
+            {
+                "code": "CAI",
+                "name": "Cairo"
+            },
+            {
+                "code": "IXC",
+                "name": "Chandigarh"
+            },
+            {
+                "code": "MAA",
+                "name": "Chennai"
+            },
+            {
+                "code": "CMB",
+                "name": "Colombo"
+            },
+            {
+                "code": "DED",
+                "name": "Dehradun"
+            },
+            {
+                "code": "DOH",
+                "name": "Doha"
+            },
+            {
+                "code": "GOI",
+                "name": "Goa"
+            },
+            {
+                "code": "GOX",
+                "name": "Goa"
+            },
+            {
+                "code": "HYD",
+                "name": "Hyderabad"
+            },
+            {
+                "code": "IDR",
+                "name": "Indore"
+            },
+            {
+                "code": "IST",
+                "name": "Istanbul"
+            },
+            {
+                "code": "JAI",
+                "name": "Jaipur"
+            },
+            {
+                "code": "JED",
+                "name": "Jeddah"
+            },
+            {
+                "code": "COK",
+                "name": "Kochi"
+            },
+            {
+                "code": "KWI",
+                "name": "Kuwait City"
+            },
+            {
+                "code": "LKO",
+                "name": "Lucknow"
+            },
+            {
+                "code": "IXE",
+                "name": "Mangaluru"
+            },
+            {
+                "code": "BOM",
+                "name": "Mumbai"
+            },
+            {
+                "code": "MCT",
+                "name": "Muscat"
+            },
+            {
+                "code": "PNQ",
+                "name": "Pune"
+            },
+            {
+                "code": "HSR",
+                "name": "Rajkot"
+            },
+            {
+                "code": "RUH",
+                "name": "Riyadh"
+            },
+            {
+                "code": "STV",
+                "name": "Surat"
+            },
+            {
+                "code": "TRV",
+                "name": "Thiruvananthapuram"
+            },
+            {
+                "code": "UDR",
+                "name": "Udaipur"
+            }
+        ]
+    },
+    "baggage_allowance_links": [
+        {
+            "airline_code": "AI",
+            "airline": "Air India",
+            "url": "https://www.airindia.com/in/en/travel-information/baggage-guidelines.html"
+        },
+        {
+            "airline_code": "EK",
+            "airline": "Emirates",
+            "url": "https://www.emirates.com/us/english/before-you-fly/baggage/checked-baggage/"
+        },
+        {
+            "airline_code": "FZ",
+            "airline": "flydubai",
+            "url": "https://www.flydubai.com/en/flying-with-us/baggage/check-in-baggage"
+        },
+        {
+            "airline_code": "6E",
+            "airline": "IndiGo",
+            "url": "https://www.goindigo.in/baggage/baggage-allowance.html"
+        },
+        {
+            "airline_code": "J9",
+            "airline": "Jazeera",
+            "url": "https://www.jazeeraairways.com/en/add-ons/baggage-upgrades"
+        },
+        {
+            "airline_code": "WY",
+            "airline": "Oman Air",
+            "url": "https://www.omanair.com/gbl/en/baggage-policy"
+        },
+        {
+            "airline_code": "SG",
+            "airline": "SpiceJet",
+            "url": "https://corporate.spicejet.com/AirTravelBaggageFaq.aspx"
+        }
+    ],
+    "passenger_assistance_links": [
+        {
+            "airline_code": "FZ",
+            "airline": "flydubai",
+            "url": "https://www.flydubai.com/en/flying-with-us/accessibility-and-assistance-services/"
+        },
+        {
+            "airline_code": "SG",
+            "airline": "SpiceJet",
+            "url": "https://corporate.spicejet.com/SpecialAssistance.aspx"
+        },
+        {
+            "airline_code": "WY",
+            "airline": "Oman Air",
+            "url": "https://www.omanair.com/en/special-services"
+        },
+        {
+            "airline_code": "6E",
+            "airline": "IndiGo",
+            "url": "https://www.goindigo.in/information/special-disability-assistance/disability-assistance.html"
+        },
+        {
+            "airline_code": "J9",
+            "airline": "Jazeera",
+            "url": "https://www.jazeeraairways.com/en-kw/faq/special-assistance"
+        },
+        {
+            "airline_code": "AI",
+            "airline": "Air India",
+            "url": "https://www.airindia.com/in/en/travel-information/health-medical-assistance.html"
+        },
+        {
+            "airline_code": "EK",
+            "airline": "Emirates",
+            "url": "https://www.emirates.com/ae/english/before-you-fly/health/accessible-travel/"
+        }
+    ]
+}
