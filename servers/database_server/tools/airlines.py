@@ -10,7 +10,7 @@ from shared.cache import is_fresh, hours_to_minutes, AIRLINE_CACHE_HOURS
 from servers.database_server.tools._common import make_result
 
 
-def get_airline_info(query: str) -> dict:
+def get_airline_info_cached(query: str) -> dict:
     """
     Look up an airline in the local cache by name or IATA code.
 

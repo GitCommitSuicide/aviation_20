@@ -10,7 +10,7 @@ from shared.cache import is_fresh, hours_to_minutes, AIRPORT_CACHE_HOURS
 from servers.database_server.tools._common import make_result
 
 
-def get_airport_info(query: str) -> dict:
+def get_airport_info_cached(query: str) -> dict:
     """
     Look up an airport in the local cache by name, city, or IATA code.
 

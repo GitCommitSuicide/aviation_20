@@ -50,7 +50,7 @@ SYSTEM_PROMPT = (
     "tool returns found=False OR fresh=False.\n\n"
 
     "## TOOL GUIDE\n"
-    "- search_database / get_airport_info / get_airline_info / get_flight_status_cached / get_route_cached:\n"
+    "- search_database / get_airport_info_cached / get_airline_info_cached / get_flight_status_cached / get_route_cached:\n"
     "  Local PostgreSQL cache reads — ALWAYS try these first, they're instant and free.\n"
     "- get_flight_details:  Live lookup (AeroDataBox → AirLabs → Aviationstack fallback chain). Use only on a cache miss/stale result.\n"
     "- get_flights_by_route: Live route/price search via Google Flights. Use only on a cache miss/stale result.\n"

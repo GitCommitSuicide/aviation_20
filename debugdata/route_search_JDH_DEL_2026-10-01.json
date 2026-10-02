@@ -1,0 +1,186 @@
+{
+    "search_metadata": {
+        "id": "search_mR5DzpePyDIEEq3R94YdGQno",
+        "status": "Success",
+        "created_at": "2026-10-01T08:06:43Z",
+        "request_time_taken": 11.21,
+        "parsing_time_taken": 0.01,
+        "total_time_taken": 11.22,
+        "request_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEwLTAxagcIARIDSkRIcgcIARIDREVMQAFIAXABggELCP___________wGYAQI&hl=en&gl=us&curr=INR",
+        "html_url": "https://www.searchapi.io/api/v1/searches/search_mR5DzpePyDIEEq3R94YdGQno.html",
+        "json_url": "https://www.searchapi.io/api/v1/searches/search_mR5DzpePyDIEEq3R94YdGQno"
+    },
+    "search_parameters": {
+        "engine": "google_flights",
+        "departure_id": "JDH",
+        "arrival_id": "DEL",
+        "currency": "INR",
+        "hl": "en",
+        "gl": "us",
+        "outbound_date": "2026-10-01",
+        "flight_type": "one_way",
+        "travel_class": "economy",
+        "stops": "any",
+        "adults": "1",
+        "children": "0",
+        "infants_in_seat": "0",
+        "infants_on_lap": "0"
+    },
+    "other_flights": [
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Jodhpur Airport",
+                        "id": "JDH",
+                        "date": "2026-10-01",
+                        "time": "15:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-10-01",
+                        "time": "16:55"
+                    },
+                    "duration": 85,
+                    "airplane": "Boeing 737MAX 8 Passenger",
+                    "airline": "Air India Express",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/IX.png",
+                    "travel_class": "Economy",
+                    "flight_number": "IX 1824",
+                    "extensions": [
+                        "In-seat USB outlet",
+                        "Seat type Average Legroom",
+                        "Legroom 30 inches",
+                        "Carbon emission: 61 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_in_seat_usb_outlet": true,
+                        "seat_type": "Average Legroom",
+                        "legroom_short": "30 in",
+                        "legroom_long": "30 inches",
+                        "carbon_emission": 61
+                    }
+                }
+            ],
+            "total_duration": 85,
+            "carbon_emissions": {
+                "this_flight": 61000,
+                "typical_for_this_route": 51000,
+                "difference_percent": 20,
+                "lowest_route": 61000
+            },
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/IX.png",
+            "booking_token": "WyJDalJJZW1wT1IwWmxSRkZSVkRoQlEyZHpjbEZDUnkwdExTMHRMUzB0TFhCcVltaHNOMEZCUVVGQlIzRXRSa3BSUkZvNVZqQkJFZ1pKV0RFNE1qUTRIUT09IixbWyJKREgiLCIyMDI2LTEwLTAxIiwiREVMIixudWxsLCJJWCIsIjE4MjQiXV1d"
+        }
+    ],
+    "airports": [
+        {
+            "departure": [
+                {
+                    "airport": {
+                        "id": "JDH",
+                        "name": "Jodhpur Airport"
+                    },
+                    "city": "Jodhpur",
+                    "country": "India",
+                    "country_code": "IN",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQULXHH8CV48q7vUotdLcMePrRdjbLgGr3DAJEacBYGPlh5FDQdhtBonr3_v5FwF8JIxKAvzpjK6dgtiQ",
+                    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNiZ1LWawrCvx2pYCpiicC4uZ60dJOy82KZyzmL_5cyFBCnsZLUhln5SzQTRCbwtYtRj3O0McFqEv-pKpHkwjNL3l-5A8AQg3RseOkFsw"
+                }
+            ],
+            "arrival": [
+                {
+                    "airport": {
+                        "id": "DEL",
+                        "name": "Indira Gandhi International Airport"
+                    },
+                    "city": "New Delhi",
+                    "country": "India",
+                    "country_code": "IN",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkRqzwP-0z4pH29-KifVzfrxM5wwXx56g3Hoo_ebldH9Fy8a8EjGqPzd3fZqJSKoE5tSIRC2iGJxgqzQ",
+                    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY7HqndXM-ihFCu1qUKosYR--X_yXSd-0mkQHeSUaG5rkpq5Y6uxD8CMmYUCdngZE7mV0onuN2zv_aVxGGO8xv4FMcpMlWvbXdvJFcemY"
+                }
+            ]
+        }
+    ],
+    "airlines": {
+        "alliances": [
+            {
+                "code": "ONEWORLD",
+                "name": "Oneworld"
+            },
+            {
+                "code": "SKYTEAM",
+                "name": "SkyTeam"
+            },
+            {
+                "code": "STAR_ALLIANCE",
+                "name": "Star Alliance"
+            }
+        ],
+        "airlines": [
+            {
+                "code": "AI",
+                "name": "Air India"
+            },
+            {
+                "code": "IX",
+                "name": "Air India Express"
+            },
+            {
+                "code": "6E",
+                "name": "IndiGo"
+            }
+        ],
+        "hubs": [
+            {
+                "code": "AMD",
+                "name": "Ahmedabad"
+            },
+            {
+                "code": "BLR",
+                "name": "Bengaluru"
+            },
+            {
+                "code": "HYD",
+                "name": "Hyderabad"
+            },
+            {
+                "code": "COK",
+                "name": "Kochi"
+            },
+            {
+                "code": "CCU",
+                "name": "Kolkata"
+            },
+            {
+                "code": "BOM",
+                "name": "Mumbai"
+            },
+            {
+                "code": "PAT",
+                "name": "Patna"
+            },
+            {
+                "code": "TRV",
+                "name": "Thiruvananthapuram"
+            }
+        ]
+    },
+    "baggage_allowance_links": [
+        {
+            "airline_code": "IX",
+            "airline": "Air India Express",
+            "url": "https://www.airindiaexpress.com/products-and-services?selectedtab=baggage"
+        }
+    ],
+    "passenger_assistance_links": [
+        {
+            "airline_code": "IX",
+            "airline": "Air India Express",
+            "url": "https://www.airindiaexpress.com/support/faqs/special-guests"
+        }
+    ]
+}

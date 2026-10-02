@@ -95,6 +95,8 @@ if prompt := st.chat_input("Ask about a flight or route…"):
                     async def run_agent_stream():
                         full_reply = ""
                         used_live = False
+                        used_any_tool = False
+                        used_memory_tool = False
                         live_tools_set = {
                             "get_flight_details", "track_flight_live", "get_flights_by_route",
                             "get_airport_weather", "search_aviation_news", "get_flight_reliability",
@@ -114,23 +116,29 @@ if prompt := st.chat_input("Ask about a flight or route…"):
                                     placeholder.markdown(full_reply + "▌")
                             elif kind == "on_tool_start":
                                 tool_name = event["name"]
-                                if tool_name in live_tools_set:
+                                used_any_tool = True
+                                if tool_name == "update_memory":
+                                    used_memory_tool = True
+                                elif tool_name in live_tools_set:
                                     used_live = True
                                     
                         placeholder.markdown(full_reply)
-                        return full_reply, used_live
+                        return full_reply, used_live, used_any_tool, used_memory_tool
 
-                    reply, used_live_tools = asyncio.run(run_agent_stream())
+                    reply, used_live_tools, used_any_tool, used_memory_tool = asyncio.run(run_agent_stream())
                     
-                    if used_live_tools:
-                        expires_in_hours = 1 / 60.0  # 1 minute
-                        print(f"[CACHE STORED] Saved new response to Semantic Cache (Live Data, TTL=1min).")
+                    if used_any_tool and not used_memory_tool:
+                        if used_live_tools:
+                            expires_in_hours = 1 / 60.0  # 1 minute
+                            print(f"[CACHE STORED] Saved new response to Semantic Cache (Live Data, TTL=1min).")
+                        else:
+                            expires_in_hours = 30 * 24.0  # 30 days
+                            print(f"[CACHE STORED] Saved new response to Semantic Cache (General Data, TTL=30days).")
+                        
+                        # Save new response to cache
+                        save_to_cache(query=prompt, response=reply, embedding=embedding, expires_in_hours=expires_in_hours)
                     else:
-                        expires_in_hours = 30 * 24.0  # 30 days
-                        print(f"[CACHE STORED] Saved new response to Semantic Cache (General Data, TTL=30days).")
-                    
-                    # Save new response to cache
-                    save_to_cache(query=prompt, response=reply, embedding=embedding, expires_in_hours=expires_in_hours)
+                        print(f"[CACHE SKIPPED] Did not save response (Conversational or Memory update).")
             except Exception as e:
                 reply = f"Sorry, something went wrong: {e}"
                 timing_handler = None

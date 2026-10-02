@@ -1,0 +1,1220 @@
+{
+    "search_metadata": {
+        "id": "search_dXG2jzvrlqTWW9pj0eYoaOb8",
+        "status": "Success",
+        "created_at": "2026-10-01T08:14:02Z",
+        "request_time_taken": 1.14,
+        "parsing_time_taken": 0.02,
+        "total_time_taken": 1.15,
+        "request_url": "https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTEwLTAxagcIARIDREVMcgcIARIDTUFBQAFIAXABggELCP___________wGYAQI&hl=en&gl=us&curr=INR",
+        "html_url": "https://www.searchapi.io/api/v1/searches/search_dXG2jzvrlqTWW9pj0eYoaOb8.html",
+        "json_url": "https://www.searchapi.io/api/v1/searches/search_dXG2jzvrlqTWW9pj0eYoaOb8"
+    },
+    "search_parameters": {
+        "engine": "google_flights",
+        "departure_id": "DEL",
+        "arrival_id": "MAA",
+        "currency": "INR",
+        "hl": "en",
+        "gl": "us",
+        "outbound_date": "2026-10-01",
+        "flight_type": "one_way",
+        "travel_class": "economy",
+        "stops": "any",
+        "adults": "1",
+        "children": "0",
+        "infants_in_seat": "0",
+        "infants_on_lap": "0"
+    },
+    "best_flights": [
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-10-01",
+                        "time": "15:45"
+                    },
+                    "arrival_airport": {
+                        "name": "Chennai International Airport",
+                        "id": "MAA",
+                        "date": "2026-10-01",
+                        "time": "18:40"
+                    },
+                    "duration": 175,
+                    "airplane": "Boeing 787",
+                    "airline": "Air India",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AI 537",
+                    "extensions": [
+                        "Power and USB outlets",
+                        "Stream video to own device",
+                        "Seat type Above Average Legroom",
+                        "Legroom 33 inches",
+                        "Carbon emission: 144 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_power_and_usb_outlets": true,
+                        "has_stream_video_to_own_device": true,
+                        "seat_type": "Above Average Legroom",
+                        "legroom_short": "33 in",
+                        "legroom_long": "33 inches",
+                        "carbon_emission": 144
+                    }
+                }
+            ],
+            "total_duration": 175,
+            "carbon_emissions": {
+                "this_flight": 145000,
+                "typical_for_this_route": 122000,
+                "difference_percent": 19,
+                "lowest_route": 144000
+            },
+            "price": 9895,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+            "booking_token": "WyJDalJJUTNONVlVWkVXRmRZY2sxQlJEUm5XbEZDUnkwdExTMHRMUzB0TFc5NWFIRXlOa0ZCUVVGQlIzRXRSbXR6UkhvdGNqSkJFZ1ZCU1RVek54b0tDS2RORUFBYUEwbE9VamdkY0xSUSIsW1siREVMIiwiMjAyNi0xMC0wMSIsIk1BQSIsbnVsbCwiQUkiLCI1MzciXV1d"
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-10-01",
+                        "time": "15:15"
+                    },
+                    "arrival_airport": {
+                        "name": "Chennai International Airport",
+                        "id": "MAA",
+                        "date": "2026-10-01",
+                        "time": "18:05"
+                    },
+                    "duration": 170,
+                    "airplane": "Airbus A321neo",
+                    "airline": "IndiGo",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+                    "travel_class": "Economy",
+                    "flight_number": "6E 6091",
+                    "extensions": [
+                        "Seat type Below Average Legroom",
+                        "Legroom 28 inches",
+                        "Carbon emission: 123 kg"
+                    ],
+                    "detected_extensions": {
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "28 in",
+                        "legroom_long": "28 inches",
+                        "carbon_emission": 123
+                    }
+                }
+            ],
+            "total_duration": 170,
+            "carbon_emissions": {
+                "this_flight": 124000,
+                "typical_for_this_route": 122000,
+                "difference_percent": 2,
+                "lowest_route": 144000
+            },
+            "price": 9946,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+            "booking_token": "WyJDalJJUTNONVlVWkVXRmRZY2sxQlJEUm5XbEZDUnkwdExTMHRMUzB0TFc5NWFIRXlOa0ZCUVVGQlIzRXRSbXR6UkhvdGNqSkJFZ1kyUlRZd09URWFDZ2phVFJBQUdnTkpUbEk0SFhEcVVBPT0iLFtbIkRFTCIsIjIwMjYtMTAtMDEiLCJNQUEiLG51bGwsIjZFIiwiNjA5MSJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-10-01",
+                        "time": "16:40"
+                    },
+                    "arrival_airport": {
+                        "name": "Chennai International Airport",
+                        "id": "MAA",
+                        "date": "2026-10-01",
+                        "time": "19:30"
+                    },
+                    "duration": 170,
+                    "airplane": "Airbus A321neo",
+                    "airline": "IndiGo",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+                    "travel_class": "Economy",
+                    "flight_number": "6E 947",
+                    "extensions": [
+                        "Seat type Below Average Legroom",
+                        "Legroom 28 inches",
+                        "Carbon emission: 123 kg"
+                    ],
+                    "detected_extensions": {
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "28 in",
+                        "legroom_long": "28 inches",
+                        "carbon_emission": 123
+                    }
+                }
+            ],
+            "total_duration": 170,
+            "carbon_emissions": {
+                "this_flight": 124000,
+                "typical_for_this_route": 122000,
+                "difference_percent": 2,
+                "lowest_route": 144000
+            },
+            "price": 10409,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+            "booking_token": "WyJDalJJUTNONVlVWkVXRmRZY2sxQlJEUm5XbEZDUnkwdExTMHRMUzB0TFc5NWFIRXlOa0ZCUVVGQlIzRXRSbXR6UkhvdGNqSkJFZ1UyUlRrME54b0tDS2xSRUFBYUEwbE9VamdkY010VSIsW1siREVMIiwiMjAyNi0xMC0wMSIsIk1BQSIsbnVsbCwiNkUiLCI5NDciXV1d"
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-10-01",
+                        "time": "18:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Chennai International Airport",
+                        "id": "MAA",
+                        "date": "2026-10-01",
+                        "time": "20:55"
+                    },
+                    "duration": 175,
+                    "airplane": "Airbus A320neo",
+                    "airline": "Air India",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AI 2837",
+                    "extensions": [
+                        "In-seat USB outlet",
+                        "Stream video to own device",
+                        "Seat type Below Average Legroom",
+                        "Legroom 28 inches",
+                        "Carbon emission: 144 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_in_seat_usb_outlet": true,
+                        "has_stream_video_to_own_device": true,
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "28 in",
+                        "legroom_long": "28 inches",
+                        "carbon_emission": 144
+                    }
+                }
+            ],
+            "total_duration": 175,
+            "carbon_emissions": {
+                "this_flight": 144000,
+                "typical_for_this_route": 122000,
+                "difference_percent": 18,
+                "lowest_route": 144000
+            },
+            "price": 11134,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+            "booking_token": "WyJDalJJUTNONVlVWkVXRmRZY2sxQlJEUm5XbEZDUnkwdExTMHRMUzB0TFc5NWFIRXlOa0ZCUVVGQlIzRXRSbXR6UkhvdGNqSkJFZ1pCU1RJNE16Y2FDZ2orVmhBQUdnTkpUbEk0SFhDOVdnPT0iLFtbIkRFTCIsIjIwMjYtMTAtMDEiLCJNQUEiLG51bGwsIkFJIiwiMjgzNyJdXV0="
+        }
+    ],
+    "other_flights": [
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-10-01",
+                        "time": "18:15"
+                    },
+                    "arrival_airport": {
+                        "name": "Chennai International Airport",
+                        "id": "MAA",
+                        "date": "2026-10-01",
+                        "time": "20:55"
+                    },
+                    "duration": 160,
+                    "airplane": "Airbus A321neo",
+                    "airline": "IndiGo",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+                    "travel_class": "Economy",
+                    "flight_number": "6E 950",
+                    "is_often_delayed": true,
+                    "extensions": [
+                        "Seat type Below Average Legroom",
+                        "Legroom 28 inches",
+                        "Carbon emission: 123 kg"
+                    ],
+                    "detected_extensions": {
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "28 in",
+                        "legroom_long": "28 inches",
+                        "carbon_emission": 123
+                    }
+                }
+            ],
+            "total_duration": 160,
+            "carbon_emissions": {
+                "this_flight": 124000,
+                "typical_for_this_route": 122000,
+                "difference_percent": 2,
+                "lowest_route": 144000
+            },
+            "price": 12523,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+            "booking_token": "WyJDalJJUTNONVlVWkVXRmRZY2sxQlJEUm5XbEZDUnkwdExTMHRMUzB0TFc5NWFIRXlOa0ZCUVVGQlIzRXRSbXR6UkhvdGNqSkJFZ1UyUlRrMU1Cb0tDT3RoRUFBYUEwbE9VamdkY09KbCIsW1siREVMIiwiMjAyNi0xMC0wMSIsIk1BQSIsbnVsbCwiNkUiLCI5NTAiXV1d"
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-10-01",
+                        "time": "19:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Chennai International Airport",
+                        "id": "MAA",
+                        "date": "2026-10-01",
+                        "time": "22:20"
+                    },
+                    "duration": 170,
+                    "airplane": "Airbus A320neo",
+                    "airline": "Air India",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AI 2835",
+                    "extensions": [
+                        "In-seat USB outlet",
+                        "Stream video to own device",
+                        "Seat type Below Average Legroom",
+                        "Legroom 28 inches",
+                        "Carbon emission: 144 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_in_seat_usb_outlet": true,
+                        "has_stream_video_to_own_device": true,
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "28 in",
+                        "legroom_long": "28 inches",
+                        "carbon_emission": 144
+                    }
+                }
+            ],
+            "total_duration": 170,
+            "carbon_emissions": {
+                "this_flight": 144000,
+                "typical_for_this_route": 122000,
+                "difference_percent": 18,
+                "lowest_route": 144000
+            },
+            "price": 14373,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+            "booking_token": "WyJDalJJUTNONVlVWkVXRmRZY2sxQlJEUm5XbEZDUnkwdExTMHRMUzB0TFc5NWFIRXlOa0ZCUVVGQlIzRXRSbXR6UkhvdGNqSkJFZ1pCU1RJNE16VWFDZ2lsY0JBQUdnTkpUbEk0SFhEbWRBPT0iLFtbIkRFTCIsIjIwMjYtMTAtMDEiLCJNQUEiLG51bGwsIkFJIiwiMjgzNSJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-10-01",
+                        "time": "20:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Chennai International Airport",
+                        "id": "MAA",
+                        "date": "2026-10-01",
+                        "time": "23:20"
+                    },
+                    "duration": 170,
+                    "airplane": "Airbus A321neo",
+                    "airline": "IndiGo",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+                    "travel_class": "Economy",
+                    "flight_number": "6E 6341",
+                    "is_often_delayed": true,
+                    "extensions": [
+                        "Seat type Below Average Legroom",
+                        "Legroom 28 inches",
+                        "Carbon emission: 123 kg"
+                    ],
+                    "detected_extensions": {
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "28 in",
+                        "legroom_long": "28 inches",
+                        "carbon_emission": 123
+                    }
+                }
+            ],
+            "total_duration": 170,
+            "carbon_emissions": {
+                "this_flight": 124000,
+                "typical_for_this_route": 122000,
+                "difference_percent": 2,
+                "lowest_route": 144000
+            },
+            "price": 14423,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+            "booking_token": "WyJDalJJUTNONVlVWkVXRmRZY2sxQlJEUm5XbEZDUnkwdExTMHRMUzB0TFc5NWFIRXlOa0ZCUVVGQlIzRXRSbXR6UkhvdGNqSkJFZ1kyUlRZek5ERWFDZ2pYY0JBQUdnTkpUbEk0SFhDYWRRPT0iLFtbIkRFTCIsIjIwMjYtMTAtMDEiLCJNQUEiLG51bGwsIjZFIiwiNjM0MSJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-10-01",
+                        "time": "22:55"
+                    },
+                    "arrival_airport": {
+                        "name": "Chennai International Airport",
+                        "id": "MAA",
+                        "date": "2026-10-02",
+                        "time": "01:50"
+                    },
+                    "duration": 175,
+                    "airplane": "Airbus A321neo",
+                    "airline": "IndiGo",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+                    "travel_class": "Economy",
+                    "flight_number": "6E 6061",
+                    "extensions": [
+                        "Seat type Below Average Legroom",
+                        "Legroom 28 inches",
+                        "Carbon emission: 123 kg"
+                    ],
+                    "detected_extensions": {
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "28 in",
+                        "legroom_long": "28 inches",
+                        "carbon_emission": 123
+                    }
+                }
+            ],
+            "total_duration": 175,
+            "carbon_emissions": {
+                "this_flight": 124000,
+                "typical_for_this_route": 122000,
+                "difference_percent": 2,
+                "lowest_route": 144000
+            },
+            "price": 14423,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+            "booking_token": "WyJDalJJUTNONVlVWkVXRmRZY2sxQlJEUm5XbEZDUnkwdExTMHRMUzB0TFc5NWFIRXlOa0ZCUVVGQlIzRXRSbXR6UkhvdGNqSkJFZ1kyUlRZd05qRWFDZ2pYY0JBQUdnTkpUbEk0SFhDYWRRPT0iLFtbIkRFTCIsIjIwMjYtMTAtMDEiLCJNQUEiLG51bGwsIjZFIiwiNjA2MSJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-10-01",
+                        "time": "21:55"
+                    },
+                    "arrival_airport": {
+                        "name": "Chennai International Airport",
+                        "id": "MAA",
+                        "date": "2026-10-02",
+                        "time": "00:45"
+                    },
+                    "duration": 170,
+                    "airplane": "Airbus A320neo",
+                    "airline": "Air India",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AI 2895",
+                    "extensions": [
+                        "In-seat USB outlet",
+                        "Stream video to own device",
+                        "Seat type Below Average Legroom",
+                        "Legroom 28 inches",
+                        "Carbon emission: 144 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_in_seat_usb_outlet": true,
+                        "has_stream_video_to_own_device": true,
+                        "seat_type": "Below Average Legroom",
+                        "legroom_short": "28 in",
+                        "legroom_long": "28 inches",
+                        "carbon_emission": 144
+                    }
+                }
+            ],
+            "total_duration": 170,
+            "carbon_emissions": {
+                "this_flight": 144000,
+                "typical_for_this_route": 122000,
+                "difference_percent": 18,
+                "lowest_route": 144000
+            },
+            "price": 18678,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+            "booking_token": "WyJDalJJUTNONVlVWkVXRmRZY2sxQlJEUm5XbEZDUnkwdExTMHRMUzB0TFc5NWFIRXlOa0ZCUVVGQlIzRXRSbXR6UkhvdGNqSkJFZ1pCU1RJNE9UVWFDd2oya1FFUUFCb0RTVTVTT0IxdzVKY0IiLFtbIkRFTCIsIjIwMjYtMTAtMDEiLCJNQUEiLG51bGwsIkFJIiwiMjg5NSJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-10-01",
+                        "time": "16:25"
+                    },
+                    "arrival_airport": {
+                        "name": "Dubai International Airport",
+                        "id": "DXB",
+                        "date": "2026-10-01",
+                        "time": "18:25"
+                    },
+                    "duration": 210,
+                    "airplane": "Boeing 777",
+                    "airline": "Emirates",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
+                    "travel_class": "Economy",
+                    "flight_number": "EK 517",
+                    "extensions": [
+                        "Power and USB outlets",
+                        "On-demand video",
+                        "Wi-Fi for fee",
+                        "Seat type Above Average Legroom",
+                        "Legroom 32 inches",
+                        "Carbon emission: 187 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_power_and_usb_outlets": true,
+                        "has_on_demand_video": true,
+                        "wifi": "for fee",
+                        "seat_type": "Above Average Legroom",
+                        "legroom_short": "32 in",
+                        "legroom_long": "32 inches",
+                        "carbon_emission": 187
+                    }
+                },
+                {
+                    "departure_airport": {
+                        "name": "Dubai International Airport",
+                        "id": "DXB",
+                        "date": "2026-10-01",
+                        "time": "21:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Chennai International Airport",
+                        "id": "MAA",
+                        "date": "2026-10-02",
+                        "time": "02:30"
+                    },
+                    "duration": 240,
+                    "airplane": "Boeing 777",
+                    "airline": "Emirates",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
+                    "travel_class": "Economy",
+                    "flight_number": "EK 542",
+                    "is_overnight": true,
+                    "is_often_delayed": true,
+                    "extensions": [
+                        "Power and USB outlets",
+                        "On-demand video",
+                        "Wi-Fi for fee",
+                        "Seat type Above Average Legroom",
+                        "Legroom 32 inches",
+                        "Carbon emission: 216 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_power_and_usb_outlets": true,
+                        "has_on_demand_video": true,
+                        "wifi": "for fee",
+                        "seat_type": "Above Average Legroom",
+                        "legroom_short": "32 in",
+                        "legroom_long": "32 inches",
+                        "carbon_emission": 216
+                    }
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 155,
+                    "name": "Dubai International Airport",
+                    "id": "DXB"
+                }
+            ],
+            "total_duration": 605,
+            "carbon_emissions": {
+                "this_flight": 404000,
+                "typical_for_this_route": 122000,
+                "difference_percent": 231,
+                "lowest_route": 144000
+            },
+            "price": 50127,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
+            "booking_token": "WyJDalJJUTNONVlVWkVXRmRZY2sxQlJEUm5XbEZDUnkwdExTMHRMUzB0TFc5NWFIRXlOa0ZCUVVGQlIzRXRSbXR6UkhvdGNqSkJFZ3RGU3pVeE4zeEZTelUwTWhvTENNK0hBeEFBR2dOSlRsSTRIWENzbHdNPSIsW1siREVMIiwiMjAyNi0xMC0wMSIsIkRYQiIsbnVsbCwiRUsiLCI1MTciXSxbIkRYQiIsIjIwMjYtMTAtMDEiLCJNQUEiLG51bGwsIkVLIiwiNTQyIl1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "date": "2026-10-01",
+                        "time": "22:05"
+                    },
+                    "arrival_airport": {
+                        "name": "Dubai International Airport",
+                        "id": "DXB",
+                        "date": "2026-10-02",
+                        "time": "00:05"
+                    },
+                    "duration": 210,
+                    "airplane": "Boeing 777",
+                    "airline": "Emirates",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
+                    "travel_class": "Economy",
+                    "flight_number": "EK 515",
+                    "extensions": [
+                        "Power and USB outlets",
+                        "On-demand video",
+                        "Wi-Fi for fee",
+                        "Seat type Above Average Legroom",
+                        "Legroom 32 inches",
+                        "Carbon emission: 187 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_power_and_usb_outlets": true,
+                        "has_on_demand_video": true,
+                        "wifi": "for fee",
+                        "seat_type": "Above Average Legroom",
+                        "legroom_short": "32 in",
+                        "legroom_long": "32 inches",
+                        "carbon_emission": 187
+                    }
+                },
+                {
+                    "departure_airport": {
+                        "name": "Dubai International Airport",
+                        "id": "DXB",
+                        "date": "2026-10-02",
+                        "time": "02:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Chennai International Airport",
+                        "id": "MAA",
+                        "date": "2026-10-02",
+                        "time": "08:05"
+                    },
+                    "duration": 245,
+                    "airplane": "Boeing 777",
+                    "airline": "Emirates",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
+                    "travel_class": "Economy",
+                    "flight_number": "EK 544",
+                    "is_overnight": true,
+                    "is_often_delayed": true,
+                    "extensions": [
+                        "Power and USB outlets",
+                        "On-demand video",
+                        "Wi-Fi for fee",
+                        "Seat type Above Average Legroom",
+                        "Legroom 32 inches",
+                        "Carbon emission: 219 kg"
+                    ],
+                    "detected_extensions": {
+                        "has_power_and_usb_outlets": true,
+                        "has_on_demand_video": true,
+                        "wifi": "for fee",
+                        "seat_type": "Above Average Legroom",
+                        "legroom_short": "32 in",
+                        "legroom_long": "32 inches",
+                        "carbon_emission": 219
+                    }
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 145,
+                    "name": "Dubai International Airport",
+                    "id": "DXB"
+                }
+            ],
+            "total_duration": 600,
+            "carbon_emissions": {
+                "this_flight": 407000,
+                "typical_for_this_route": 122000,
+                "difference_percent": 234,
+                "lowest_route": 144000
+            },
+            "price": 52259,
+            "type": "One way",
+            "extensions": [
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
+            "booking_token": "WyJDalJJUTNONVlVWkVXRmRZY2sxQlJEUm5XbEZDUnkwdExTMHRMUzB0TFc5NWFIRXlOa0ZCUVVGQlIzRXRSbXR6UkhvdGNqSkJFZ3RGU3pVeE5YeEZTelUwTkJvTENLT1lBeEFBR2dOSlRsSTRIWERXcUFNPSIsW1siREVMIiwiMjAyNi0xMC0wMSIsIkRYQiIsbnVsbCwiRUsiLCI1MTUiXSxbIkRYQiIsIjIwMjYtMTAtMDIiLCJNQUEiLG51bGwsIkVLIiwiNTQ0Il1dXQ=="
+        }
+    ],
+    "price_insights": {
+        "lowest_price": 9895,
+        "price_level": "high",
+        "typical_price_range": {
+            "low_price": 7000,
+            "high_price": 9800
+        },
+        "price_history": [
+            {
+                "price": 8595,
+                "iso_date": "2026-08-01T18:30:00Z"
+            },
+            {
+                "price": 8595,
+                "iso_date": "2026-08-02T18:30:00Z"
+            },
+            {
+                "price": 8595,
+                "iso_date": "2026-08-03T18:30:00Z"
+            },
+            {
+                "price": 8595,
+                "iso_date": "2026-08-04T18:30:00Z"
+            },
+            {
+                "price": 8595,
+                "iso_date": "2026-08-05T18:30:00Z"
+            },
+            {
+                "price": 8595,
+                "iso_date": "2026-08-06T18:30:00Z"
+            },
+            {
+                "price": 8595,
+                "iso_date": "2026-08-07T18:30:00Z"
+            },
+            {
+                "price": 8595,
+                "iso_date": "2026-08-08T18:30:00Z"
+            },
+            {
+                "price": 8595,
+                "iso_date": "2026-08-09T18:30:00Z"
+            },
+            {
+                "price": 8595,
+                "iso_date": "2026-08-10T18:30:00Z"
+            },
+            {
+                "price": 8595,
+                "iso_date": "2026-08-11T18:30:00Z"
+            },
+            {
+                "price": 8595,
+                "iso_date": "2026-08-12T18:30:00Z"
+            },
+            {
+                "price": 8700,
+                "iso_date": "2026-08-13T18:30:00Z"
+            },
+            {
+                "price": 8700,
+                "iso_date": "2026-08-14T18:30:00Z"
+            },
+            {
+                "price": 8700,
+                "iso_date": "2026-08-15T18:30:00Z"
+            },
+            {
+                "price": 8595,
+                "iso_date": "2026-08-16T18:30:00Z"
+            },
+            {
+                "price": 8595,
+                "iso_date": "2026-08-17T18:30:00Z"
+            },
+            {
+                "price": 8595,
+                "iso_date": "2026-08-18T18:30:00Z"
+            },
+            {
+                "price": 8595,
+                "iso_date": "2026-08-19T18:30:00Z"
+            },
+            {
+                "price": 8595,
+                "iso_date": "2026-08-20T18:30:00Z"
+            },
+            {
+                "price": 8595,
+                "iso_date": "2026-08-21T18:30:00Z"
+            },
+            {
+                "price": 8805,
+                "iso_date": "2026-08-22T18:30:00Z"
+            },
+            {
+                "price": 8805,
+                "iso_date": "2026-08-23T18:30:00Z"
+            },
+            {
+                "price": 8805,
+                "iso_date": "2026-08-24T18:30:00Z"
+            },
+            {
+                "price": 8805,
+                "iso_date": "2026-08-25T18:30:00Z"
+            },
+            {
+                "price": 8805,
+                "iso_date": "2026-08-26T18:30:00Z"
+            },
+            {
+                "price": 8805,
+                "iso_date": "2026-08-27T18:30:00Z"
+            },
+            {
+                "price": 8805,
+                "iso_date": "2026-08-28T18:30:00Z"
+            },
+            {
+                "price": 8805,
+                "iso_date": "2026-08-29T18:30:00Z"
+            },
+            {
+                "price": 8805,
+                "iso_date": "2026-08-30T18:30:00Z"
+            },
+            {
+                "price": 8805,
+                "iso_date": "2026-08-31T18:30:00Z"
+            },
+            {
+                "price": 9626,
+                "iso_date": "2026-09-01T18:30:00Z"
+            },
+            {
+                "price": 9815,
+                "iso_date": "2026-09-02T18:30:00Z"
+            },
+            {
+                "price": 9815,
+                "iso_date": "2026-09-03T18:30:00Z"
+            },
+            {
+                "price": 9815,
+                "iso_date": "2026-09-04T18:30:00Z"
+            },
+            {
+                "price": 9815,
+                "iso_date": "2026-09-05T18:30:00Z"
+            },
+            {
+                "price": 9815,
+                "iso_date": "2026-09-06T18:30:00Z"
+            },
+            {
+                "price": 9815,
+                "iso_date": "2026-09-07T18:30:00Z"
+            },
+            {
+                "price": 9815,
+                "iso_date": "2026-09-08T18:30:00Z"
+            },
+            {
+                "price": 9815,
+                "iso_date": "2026-09-09T18:30:00Z"
+            },
+            {
+                "price": 9815,
+                "iso_date": "2026-09-10T18:30:00Z"
+            },
+            {
+                "price": 9302,
+                "iso_date": "2026-09-11T18:30:00Z"
+            },
+            {
+                "price": 9302,
+                "iso_date": "2026-09-12T18:30:00Z"
+            },
+            {
+                "price": 9302,
+                "iso_date": "2026-09-13T18:30:00Z"
+            },
+            {
+                "price": 9815,
+                "iso_date": "2026-09-14T18:30:00Z"
+            },
+            {
+                "price": 9815,
+                "iso_date": "2026-09-15T18:30:00Z"
+            },
+            {
+                "price": 9354,
+                "iso_date": "2026-09-16T18:30:00Z"
+            },
+            {
+                "price": 9815,
+                "iso_date": "2026-09-17T18:30:00Z"
+            },
+            {
+                "price": 9815,
+                "iso_date": "2026-09-18T18:30:00Z"
+            },
+            {
+                "price": 9815,
+                "iso_date": "2026-09-19T18:30:00Z"
+            },
+            {
+                "price": 9815,
+                "iso_date": "2026-09-20T18:30:00Z"
+            },
+            {
+                "price": 9815,
+                "iso_date": "2026-09-21T18:30:00Z"
+            },
+            {
+                "price": 9815,
+                "iso_date": "2026-09-22T18:30:00Z"
+            },
+            {
+                "price": 9895,
+                "iso_date": "2026-09-23T18:30:00Z"
+            },
+            {
+                "price": 9843,
+                "iso_date": "2026-09-24T18:30:00Z"
+            },
+            {
+                "price": 9703,
+                "iso_date": "2026-09-25T18:30:00Z"
+            },
+            {
+                "price": 9703,
+                "iso_date": "2026-09-26T18:30:00Z"
+            },
+            {
+                "price": 9703,
+                "iso_date": "2026-09-27T18:30:00Z"
+            },
+            {
+                "price": 9703,
+                "iso_date": "2026-09-28T18:30:00Z"
+            },
+            {
+                "price": 9648,
+                "iso_date": "2026-09-29T18:30:00Z"
+            },
+            {
+                "price": 9895,
+                "iso_date": "2026-09-30T18:30:00Z"
+            }
+        ]
+    },
+    "airports": [
+        {
+            "departure": [
+                {
+                    "airport": {
+                        "id": "DEL",
+                        "name": "Indira Gandhi International Airport"
+                    },
+                    "city": "New Delhi",
+                    "country": "India",
+                    "country_code": "IN",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkRqzwP-0z4pH29-KifVzfrxM5wwXx56g3Hoo_ebldH9Fy8a8EjGqPzd3fZqJSKoE5tSIRC2iGJxgqzQ",
+                    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY7HqndXM-ihFCu1qUKosYR--X_yXSd-0mkQHeSUaG5rkpq5Y6uxD8CMmYUCdngZE7mV0onuN2zv_aVxGGO8xv4FMcpMlWvbXdvJFcemY"
+                }
+            ],
+            "arrival": [
+                {
+                    "airport": {
+                        "id": "MAA",
+                        "name": "Chennai International Airport"
+                    },
+                    "city": "Chennai",
+                    "country": "India",
+                    "country_code": "IN",
+                    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS3WRTUF8pvOWEz44rcfEAVPPgqakd7YAuFf6-JADAN2a8iJl-zhj-rNtYe_vpfWQzDSrEACFgAfhfj5Q",
+                    "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSGPH_OZz8sEcX7jj0gyl2SmlVj0Xs36035Fy8ZWO4gDAEVciKd9OeDPyPgABnjGLOxtUWc5DAXGd7SZtugLTwpZXnYgoIqVxHtsGdbQdo"
+                }
+            ]
+        }
+    ],
+    "airlines": {
+        "alliances": [
+            {
+                "code": "ONEWORLD",
+                "name": "Oneworld"
+            },
+            {
+                "code": "SKYTEAM",
+                "name": "SkyTeam"
+            },
+            {
+                "code": "STAR_ALLIANCE",
+                "name": "Star Alliance"
+            }
+        ],
+        "airlines": [
+            {
+                "code": "G9",
+                "name": "Air Arabia"
+            },
+            {
+                "code": "AI",
+                "name": "Air India"
+            },
+            {
+                "code": "IX",
+                "name": "Air India Express"
+            },
+            {
+                "code": "NZ",
+                "name": "Air New Zealand"
+            },
+            {
+                "code": "QP",
+                "name": "Akasa Air"
+            },
+            {
+                "code": "CX",
+                "name": "Cathay Pacific"
+            },
+            {
+                "code": "MS",
+                "name": "EgyptAir"
+            },
+            {
+                "code": "EK",
+                "name": "Emirates"
+            },
+            {
+                "code": "EY",
+                "name": "Etihad"
+            },
+            {
+                "code": "GA",
+                "name": "Garuda Indonesia"
+            },
+            {
+                "code": "GF",
+                "name": "Gulf Air"
+            },
+            {
+                "code": "6E",
+                "name": "IndiGo"
+            },
+            {
+                "code": "JL",
+                "name": "JAL"
+            },
+            {
+                "code": "J9",
+                "name": "Jazeera"
+            },
+            {
+                "code": "KU",
+                "name": "Kuwait Airways"
+            },
+            {
+                "code": "8M",
+                "name": "MAI"
+            },
+            {
+                "code": "MH",
+                "name": "Malaysia Airlines"
+            },
+            {
+                "code": "WY",
+                "name": "Oman Air"
+            },
+            {
+                "code": "QF",
+                "name": "Qantas"
+            },
+            {
+                "code": "QR",
+                "name": "Qatar Airways"
+            },
+            {
+                "code": "OV",
+                "name": "SalamAir"
+            },
+            {
+                "code": "SV",
+                "name": "Saudia"
+            },
+            {
+                "code": "SQ",
+                "name": "Singapore Airlines"
+            },
+            {
+                "code": "UL",
+                "name": "SriLankan"
+            },
+            {
+                "code": "TG",
+                "name": "THAI"
+            },
+            {
+                "code": "SL",
+                "name": "Thai Lion Air"
+            },
+            {
+                "code": "VA",
+                "name": "Virgin Australia"
+            }
+        ],
+        "hubs": [
+            {
+                "code": "AUH",
+                "name": "Abu Dhabi"
+            },
+            {
+                "code": "AMD",
+                "name": "Ahmedabad"
+            },
+            {
+                "code": "BAH",
+                "name": "Bahrain"
+            },
+            {
+                "code": "BLR",
+                "name": "Bengaluru"
+            },
+            {
+                "code": "IXC",
+                "name": "Chandigarh"
+            },
+            {
+                "code": "CMB",
+                "name": "Colombo"
+            },
+            {
+                "code": "DOH",
+                "name": "Doha"
+            },
+            {
+                "code": "DXB",
+                "name": "Dubai"
+            },
+            {
+                "code": "GOI",
+                "name": "Goa"
+            },
+            {
+                "code": "GAU",
+                "name": "Guwahati"
+            },
+            {
+                "code": "HYD",
+                "name": "Hyderabad"
+            },
+            {
+                "code": "IDR",
+                "name": "Indore"
+            },
+            {
+                "code": "JAI",
+                "name": "Jaipur"
+            },
+            {
+                "code": "CCU",
+                "name": "Kolkata"
+            },
+            {
+                "code": "LKO",
+                "name": "Lucknow"
+            },
+            {
+                "code": "BOM",
+                "name": "Mumbai"
+            },
+            {
+                "code": "MCT",
+                "name": "Muscat"
+            },
+            {
+                "code": "NAG",
+                "name": "Nagpur"
+            },
+            {
+                "code": "PNQ",
+                "name": "Pune"
+            },
+            {
+                "code": "RPR",
+                "name": "Raipur"
+            }
+        ]
+    },
+    "baggage_allowance_links": [
+        {
+            "airline_code": "AI",
+            "airline": "Air India",
+            "url": "https://www.airindia.com/in/en/travel-information/baggage-guidelines.html"
+        },
+        {
+            "airline_code": "EK",
+            "airline": "Emirates",
+            "url": "https://www.emirates.com/us/english/before-you-fly/baggage/checked-baggage/"
+        },
+        {
+            "airline_code": "6E",
+            "airline": "IndiGo",
+            "url": "https://www.goindigo.in/baggage/baggage-allowance.html"
+        }
+    ],
+    "passenger_assistance_links": [
+        {
+            "airline_code": "AI",
+            "airline": "Air India",
+            "url": "https://www.airindia.com/in/en/travel-information/health-medical-assistance.html"
+        },
+        {
+            "airline_code": "6E",
+            "airline": "IndiGo",
+            "url": "https://www.goindigo.in/information/special-disability-assistance/disability-assistance.html"
+        },
+        {
+            "airline_code": "EK",
+            "airline": "Emirates",
+            "url": "https://www.emirates.com/ae/english/before-you-fly/health/accessible-travel/"
+        }
+    ]
+}

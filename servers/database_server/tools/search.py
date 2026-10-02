@@ -10,8 +10,8 @@ flights.py) — no logic is duplicated.
 """
 
 from servers.database_server.tools._common import make_result
-from servers.database_server.tools.airports import get_airport_info
-from servers.database_server.tools.airlines import get_airline_info
+from servers.database_server.tools.airports import get_airport_info_cached
+from servers.database_server.tools.airlines import get_airline_info_cached
 from servers.database_server.tools.flights import get_flight_status_cached, get_route_cached
 
 
@@ -45,9 +45,9 @@ def search_database(
 
     try:
         if qt == "airport":
-            return get_airport_info(query)
+            return get_airport_info_cached(query)
         elif qt == "airline":
-            return get_airline_info(query)
+            return get_airline_info_cached(query)
         elif qt == "flight":
             return get_flight_status_cached(flight_number, date)
         elif qt == "route":

@@ -17,16 +17,16 @@ import sys
 from mcp.server.fastmcp import FastMCP
 
 from servers.database_server.tools.search import search_database
-from servers.database_server.tools.airports import get_airport_info
-from servers.database_server.tools.airlines import get_airline_info
+from servers.database_server.tools.airports import get_airport_info_cached
+from servers.database_server.tools.airlines import get_airline_info_cached
 from servers.database_server.tools.flights import get_flight_status_cached, get_route_cached
 
 mcp = FastMCP("database-server")
 
 for fn in (
     search_database,
-    get_airport_info,
-    get_airline_info,
+    get_airport_info_cached,
+    get_airline_info_cached,
     get_flight_status_cached,
     get_route_cached,
 ):
